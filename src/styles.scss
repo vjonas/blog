@@ -1,10 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: culonite;
+  src: url("/src/assets/Culonite-Regular.otf") format("truetype");
+}
+
 body {
   --pri: #69d2e7;
+  --on-pri: #4d231a;
   --sec: #a7dbd8;
   --acc: #f38630;
   --acc2: #fa6900;
   --body: #e0e4cc;
 
   margin: 2rem;
+  font-family: culonite;
 }
