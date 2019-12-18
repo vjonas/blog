@@ -1,15 +1,16 @@
 :host {
-  --radius: 1rem;
-
-  display: grid;
-  color: white;
+  --radius: 0.5rem;
   border-radius: 1rem;
+  color: white;
+  display: grid;
+  grid-template-rows: 4rem auto 2rem;
 }
 
 h2 {
-  margin: 0;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
+  margin: 0;
+  background-color: var(--pri);
 }
 
 * {
@@ -18,11 +19,19 @@ h2 {
 
 p,
 div {
-  background-color: var(--body);
+  // background-color: var(--body);
+  color: black;
   margin: 0;
+  border: 1px solid lightgray;
+}
+.body {
+  border-bottom: none;
 }
 .date {
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
+  border-top: none;
   color: var(--acc);
+  padding: 0 1rem;
+  font-size: 0.8em;
 }
