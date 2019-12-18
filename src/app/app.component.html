@@ -1,3 +1,1 @@
-<div *ngFor="let post of blogs | async">
-  {{ post | json }}
-</div>
+<app-blogs [blogs]="blogs|async"></app-blogs>
