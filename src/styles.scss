@@ -12,9 +12,10 @@ body {
   --acc2: #fa6900;
   --body: #e0e4cc;
 
-  margin: 2rem;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+  margin: 0;
 
   background-color: #fafafa;
-
-  // background: url("assets/mon2.jpg");
 }
