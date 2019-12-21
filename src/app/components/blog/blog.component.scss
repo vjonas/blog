@@ -33,14 +33,16 @@ h2 {
   .date {
     color: var(--acc);
     font-size:10px;
+    margin-left:.5rem;
+    font-weight:bold;
   }
 
-  &:before {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    // background: url("/assets/mon2.jpg");
-    opacity: 0.15;
-  }
+  // &:before {
+  //   content: " ";
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 100%;
+  //   // background: url("/assets/mon2.jpg");
+  //   opacity: 0.15;
+  // }
 }
