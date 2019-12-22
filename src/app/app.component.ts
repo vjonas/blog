@@ -21,5 +21,7 @@ export class AppComponent implements OnInit {
     document
       .querySelector(".background")[0]
       .style.setProperty("--vh", `${vh}px`);
+
+    document.querySelector("app-blogs")[0].style.setProperty("--vh", `${vh}px`);
   };
 }
