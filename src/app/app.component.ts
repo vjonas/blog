@@ -9,7 +9,7 @@ import { Component } from "@angular/core";
 export class AppComponent {
   title = "blog";
 
-  public blogs = this.http.get("assets/blog-posts.json");
+  public blogs$ = this.http.get("assets/blog-posts.json");
 
   constructor(private http: HttpClient) {}
 }

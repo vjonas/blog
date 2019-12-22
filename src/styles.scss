@@ -13,9 +13,16 @@ body {
   --body: #e0e4cc;
 
   width: 100vw;
-  height: 100vh;
-  overflow-y: hidden;
+  min-height: 0;
+  height: 100%;
+  // height: 100vh;
+  // overflow-y: hidden;
+  overflow-x: hidden;
   margin: 0;
 
   background-color: #fafafa;
+}
+
+* {
+  // margin: 0 !important;
 }
