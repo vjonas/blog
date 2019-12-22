@@ -1,34 +1,24 @@
 :host {
   width: 100%;
   height: 100%;
-
-// position:relative;
 }
-.spinner{
-  position:absolute;
-
-  z-index:10;
-  top: 50px;
-  left:50px;
-  width:40px;
-  height:40px;
-  border-radius:50%;
-  border:3px solid black;
-  border-top-color: salmon;
-  animation: draaien 1ms 0ms infinite ease-in-out alternate;
-}
-@keyframes draaien{
-0%{transform:rotate(0deg);}
-100%{transform:rotate(360deg);}
-}
-
-.background {
+.spinner {
+  animation: draaien 1000ms 0s infinite linear forwards;
+  border-radius: 50%;
+  border-top-color: lightgray;
+  border: 7px solid black;
+  height: 40px;
+  left: 50px;
   position: absolute;
-  background: url("/assets/mon2.jpg");
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.3;
-  z-index: -1;
+  top: 50px;
+  width: 40px;
+  z-index: 10;
+}
+@keyframes draaien {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

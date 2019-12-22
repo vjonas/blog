@@ -1,17 +1,22 @@
 :host {
   --radius: 0.5rem;
+  --margin: 0.3rem;
   background-color: white;
   border-radius: 1rem;
   color: white;
   display: grid;
   grid-template-rows: 4rem auto;
- 
-  
+  font-family: "Roboto", sans-serif;
+
   > * {
     padding: 1rem;
   }
 }
 
+.header-wrapper {
+  font-size: 10px;
+  margin-bottom: var(--margin);
+}
 h2 {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
@@ -33,17 +38,8 @@ h2 {
 
   .date {
     color: var(--acc);
-    font-size:10px;
-    margin-left:.5rem;
-    font-weight:bold;
+    font-size: 10px;
+    margin-left: var(--margin);
+    font-weight: bold;
   }
-
-  // &:before {
-  //   content: " ";
-  //   position: absolute;
-  //   width: 100%;
-  //   height: 100%;
-  //   // background: url("/assets/mon2.jpg");
-  //   opacity: 0.15;
-  // }
 }
