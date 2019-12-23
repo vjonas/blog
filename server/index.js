@@ -8,6 +8,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post("/hook", (req, res) => {
+  console.log('hook post req received');
+
   return res.json(req.body);
 });
 
