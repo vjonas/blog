@@ -1,15 +1,11 @@
 import { Blog } from "./../../models/blog.model";
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
   selector: "app-blogs",
   templateUrl: "./blogs.component.html",
   styleUrls: ["./blogs.component.scss"]
 })
-export class BlogsComponent implements OnInit {
+export class BlogsComponent {
   @Input() blogs: Blog[];
-
-  constructor() {}
-
-  ngOnInit() {}
 }
