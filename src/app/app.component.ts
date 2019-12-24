@@ -17,11 +17,16 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {}
 
   private resize = () => {
-    let vh = window.innerHeight * 0.01;
-    document
-      .querySelector(".background")[0]
-      .style.setProperty("--vh", `${vh}px`);
+    let vh = window.innerHeight;
+    // * 0.01;
+    (document.querySelector(".background") as HTMLDivElement).style.setProperty(
+      "--vh",
+      `${vh}px`
+    );
 
-    document.querySelector("app-blogs")[0].style.setProperty("--vh", `${vh}px`);
+    (document.querySelector("app-blogs") as HTMLElement).style.setProperty(
+      "--vh",
+      `${vh}px`
+    );
   };
 }

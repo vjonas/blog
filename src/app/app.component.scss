@@ -3,6 +3,7 @@
   height: 100%;
   display: grid;
   grid-template-columns: 1fr 800px 1fr;
+  --vh: 100vh;
 }
 
 .spinner {
@@ -27,23 +28,13 @@
 }
 
 .background {
-  // position: absolute;
-  // background: url("/assets/mon2.jpg");
-  // // height: 100%;
-  // height: calc(var(--vh, 1vh) * 100);
-  // width: 100%;
-  // top: 0;
-  // left: 0;
-  // opacity: 0.3;
-  // z-index: -1;
-  // pointer-events: none;
-
   position: fixed;
   background: url("/assets/mon2.jpg");
   opacity: 0.3;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: var(--vh);
+  // height: 100vh;
   z-index: -1;
 }
