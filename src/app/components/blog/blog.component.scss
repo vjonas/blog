@@ -3,10 +3,8 @@
   --margin: 0.3rem;
   background-color: white;
   border-radius: var(--radius);
-  // border: 5px solid var(--pri);
   color: white;
   display: grid;
-  // grid-template-rows: 4rem auto;
   font-family: "Roboto", sans-serif;
 
   > * {
@@ -14,11 +12,20 @@
   }
 }
 
-.header-wrapper {
-  font-size: 10px;
-  margin-bottom: var(--margin);
+.title {
+  align-items: center;
+  display: grid;
+  grid-auto-flow: column;
+
+  .date {
+    justify-self: end;
+    color: var(--acc);
+    font-family: culnorite;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
 }
-h2 {
+h1 {
   margin: 0;
   color: var(--pri);
   font-family: culonite;
@@ -31,11 +38,4 @@ h2 {
   color: var(--on-pri);
   position: relative;
   z-index: 2;
-
-  .date {
-    color: var(--acc);
-    font-family: culnorite;
-    font-size: 0.8rem;
-    font-weight: bold;
-  }
 }
