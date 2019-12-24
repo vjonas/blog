@@ -3,10 +3,10 @@
   --margin: 0.3rem;
   background-color: white;
   border-radius: var(--radius);
-  border: 5px solid var(--pri);
+  // border: 5px solid var(--pri);
   color: white;
   display: grid;
-  grid-template-rows: 4rem auto;
+  // grid-template-rows: 4rem auto;
   font-family: "Roboto", sans-serif;
 
   > * {
@@ -20,7 +20,7 @@
 }
 h2 {
   margin: 0;
-  background-color: var(--pri);
+  color: var(--pri);
   font-family: culonite;
 }
 
