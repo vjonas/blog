@@ -26,9 +26,7 @@ app.get("/hook", (req, res) => {
   return res.json(hook);
 });
 
-app.listen(port, () =>
-  console.log(`Hello world app listening on port ${port}!`)
-);
+app.listen(port, () => console.log(`Listening on port ${port}!`));
 
 const deployApp = () => {
   console.log("DEPLOYING");
