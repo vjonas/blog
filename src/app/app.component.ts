@@ -1,4 +1,3 @@
-import { HttpClient } from "@angular/common/http";
 import { Component, OnInit, HostListener } from "@angular/core";
 
 @Component({
@@ -9,10 +8,6 @@ import { Component, OnInit, HostListener } from "@angular/core";
 export class AppComponent implements OnInit {
   @HostListener("window:resize") resizing = () => this.resize();
   title = "blog";
-
-  public blogs$ = this.http.get("assets/blog-posts.json");
-
-  constructor(private http: HttpClient) {}
 
   ngOnInit(): void {}
 

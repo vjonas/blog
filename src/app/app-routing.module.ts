@@ -1,12 +1,17 @@
+import { BlogsComponent } from "./views/blogs/blogs.component";
 import { AdminComponent } from "./views/admin/admin.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
 const routes: Routes = [
   {
-    path: "admin",
-    component: AdminComponent,
+    path: "",
+    component: BlogsComponent,
     pathMatch: "full"
+  },
+  {
+    path: "admin",
+    component: AdminComponent
   }
 ];
 

@@ -1,5 +1,8 @@
+import { HttpClient } from "@angular/common/http";
+import { Component } from "@angular/core";
+
 import { Blog } from "./../../models/blog.model";
-import { Component, Input } from "@angular/core";
+import { Observable } from "rxjs";
 
 @Component({
   selector: "app-blogs",
@@ -7,5 +10,8 @@ import { Component, Input } from "@angular/core";
   styleUrls: ["./blogs.component.scss"]
 })
 export class BlogsComponent {
-  @Input() blogs: Blog[];
+  constructor(private http: HttpClient) {}
+  public blogs$: Observable<Blog[]> = this.http.get<Blog[]>(
+    "assets/blog-posts.json"
+  );
 }
