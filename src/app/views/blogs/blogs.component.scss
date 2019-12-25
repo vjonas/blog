@@ -9,6 +9,10 @@
   padding: 2rem 1rem;
   width: 100vw;
 
+  @media screen and (min-width: 800px) {
+    width: 100%;
+  }
+
   app-blog {
     max-width: var(--width);
     margin: 0 0rem 1rem 0rem;
