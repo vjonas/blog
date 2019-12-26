@@ -49,7 +49,7 @@ app.get("/blogs", (req, res) => {
 });
 
 app.post("/blogs", (req, res) => {
-  console.log("blogs post request");
+  console.log("blogs POST request");
 
   const post = req.body;
 
