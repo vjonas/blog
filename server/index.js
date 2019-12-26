@@ -14,18 +14,7 @@ const db = low(adapter);
 
 console.log(process.env.NODE_ENV);
 
-if (process.env.NODE_ENV) {
-  const key = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.key");
-  const cert = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.crt");
-  const options = {
-    key: key,
-    cert: cert
-  };
-  const server = https.createServer(options, app);
-  server.listen(3001, () => {
-    console.log("server starting on port : " + 3001);
-  });
-}
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -77,7 +66,21 @@ app.get("/hook", (req, res) => {
   return res.json(hook);
 });
 
-app.listen(port, () => console.log(`Listening on port ${port}!`));
+if (process.env.NODE_ENV) {
+  const key = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.key");
+  const cert = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.crt");
+  const options = {
+    key: key,
+    cert: cert
+  };
+  const server = https.createServer(options, app);
+  server.listen(port, () => {
+    console.log("server starting on port : " + port);
+  });
+}
+else{
+	app.listen(port, () => console.log(`Listening on port ${port}!`));
+}
 
 const deployApp = () => {
   console.log("DEPLOYING");
