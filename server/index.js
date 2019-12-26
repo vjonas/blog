@@ -33,7 +33,7 @@ app.get("/", (req, res) => {
   res.send("Now using https..");
 });
 
-app.get("*", (req, res, next) => {
+app.post("*", (req, res, next) => {
   console.log("auth middleware");
   myAuth(req.headers) ? next() : res.json({ error: "pls auth" });
 });
