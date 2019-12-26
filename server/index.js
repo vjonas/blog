@@ -9,15 +9,17 @@ const fs = require("fs");
 
 const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
-const adapter = new FileSync("blog-posts.json");
+const adapter = new FileSync(
+  process.env.NODE_ENV
+    ? "./server/blog-posts.json"
+    : "./server/blog-posts-test.json"
+);
 const db = low(adapter);
 
 const { myAuth } = require("./auth");
 
-console.log(process.env.NODE_ENV);
-console.log("logger", myAuth);
+console.log("process.env:", process.env.NODE_ENV);
 
-// app.use(myAuth);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
@@ -35,7 +37,7 @@ app.get("/", (req, res) => {
 
 app.post("*", (req, res, next) => {
   console.log("auth middleware");
-  myAuth(req.headers) ? next() : res.json({ error: "pls auth" });
+  myAuth(req.headers) ? next() : res.status(401).json("not authenticated");
 });
 
 app.post("/hook", (req, res) => {
