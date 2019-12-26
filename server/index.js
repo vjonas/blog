@@ -14,8 +14,6 @@ const db = low(adapter);
 
 console.log(process.env.NODE_ENV);
 
-
-
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
@@ -67,8 +65,12 @@ app.get("/hook", (req, res) => {
 });
 
 if (process.env.NODE_ENV) {
-  const key = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.key");
-  const cert = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.crt");
+  const key = fs.readFileSync(
+    "/etc/letsencrypt/live/blog.jonasvercammen.dev/privkey.pem"
+  );
+  const cert = fs.readFileSync(
+    "/etc/letsencrypt/live/blog.jonasvercammen.dev/cert.pem"
+  );
   const options = {
     key: key,
     cert: cert
@@ -77,9 +79,8 @@ if (process.env.NODE_ENV) {
   server.listen(port, () => {
     console.log("server starting on port : " + port);
   });
-}
-else{
-	app.listen(port, () => console.log(`Listening on port ${port}!`));
+} else {
+  app.listen(port, () => console.log(`Listening on port ${port}!`));
 }
 
 const deployApp = () => {
