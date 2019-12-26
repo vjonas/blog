@@ -36,6 +36,7 @@ app.post("/hook", (req, res) => {
 app.get("/blogs", (req, res) => {
   console.log("blogs GET request");
   const blogs = db.get("blogs");
+
   return res.json(blogs);
 });
 
