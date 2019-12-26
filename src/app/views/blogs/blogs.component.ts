@@ -28,4 +28,8 @@ export class BlogsComponent {
     console.log("saved post", post);
     return this.http.post(`${environment.url}blogs`, post).subscribe();
   }
+
+  public addPost() {
+    alert('add post')
+  }
 }
