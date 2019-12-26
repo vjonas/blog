@@ -15,8 +15,8 @@ const db = low(adapter);
 console.log(process.env.NODE_ENV);
 
 if (process.env.NODE_ENV) {
-  const key = fs.readFileSync("~/git/https-server-blogs/selfsigned.key");
-  const cert = fs.readFileSync("~/git/https-server-blogs/selfsigned.crt");
+  const key = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.key");
+  const cert = fs.readFileSync("/home/jonas/git/https-server-blogs/selfsigned.crt");
   const options = {
     key: key,
     cert: cert

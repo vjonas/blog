@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "server": "cd ./server && node ./index.js &",
+    "server": "cd ./server && NODE_ENV=production node ./index.js &",
     "start": "ng serve",
     "build": "ng build",
     "build-prod": "ng build --prod",
