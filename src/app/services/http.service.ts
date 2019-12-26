@@ -10,4 +10,10 @@ export class HttpService {
   public getLocalFile(fileName: string) {
     return this.http.get(fileName);
   }
+
+  public login() {}
+
+  // public isAuthenticated = ()=>{
+  // return this.http.post()
+  // }
 }

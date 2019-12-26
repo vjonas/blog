@@ -1,0 +1,4 @@
+<input #password
+       type="password"
+       (keydown.enter)="emit($event,password.value)"
+       (keydown.esc)="$event.preventDefault() && password.emit()">

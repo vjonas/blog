@@ -12,21 +12,30 @@ const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync("blog-posts.json");
 const db = low(adapter);
 
-console.log(process.env.NODE_ENV);
+const { myAuth } = require("./auth");
 
+console.log(process.env.NODE_ENV);
+console.log("logger", myAuth);
+
+// app.use(myAuth);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
+    "Origin, X-Requested-With, Content-Type, Accept, auth"
   );
   next();
 });
 
 app.get("/", (req, res) => {
   res.send("Now using https..");
+});
+
+app.get("*", (req, res, next) => {
+  console.log("auth middleware");
+  myAuth(req.headers) ? next() : res.json({ error: "pls auth" });
 });
 
 app.post("/hook", (req, res) => {

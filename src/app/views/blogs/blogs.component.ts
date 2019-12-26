@@ -16,6 +16,8 @@ export class BlogsComponent {
     `${environment.url}blogs`
   );
 
+  public showLogin = false;
+
   public admin = false;
 
   constructor(private aR: ActivatedRoute, private http: HttpClient) {
