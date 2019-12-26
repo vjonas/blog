@@ -4,11 +4,28 @@ const bodyParser = require("body-parser");
 const exec = require("child_process").exec;
 const port = 3000;
 const hook = { id: 1, name: "hook1", date: new Date().toDateString() };
+const https = require("https");
+const fs = require("fs");
 
 const low = require("lowdb");
 const FileSync = require("lowdb/adapters/FileSync");
 const adapter = new FileSync("blog-posts.json");
 const db = low(adapter);
+
+console.log(process.env.NODE_ENV);
+
+if (process.env.NODE_ENV) {
+  const key = fs.readFileSync("~/git/https-server-blogs/selfsigned.key");
+  const cert = fs.readFileSync("~/git/https-server-blogs/selfsigned.crt");
+  const options = {
+    key: key,
+    cert: cert
+  };
+  const server = https.createServer(options, app);
+  server.listen(3001, () => {
+    console.log("server starting on port : " + 3001);
+  });
+}
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -19,6 +36,10 @@ app.use(function(req, res, next) {
     "Origin, X-Requested-With, Content-Type, Accept"
   );
   next();
+});
+
+app.get("/", (req, res) => {
+  res.send("Now using https..");
 });
 
 app.post("/hook", (req, res) => {
