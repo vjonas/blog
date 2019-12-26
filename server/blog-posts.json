@@ -1,6 +1,12 @@
 {
   "blogs": [
     {
+      "id": "7",
+      "date": "26/12/2019",
+      "title": "Tweede ( boxing day ) kerstdag",
+      "body": "Lekker geslapen! De dokters komen kijken en willen de wonde graag laten opdrogen. Ze veranderen de dressing en laten het een uurtje drogen. De katether is weer terug, maar deze keer met een kraantje. De blaas heeft iets meer training nodig na twee weken vrij spel te hebben gehad."
+    },
+    {
       "id": "6",
       "date": "25/12/2019",
       "title": "Kerstdag",

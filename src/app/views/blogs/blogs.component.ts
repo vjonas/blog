@@ -1,8 +1,10 @@
+import { environment } from "./../../../environments/environment";
 import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 
 import { Blog } from "./../../models/blog.model";
 import { Observable } from "rxjs";
+import { ActivatedRoute } from "@angular/router";
 
 @Component({
   selector: "app-blogs",
@@ -10,8 +12,18 @@ import { Observable } from "rxjs";
   styleUrls: ["./blogs.component.scss"]
 })
 export class BlogsComponent {
-  constructor(private http: HttpClient) {}
   public blogs$: Observable<Blog[]> = this.http.get<Blog[]>(
-    "assets/blog-posts.json"
+    `${environment.url}blogs`
   );
+
+  public admin = false;
+
+  constructor(private aR: ActivatedRoute, private http: HttpClient) {
+    this.aR.data.subscribe(({ admin }) => (this.admin = admin));
+  }
+
+  public onSave(post: any) {
+    console.log("saved post", post);
+    return this.http.post(`${environment.url}blogs`, post).subscribe();
+  }
 }

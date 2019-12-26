@@ -12,6 +12,14 @@ const db = low(adapter);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 app.post("/hook", (req, res) => {
   if (
@@ -26,12 +34,21 @@ app.post("/hook", (req, res) => {
 });
 
 app.get("/blogs", (req, res) => {
-  console.log("get blogs");
-
+  console.log("blogs GET request");
   const blogs = db.get("blogs");
-  console.log("blogs", blogs.value());
-
   return res.json(blogs);
+});
+
+app.post("/blogs", (req, res) => {
+  console.log("blogs post request");
+
+  const post = req.body;
+
+  return db
+    .get("blogs")
+    .find({ id: post.id })
+    .assign({ body: post.body })
+    .write();
 });
 
 app.get("/hook", (req, res) => {

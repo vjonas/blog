@@ -1,2 +1,4 @@
 <app-blog *ngFor="let blog of blogs$ | async"
-          [blog]="blog"></app-blog>
+          (updatePost)="onSave($event)"
+          [blog]="blog"
+          [admin]="admin"></app-blog>
