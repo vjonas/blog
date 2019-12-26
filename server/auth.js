@@ -9,7 +9,7 @@ exports.myAuth = function(header) {
     const passwd = fs.readFileSync(
       "/home/jonas/git/https-server-blogs/password"
     );
-    if (passwd === header.auth.password) {
+    if (passwd === header.auth) {
       return true;
     }
     return false;
