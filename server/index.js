@@ -82,9 +82,13 @@ if (process.env.NODE_ENV) {
   const cert = fs.readFileSync(
     "/etc/letsencrypt/live/blog.jonasvercammen.dev/cert.pem"
   );
+  const ca = fs.readFileSync(
+    "/etc/letsencrypt/live/blog.jonasvercammen.dev/chain.pem"
+  );
   const options = {
-    key: key,
-    cert: cert
+    key,
+    cert,
+    ca
   };
   const server = https.createServer(options, app);
   server.listen(port, () => {
