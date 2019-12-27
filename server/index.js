@@ -77,14 +77,10 @@ app.get("/hook", (req, res) => {
 
 if (process.env.NODE_ENV) {
   const key = fs.readFileSync(
-    "/etc/letsencrypt/live/blog.jonasvercammen.dev/privkey.pem"
+    "/home/jonas/git/https-server-blogs/privkey2.pem"
   );
-  const cert = fs.readFileSync(
-    "/etc/letsencrypt/live/blog.jonasvercammen.dev/cert.pem"
-  );
-  const ca = fs.readFileSync(
-    "/etc/letsencrypt/live/blog.jonasvercammen.dev/chain.pem"
-  );
+  const cert = fs.readFileSync("/home/jonas/git/https-server-blogs/cert2.pem");
+  const ca = fs.readFileSync("/home/jonas/git/https-server-blogs/chain2.pem");
   const options = {
     key,
     cert,
