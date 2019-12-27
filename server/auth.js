@@ -7,7 +7,7 @@ exports.myAuth = function(header) {
       .toLocaleString();
 
     if (
-      header.X - GitHub - Event ||
+      header["X-GitHub-Event"] ||
       passwd.toString().trim() === header.auth.toString().trim()
     ) {
       return true;
