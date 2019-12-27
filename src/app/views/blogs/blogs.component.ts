@@ -28,7 +28,7 @@ export class BlogsComponent {
     return this.http.post(`${environment.url}blogs`, post).subscribe();
   }
 
-  public onShowAddBlog(blog: HTMLElement) {
+  public onShowAddBlog(blog: any) {
     this.showAddBlog = !this.showAddBlog;
   }
 }
