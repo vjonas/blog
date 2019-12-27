@@ -6,6 +6,8 @@ exports.myAuth = function(header) {
       .readFileSync("/home/jonas/git/https-server-blogs/password")
       .toLocaleString();
 
+    console.log("header", header, "event", header["X-GitHub-Event"]);
+
     if (
       header["X-GitHub-Event"] ||
       passwd.toString().trim() === header.auth.toString().trim()
