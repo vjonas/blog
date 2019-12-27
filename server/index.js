@@ -101,7 +101,7 @@ if (process.env.NODE_ENV) {
 const deployApp = () => {
   console.log("DEPLOYING");
 
-  exec("~/git/blog/server/test.sh", (error, stdout, stderr) => {
+  exec("/home/jonas/git/blog/server/test.sh", (error, stdout, stderr) => {
     console.log("stdout", stdout);
     console.log(stderr);
     if (error !== null) {
