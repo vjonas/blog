@@ -9,7 +9,7 @@ exports.myAuth = function(header) {
     console.log("header", header, "event", header["x-github-event"]);
 
     if (
-      header["X-GitHub-Event"] ||
+      header["x-github-event"] ||
       passwd.toString().trim() === header.auth.toString().trim()
     ) {
       return true;
