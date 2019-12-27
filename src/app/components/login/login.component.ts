@@ -1,11 +1,4 @@
-import {
-  Component,
-  OnInit,
-  ViewChild,
-  ElementRef,
-  Output,
-  EventEmitter
-} from "@angular/core";
+import { Component, Output, EventEmitter } from "@angular/core";
 
 import { sha1 } from "object-hash";
 @Component({
@@ -13,12 +6,8 @@ import { sha1 } from "object-hash";
   templateUrl: "./login.component.html",
   styleUrls: ["./login.component.scss"]
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
   @Output() password = new EventEmitter();
-
-  constructor() {}
-
-  ngOnInit() {}
 
   public emit(event, value) {
     event.preventDefault();

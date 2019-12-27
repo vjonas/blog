@@ -7,17 +7,11 @@ import { AppComponent } from "./app.component";
 import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { BlogsComponent } from "./views/blogs/blogs.component";
 import { BlogComponent } from "./components/blog/blog.component";
-import { AdminComponent } from "./views/admin/admin.component";
-import { LoginComponent } from "./login/login.component";
+import { LoginComponent } from "./components/login/login.component";
+import { AddBlogComponent } from './components/add-blog/add-blog.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    BlogsComponent,
-    BlogComponent,
-    AdminComponent,
-    LoginComponent
-  ],
+  declarations: [AppComponent, BlogsComponent, BlogComponent, LoginComponent, AddBlogComponent],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }

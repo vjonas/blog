@@ -1,5 +1,4 @@
 import { BlogsComponent } from "./views/blogs/blogs.component";
-import { AdminComponent } from "./views/admin/admin.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 

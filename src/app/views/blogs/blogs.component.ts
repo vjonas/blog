@@ -17,7 +17,7 @@ export class BlogsComponent {
   );
 
   public showLogin = false;
-
+  public showAddBBlog = false;
   public admin = false;
 
   constructor(private aR: ActivatedRoute, private http: HttpClient) {
@@ -25,11 +25,6 @@ export class BlogsComponent {
   }
 
   public onSave(post: any) {
-    console.log("saved post", post);
     return this.http.post(`${environment.url}blogs`, post).subscribe();
-  }
-
-  public addPost() {
-    alert('add post')
   }
 }
