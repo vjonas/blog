@@ -40,8 +40,7 @@ app.post("*", (req, res, next) => {
   myAuth(req.headers) ? next() : res.status(401).json("not authenticated");
 });
 
-app.post("/hook", (req, res, next) => {
-  next();
+app.post("/hook", (req, res) => {
   if (
     req.body.pusher &&
     req.body.pusher.name === "vjonas" &&
