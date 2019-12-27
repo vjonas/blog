@@ -51,5 +51,14 @@
     color: white;
     font-weight: bold;
     cursor: pointer;
+
+    &.login {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+    }
+    &.add-blog {
+      justify-self: start;
+    }
   }
 }

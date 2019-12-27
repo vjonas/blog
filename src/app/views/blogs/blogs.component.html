@@ -1,7 +1,9 @@
 <button *ngIf="admin"
+        class="login"
         (click)="showLogin = !showLogin">login</button>
 
 <button *ngIf="admin"
+        class="add-blog"
         (click)="onShowAddBlog(addBlog)">add</button>
 
 <app-add-blog #addBlog
