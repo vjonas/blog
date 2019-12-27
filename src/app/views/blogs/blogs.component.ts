@@ -27,4 +27,9 @@ export class BlogsComponent {
   public onSave(post: any) {
     return this.http.post(`${environment.url}blogs`, post).subscribe();
   }
+
+  public onShowAddBlog(blog: HTMLElement) {
+    this.showAddBlog = !this.showAddBlog;
+    console.log(blog.nativeElement);
+  }
 }

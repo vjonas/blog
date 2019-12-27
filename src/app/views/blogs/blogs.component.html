@@ -2,9 +2,10 @@
         (click)="showLogin = !showLogin">login</button>
 
 <button *ngIf="admin"
-        (click)="showAddBlog = !showAddBlog">add</button>
+        (click)="onShowAddBlog(addBlog)">add</button>
 
-<app-add-blog [class.visible]="showAddBlog"></app-add-blog>
+<app-add-blog #addBlog
+              [class.visible]="showAddBlog"></app-add-blog>
 
 <app-login (password)="showLogin=!showLogin"
            [class.visible]="showLogin"></app-login>
