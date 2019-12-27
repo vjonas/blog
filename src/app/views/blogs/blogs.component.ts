@@ -30,6 +30,5 @@ export class BlogsComponent {
 
   public onShowAddBlog(blog: HTMLElement) {
     this.showAddBlog = !this.showAddBlog;
-    console.log(blog.nativeElement);
   }
 }
