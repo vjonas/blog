@@ -3,7 +3,7 @@ import { HttpClient } from "@angular/common/http";
 import { Component } from "@angular/core";
 
 import { Blog } from "./../../models/blog.model";
-import { Observable } from "rxjs";
+import { Observable, of } from "rxjs";
 import { ActivatedRoute } from "@angular/router";
 
 @Component({
@@ -25,6 +25,8 @@ export class BlogsComponent {
   }
 
   public onSave(post: any) {
+    console.log(post);
+
     return this.http.post(`${environment.url}blogs`, post).subscribe();
   }
 

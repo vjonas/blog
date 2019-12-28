@@ -1,3 +1,4 @@
+import { getSetGuid } from "./../../utils/guid";
 import { Blog } from "./../../models/blog.model";
 import { Component, Input, Output, EventEmitter } from "@angular/core";
 
@@ -15,7 +16,7 @@ export class BlogComponent {
   @Input() blog: Blog;
   @Input() admin = false;
 
-  @Output() updatePost = new EventEmitter<any>();
+  @Output() updatePost = new EventEmitter<Blog>();
 
   public actions = ACTIONS;
   public editing = false;
@@ -31,7 +32,19 @@ export class BlogComponent {
     this.editing = !this.editing;
     this.updatePost.emit({
       ...this.blog,
-      body: body.textContent
+      body: body.innerHTML
+    });
+  }
+
+  public addReaction(reactionKey: string) {
+    this.updatePost.emit({
+      ...this.blog,
+      votes: {
+        ...this.blog.votes,
+        [reactionKey]: Array.from(
+          new Set([...this.blog.votes[reactionKey], getSetGuid()])
+        )
+      }
     });
   }
 }

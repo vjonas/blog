@@ -1,3 +1,4 @@
+import { getSetGuid } from "./../utils/guid";
 import {
   HttpInterceptor,
   HttpRequest,
@@ -13,7 +14,10 @@ export class AuthInterceptor implements HttpInterceptor {
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
     const cloneReq = req.clone({
-      headers: new HttpHeaders({ auth: localStorage.getItem("auth") || "none" })
+      headers: new HttpHeaders({
+        auth: localStorage.getItem("auth") || "none",
+        guid: getSetGuid()
+      })
     });
     return next.handle(cloneReq);
   }

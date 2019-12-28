@@ -21,3 +21,13 @@ body {
 
   background-color: #fafafa;
 }
+
+button {
+  transition: 200ms ease-out all;
+  &:active {
+    border: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}

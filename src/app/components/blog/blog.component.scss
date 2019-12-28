@@ -1,4 +1,5 @@
 :host {
+  --size: 60px;
   --radius: 0.3rem;
   --margin: 0.3rem;
   background-color: white;
@@ -45,4 +46,36 @@ h1 {
 }
 p {
   white-space: pre-line;
+}
+
+.reaction-wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  grid-gap: 1rem;
+  // overflow-y: scroll;
+  justify-self: center;
+}
+
+.reaction {
+  background-color: var(--body);
+  border-radius: 50%;
+  padding: 0.5rem;
+  font-size: 1.5em;
+  display: grid;
+  // grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: var(--size);
+  height: var(--size);
+  transition: all 200ms ease-out;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+
+  span {
+    font-size: 1rem;
+  }
 }

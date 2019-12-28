@@ -19,4 +19,13 @@
      contenteditable="false"
      [innerHTML]="blog.body"></p>
 
+
+  <div class="reaction-wrapper">
+    <button class="reaction"
+            (click)="addReaction(item.key)"
+            *ngFor="let item of blog?.votes | keyvalue">
+      {{ item.key }}
+      <span>{{ item.value.length }}</span>
+    </button>
+  </div>
 </div>
