@@ -23,7 +23,7 @@
   <div class="reaction-wrapper">
     <button class="reaction"
             (click)="addReaction(item.key,$event)"
-            *ngFor="let item of blog?.votes | keyvalue">
+            *ngFor="let item of blog?.votes | keyvalue; trackBy:trackByFn">
       <div class="emoji-rating">{{ item.key }}</div>
 
       <span>{{ item.value.length }}</span>

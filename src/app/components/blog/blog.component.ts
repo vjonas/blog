@@ -23,6 +23,10 @@ export class BlogComponent {
   public editing = false;
   public clickedEmoji = "";
 
+  public trackByFn = (index, item) => {
+    return item.key;
+  };
+
   public onEdit(body: HTMLParagraphElement) {
     body.contentEditable = !JSON.parse(body.contentEditable) + "";
 

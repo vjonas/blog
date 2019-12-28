@@ -5,6 +5,8 @@ import { Component } from "@angular/core";
 import { Blog } from "./../../models/blog.model";
 import { Observable, of } from "rxjs";
 import { ActivatedRoute } from "@angular/router";
+import { tap, catchError } from "rxjs/operators";
+import { MatSnackBar } from "@angular/material/snack-bar";
 
 @Component({
   selector: "app-blogs",
@@ -20,7 +22,15 @@ export class BlogsComponent {
   public showAddBlog = false;
   public admin = false;
 
-  constructor(private aR: ActivatedRoute, private http: HttpClient) {
+  public trackByFn = (index, item) => {
+    return item.id;
+  };
+
+  constructor(
+    private aR: ActivatedRoute,
+    private http: HttpClient,
+    private snackbar: MatSnackBar
+  ) {
     this.aR.data.subscribe(({ admin }) => (this.admin = admin));
   }
 
@@ -31,13 +41,24 @@ export class BlogsComponent {
 
   public onSaveEmoji(emojiToAdd) {
     return this.http
-      .post(`${environment.url}blogs/reaction`, emojiToAdd, {
+      .post<Blog[]>(`${environment.url}blogs/reaction`, emojiToAdd, {
         headers: new HttpHeaders({ emoji: "true" })
       })
+      .pipe(
+        tap(blogs => console.log("no error", (this.blogs$ = of(blogs)))),
+        catchError(e => {
+          console.log("http-err0r", e);
+          this.snackbar.open("Something went wrong", "dismiss", {
+            duration: 2000,
+            verticalPosition: "top"
+          });
+          return of(e);
+        })
+      )
       .subscribe();
   }
 
-  public onShowAddBlog(blog: any) {
+  public onShowAddBlog() {
     this.showAddBlog = !this.showAddBlog;
   }
 }

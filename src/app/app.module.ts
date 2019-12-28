@@ -8,12 +8,27 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 import { BlogsComponent } from "./views/blogs/blogs.component";
 import { BlogComponent } from "./components/blog/blog.component";
 import { LoginComponent } from "./components/login/login.component";
-import { AddBlogComponent } from './components/add-blog/add-blog.component';
-import { EmojiPopupComponent } from './components/emoji-popup/emoji-popup.component';
+import { AddBlogComponent } from "./components/add-blog/add-blog.component";
+import { EmojiPopupComponent } from "./components/emoji-popup/emoji-popup.component";
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
 
 @NgModule({
-  declarations: [AppComponent, BlogsComponent, BlogComponent, LoginComponent, AddBlogComponent, EmojiPopupComponent],
-  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
+  declarations: [
+    AppComponent,
+    BlogsComponent,
+    BlogComponent,
+    LoginComponent,
+    AddBlogComponent,
+    EmojiPopupComponent
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatSnackBarModule
+  ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
   ],
