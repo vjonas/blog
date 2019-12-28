@@ -4,7 +4,7 @@
 
 <button *ngIf="admin"
         class="add-blog"
-        (click)="onShowAddBlog(addBlog)">add</button>
+        (click)="onShowAddBlog()">add</button>
 
 <app-add-blog #addBlog
               [class.visible]="showAddBlog"></app-add-blog>
