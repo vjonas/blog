@@ -81,6 +81,9 @@ app.post("/blogs", (req, res) => {
 });
 
 app.post("/blogs/reaction", (req, res) => {
+  if (!req.headers.emoji || !req.body || !req.body.id) {
+    return res.status(500).json("no emoji header || body || blogid");
+  }
   console.log("POST /blog/reaction:", req.body.id, "\n", req.headers.emoji);
   console.log("is true?", req.headers.emoji.toString().trim() === "true");
 
@@ -92,7 +95,11 @@ app.post("/blogs/reaction", (req, res) => {
     .value();
 
   if (!postToFind) {
-    return res.status(400).json("not found");
+    return res.status(400).json("Could not find post");
+  }
+
+  if (!postToFind.votes[post.emojiKey]) {
+    return res.status(500).json("Reaction does not exist");
   }
 
   db.get("blogs")
