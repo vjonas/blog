@@ -20,6 +20,7 @@ export class BlogComponent {
 
   public actions = ACTIONS;
   public editing = false;
+  public clickedEmoji = "";
 
   public onEdit(body: HTMLParagraphElement) {
     body.contentEditable = !JSON.parse(body.contentEditable) + "";
@@ -36,7 +37,11 @@ export class BlogComponent {
     });
   }
 
-  public addReaction(reactionKey: string) {
+  public addReaction(reactionKey: string, { target }: any) {
+    target.classList.add("move");
+    setTimeout(() => target.classList.remove("move"), 1000);
+    this.clickedEmoji = reactionKey;
+
     this.updatePost.emit({
       ...this.blog,
       votes: {

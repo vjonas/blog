@@ -22,9 +22,10 @@
 
   <div class="reaction-wrapper">
     <button class="reaction"
-            (click)="addReaction(item.key)"
+            (click)="addReaction(item.key,$event)"
             *ngFor="let item of blog?.votes | keyvalue">
-      {{ item.key }}
+      <div class="emoji-rating">{{ item.key }}</div>
+
       <span>{{ item.value.length }}</span>
     </button>
   </div>

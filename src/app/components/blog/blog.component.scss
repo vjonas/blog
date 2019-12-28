@@ -53,7 +53,6 @@ p {
   grid-auto-flow: column;
   grid-auto-columns: max-content;
   grid-gap: 1rem;
-  // overflow-y: scroll;
   justify-self: center;
 }
 
@@ -69,13 +68,42 @@ p {
   width: var(--size);
   height: var(--size);
   transition: all 200ms ease-out;
+  border: none;
+  box-shadow: 0px 3px 4px 0px lightgrey;
 
-  &:hover {
+  .emoji-rating {
+    pointer-events: none;
+  }
+
+  &.move {
+    .emoji-rating {
+      animation: show 1s 0s linear forwards;
+      opacity: 1;
+
+      @keyframes show {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          transform: (scale(8));
+          opacity: 0.5;
+        }
+        to {
+          opacity: 0;
+          transform: (scale(16));
+        }
+      }
+    }
+  }
+
+  &:active {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: translateY(2px);
+    box-shadow: 0px 1px 4px 0px lightgrey !important;
   }
 
   span {
     font-size: 1rem;
+    pointer-events: none;
   }
 }
