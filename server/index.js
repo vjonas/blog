@@ -81,7 +81,7 @@ app.post("/blogs", (req, res) => {
 });
 
 app.post("/blogs/reaction", (req, res) => {
-  if (!req.headers.emoji || !req.body || !req.body.id) {
+  if (!req.headers.emoji || !req.body || !req.body.id || !req.headers.auth) {
     return res.status(500).json("no emoji header || body || blogid");
   }
   console.log("POST /blog/reaction:", req.body.id, "\n", req.headers.emoji);
@@ -108,7 +108,7 @@ app.post("/blogs/reaction", (req, res) => {
       votes: {
         ...postToFind.votes,
         [post.emojiKey]: Array.from(
-          new Set([...postToFind.votes[post.emojiKey], post.guid])
+          new Set([...postToFind.votes[post.emojiKey], req.headers.auth])
         )
       }
     })
