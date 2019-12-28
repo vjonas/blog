@@ -84,8 +84,10 @@ app.post("/blogs", (req, res) => {
 
 app.post("/blogs/reaction", (req, res) => {
   console.log("req", req.originalUrl);
-  if (!req.headers.emoji || !req.body || !req.body.id || !req.headers.auth) {
-    return res.status(500).json("no emoji header || body || blogid");
+  if (!req.headers.emoji || !req.body || !req.body.id || !req.headers.guid) {
+    return res
+      .status(500)
+      .json("no emoji header || body || blogid || user-guid");
   }
   console.log("POST /blog/reaction:", req.body.id, "\n", req.headers.emoji);
   console.log("is true?", req.headers.emoji.toString().trim() === "true");
