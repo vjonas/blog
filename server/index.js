@@ -26,7 +26,7 @@ app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header(
     "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept, auth, X-GitHub-Event,guid"
+    "Origin, X-Requested-With, Content-Type, Accept, auth, X-GitHub-Event,guid,emoji"
   );
   next();
 });
@@ -61,6 +61,27 @@ app.get("/blogs", (req, res) => {
 
 app.post("/blogs", (req, res) => {
   console.log("POST /blog:", req.body.id, "\n");
+
+  const post = req.body;
+
+  const postToFind = db
+    .get("blogs")
+    .find({ id: post.id })
+    .value();
+
+  if (!postToFind) {
+    return res.status(400).json("not found");
+  }
+  db.get("blogs")
+    .find({ id: post.id })
+    .assign(post)
+    .write();
+
+  return res.status(200).json("modified");
+});
+
+app.post("/blogs/reaction", (req, res) => {
+  console.log("POST /blog/reaction:", req.body.id, "\n");
 
   const post = req.body;
 

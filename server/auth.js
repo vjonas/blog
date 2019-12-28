@@ -14,6 +14,9 @@ exports.myAuth = function(header) {
     ) {
       return true;
     }
+    if (header.emoji) {
+      return true;
+    }
     return false;
   }
 

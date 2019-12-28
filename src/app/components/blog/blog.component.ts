@@ -49,7 +49,8 @@ export class BlogComponent {
         [reactionKey]: Array.from(
           new Set([...this.blog.votes[reactionKey], getSetGuid()])
         )
-      }
-    });
+      },
+      emoji: true
+    } as any);
   }
 }

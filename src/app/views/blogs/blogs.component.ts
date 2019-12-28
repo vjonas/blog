@@ -1,5 +1,5 @@
 import { environment } from "./../../../environments/environment";
-import { HttpClient } from "@angular/common/http";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Component } from "@angular/core";
 
 import { Blog } from "./../../models/blog.model";
@@ -27,6 +27,13 @@ export class BlogsComponent {
   public onSave(post: any) {
     console.log(post);
 
+    if (post.emoji) {
+      return this.http
+        .post(`${environment.url}blogs/reaction`, post, {
+          headers: new HttpHeaders({ emoji: "true" })
+        })
+        .subscribe();
+    }
     return this.http.post(`${environment.url}blogs`, post).subscribe();
   }
 
