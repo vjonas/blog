@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-exports.myAuth = function(header) {
+exports.myAuth = function(header, originUrl) {
   if (!header.auth) {
     return false;
   }
@@ -18,7 +18,11 @@ exports.myAuth = function(header) {
     ) {
       return true;
     }
-    if (header.emoji && header.emoji.toString().trim() === "true") {
+    if (
+      header.emoji &&
+      header.emoji.toString().trim() === "true" &&
+      originUrl.includes("reaction")
+    ) {
       return true;
     }
     return false;

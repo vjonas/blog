@@ -61,7 +61,7 @@ app.get("/blogs", (req, res) => {
 
 app.post("/blogs", (req, res) => {
   console.log("POST /blog:", req.body.id, "\n");
-
+  console.log("req", req.originalUrl);
   const post = req.body;
 
   const postToFind = db
@@ -81,6 +81,7 @@ app.post("/blogs", (req, res) => {
 });
 
 app.post("/blogs/reaction", (req, res) => {
+  console.log("req", req.originalUrl);
   if (!req.headers.emoji || !req.body || !req.body.id || !req.headers.auth) {
     return res.status(500).json("no emoji header || body || blogid");
   }
