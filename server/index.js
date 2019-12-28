@@ -18,7 +18,7 @@ const db = low(adapter);
 
 const { myAuth } = require("./auth");
 
-console.log("process.env:", process.env.NODE_ENV);
+console.log("PROCESS.ENV:", process.env.NODE_ENV);
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 });
 
 app.post("*", (req, res, next) => {
-  console.log("auth middleware");
+  console.log("auth middleware on post calls");
   myAuth(req.headers, req.originalUrl)
     ? next()
     : res.status(401).json("not authenticated");
@@ -55,15 +55,14 @@ app.post("/hook", (req, res) => {
 });
 
 app.get("/blogs", (req, res) => {
-  console.log("blogs GET request");
+  console.log("GET /blogs");
   const blogs = db.get("blogs");
 
   return res.json(blogs);
 });
 
 app.post("/blogs", (req, res) => {
-  console.log("POST /blog:", req.body.id, "\n");
-  console.log("req", req.originalUrl);
+  console.log("POST /blogs:", req.body.id, "\n");
   const post = req.body;
 
   const postToFind = db
@@ -83,14 +82,12 @@ app.post("/blogs", (req, res) => {
 });
 
 app.post("/blogs/reaction", (req, res) => {
-  console.log("req", req.originalUrl);
   if (!req.headers.emoji || !req.body || !req.body.id || !req.headers.guid) {
     return res
       .status(500)
       .json("no emoji header || body || blogid || user-guid");
   }
   console.log("POST /blog/reaction:", req.body.id, "\n", req.headers.emoji);
-  console.log("is true?", req.headers.emoji.toString().trim() === "true");
 
   const post = req.body;
 
@@ -139,7 +136,7 @@ if (process.env.NODE_ENV) {
   };
   const server = https.createServer(options, app);
   server.listen(port, () => {
-    console.log("server starting on port : " + port);
+    console.log("server started on port : " + port);
   });
 } else {
   app.listen(port, () => console.log(`Listening on port ${port}!`));
