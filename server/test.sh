@@ -7,3 +7,6 @@ npm install;
 echo building angular
 ng build --prod;
 echo build done;
+killproc;
+NODE_ENV=production node ./server/index.js &;
+echo started node server;
