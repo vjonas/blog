@@ -77,7 +77,7 @@ app.post("/blogs", (req, res) => {
     .assign(post)
     .write();
 
-  return res.status(200).json("modified");
+  return res.status(200).json(db.get("blogs").value());
 });
 
 app.post("/blogs/reaction", (req, res) => {
@@ -96,10 +96,10 @@ app.post("/blogs/reaction", (req, res) => {
   }
   db.get("blogs")
     .find({ id: post.id })
-    .assign(post)
+    .assign({ votes: post.votes })
     .write();
 
-  return res.status(200).json("modified");
+  return res.status(200).json(db.get("blogs").value());
 });
 
 app.get("/hook", (req, res) => {
