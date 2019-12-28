@@ -1,6 +1,10 @@
 const fs = require("fs");
 
 exports.myAuth = function(header) {
+  if (!header.auth) {
+    return false;
+  }
+
   if (process.env.NODE_ENV) {
     const passwd = fs
       .readFileSync("/home/jonas/git/https-server-blogs/password")
