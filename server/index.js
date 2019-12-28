@@ -81,7 +81,8 @@ app.post("/blogs", (req, res) => {
 });
 
 app.post("/blogs/reaction", (req, res) => {
-  console.log("POST /blog/reaction:", req.body.id, "\n");
+  console.log("POST /blog/reaction:", req.body.id, "\n", req.headers.emoji);
+  console.log("is true?", req.headers.emoji.toString().trim() === "true");
 
   const post = req.body;
 

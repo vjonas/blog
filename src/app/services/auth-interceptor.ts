@@ -13,10 +13,15 @@ export class AuthInterceptor implements HttpInterceptor {
     req: HttpRequest<any>,
     next: HttpHandler
   ): Observable<HttpEvent<any>> {
+    let emoji = false;
+    if (req.body && req.body.emoji) {
+      emoji = true;
+    }
     const cloneReq = req.clone({
       headers: new HttpHeaders({
         auth: localStorage.getItem("auth") || "none",
-        guid: getSetGuid()
+        guid: getSetGuid(),
+        emoji: emoji + ""
       })
     });
     return next.handle(cloneReq);

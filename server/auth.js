@@ -14,7 +14,7 @@ exports.myAuth = function(header) {
     ) {
       return true;
     }
-    if (header.emoji) {
+    if (header.emoji && header.emoji.toString().trim() === "true") {
       return true;
     }
     return false;
