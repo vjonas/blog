@@ -111,7 +111,7 @@ app.post("/blogs/reaction", (req, res) => {
       votes: {
         ...postToFind.votes,
         [post.emojiKey]: Array.from(
-          new Set([...postToFind.votes[post.emojiKey], req.headers.auth])
+          new Set([...postToFind.votes[post.emojiKey], req.headers.guid])
         )
       }
     })
