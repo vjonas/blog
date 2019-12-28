@@ -37,7 +37,9 @@ app.get("/", (req, res) => {
 
 app.post("*", (req, res, next) => {
   console.log("auth middleware");
-  myAuth(req.headers) ? next() : res.status(401).json("not authenticated");
+  myAuth(req.headers, req.originalUrl)
+    ? next()
+    : res.status(401).json("not authenticated");
 });
 
 app.post("/hook", (req, res) => {
