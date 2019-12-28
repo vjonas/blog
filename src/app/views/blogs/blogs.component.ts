@@ -26,15 +26,15 @@ export class BlogsComponent {
 
   public onSave(post: any) {
     console.log(post);
-
-    if (post.emoji) {
-      return this.http
-        .post(`${environment.url}blogs/reaction`, post, {
-          headers: new HttpHeaders({ emoji: "true" })
-        })
-        .subscribe();
-    }
     return this.http.post(`${environment.url}blogs`, post).subscribe();
+  }
+
+  public onSaveEmoji(emojiToAdd) {
+    return this.http
+      .post(`${environment.url}blogs/reaction`, emojiToAdd, {
+        headers: new HttpHeaders({ emoji: "true" })
+      })
+      .subscribe();
   }
 
   public onShowAddBlog(blog: any) {

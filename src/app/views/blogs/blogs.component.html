@@ -14,5 +14,6 @@
 
 <app-blog *ngFor="let blog of blogs$ | async"
           (updatePost)="onSave($event)"
+          (addEmoji)="onSaveEmoji($event)"
           [blog]="blog"
           [admin]="admin"></app-blog>

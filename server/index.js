@@ -94,9 +94,17 @@ app.post("/blogs/reaction", (req, res) => {
   if (!postToFind) {
     return res.status(400).json("not found");
   }
+
   db.get("blogs")
     .find({ id: post.id })
-    .assign({ votes: post.votes })
+    .assign({
+      votes: {
+        ...postToFind.votes,
+        [post.emojiKey]: Array.from(
+          new Set([...postToFind.votes[post.emojiKey], post.guid])
+        )
+      }
+    })
     .write();
 
   return res.status(200).json(db.get("blogs").value());

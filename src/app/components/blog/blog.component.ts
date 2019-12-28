@@ -17,6 +17,7 @@ export class BlogComponent {
   @Input() admin = false;
 
   @Output() updatePost = new EventEmitter<Blog>();
+  @Output() addEmoji = new EventEmitter<any>();
 
   public actions = ACTIONS;
   public editing = false;
@@ -37,20 +38,27 @@ export class BlogComponent {
     });
   }
 
-  public addReaction(reactionKey: string, { target }: any) {
+  public addReaction(emojiKey: string, { target }: any) {
     target.classList.add("move");
     setTimeout(() => target.classList.remove("move"), 1000);
-    this.clickedEmoji = reactionKey;
+    this.clickedEmoji = emojiKey;
 
-    this.updatePost.emit({
-      ...this.blog,
-      votes: {
-        ...this.blog.votes,
-        [reactionKey]: Array.from(
-          new Set([...this.blog.votes[reactionKey], getSetGuid()])
-        )
-      },
-      emoji: true
+    this.addEmoji.emit({
+      id: this.blog.id,
+      emoji: true,
+      emojiKey,
+      guid: getSetGuid()
     } as any);
+
+    // this.addEmoji.emit({
+    //   ...this.blog,
+    //   votes: {
+    //     ...this.blog.votes,
+    //     [reactionKey]: Array.from(
+    //       new Set([...this.blog.votes[reactionKey], getSetGuid()])
+    //     )
+    //   },
+    // emoji: true
+    // } as any);
   }
 }
