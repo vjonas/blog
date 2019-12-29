@@ -2,23 +2,26 @@
   <div class="actions">
     <button *ngIf="admin && !editing"
             [class.save]="editing"
-            (click)="onEdit(body)"
+            (click)="onEdit([title,date,body])"
             type="button">edit</button>
 
     <button *ngIf="admin && editing"
             [class.save]="editing"
-            (click)="onSave(body)"
+            (click)="onSave(body,[title,date,body])"
             type="button">save</button>
 
     <button *ngIf="admin && editing"
-            (click)="onCancelEdit(body)"
+            (click)="onCancelEdit([title,date,body])"
             type="button">cancel</button>
   </div>
 
   <div class="title">
-    <h1>{{ blog.title }}</h1>
+    <h1 #title
+        contenteditable="false">{{ blog.title }}</h1>
 
-    <span class="date">{{ blog.date }}</span>
+    <span #date
+          contenteditable="false"
+          class="date">{{ blog.date }}</span>
   </div>
 
   <p #body

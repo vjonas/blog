@@ -27,24 +27,30 @@ export class BlogComponent {
     return item.key;
   };
 
-  public onEdit(body: HTMLParagraphElement) {
-    body.contentEditable = !JSON.parse(body.contentEditable) + "";
+  private toggleElements = (e: HTMLElement) =>
+    (e.contentEditable = !JSON.parse(e.contentEditable) + "");
+
+  public onEdit(elements: HTMLElement[]) {
+    elements.map(this.toggleElements);
 
     this.editing = !this.editing;
-    body.focus();
+    elements[2].focus(); //focus on body
   }
 
-  public onCancelEdit(body: HTMLParagraphElement) {
-    body.contentEditable = !JSON.parse(body.contentEditable) + "";
+  public onCancelEdit(elements: HTMLElement[]) {
+    elements.map(this.toggleElements);
     this.editing = !this.editing;
   }
 
-  public onSave(body: HTMLParagraphElement) {
-    body.contentEditable = !JSON.parse(body.contentEditable) + "";
+  public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
+    elements.map(this.toggleElements);
+    // body.contentEditable = !JSON.parse(body.contentEditable) + "";
     this.editing = !this.editing;
     this.updatePost.emit({
       ...this.blog,
-      body: body.innerHTML
+      body: body.innerHTML,
+      title: elements[0].innerHTML,
+      date: elements[1].innerHTML
     });
   }
 
