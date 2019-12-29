@@ -1,0 +1,24 @@
+<div [style.maxWidth]="maxWidth"
+     class="host">
+
+    <div #imageWrapper
+         [key]="keyBinding"
+         (keyPressed)="keyPressed.emit($event)"
+         [style.paddingTop]="paddingTop"
+         class="wrapper">
+        <span [class.op-1]="onError"
+              class="error-icon-wrapper">
+            <mat-icon *ngIf="onError"> error </mat-icon>
+
+            <span *ngIf="onError"
+                  class="alt-title">{{ title }}</span>
+        </span>
+
+        <span class="op-0 error-icon-wrapper"
+              [class.op-1]="isLoading">
+            <mat-spinner [diameter]="spinnerDiameter"
+                         class="op-0"
+                         [class.op-1]="isLoading"></mat-spinner>
+        </span>
+    </div>
+</div>

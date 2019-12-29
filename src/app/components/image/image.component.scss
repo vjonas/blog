@@ -1,0 +1,58 @@
+:host {
+  --background: var(--color-border);
+}
+
+.host {
+  position: relative;
+
+  .wrapper {
+    display: block;
+    transition: 300ms ease-out padding;
+    width: 100%;
+
+    .error-icon-wrapper {
+      align-items: center;
+      animation-duration: 500ms;
+      animation-name: fadeInOnError;
+      background-color: var(--background);
+      border-radius: var(--radius);
+      display: grid;
+      height: 100%;
+      justify-items: center;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+
+      .alt-title {
+        align-self: baseline;
+        animation-duration: 500ms;
+        animation-name: fadeInOnError;
+      }
+
+      mat-icon {
+        align-self: end;
+        animation-duration: 500ms;
+        animation-name: fadeInOnError;
+        color: var(--color-error);
+      }
+
+      mat-spinner {
+        transition: 300ms ease-out opacity;
+      }
+    }
+  }
+}
+
+@keyframes fadeInOnError {
+  0%,
+  50% {
+    background-color: transparent;
+    opacity: 0;
+  }
+  100% {
+    background-color: var(--background);
+    opacity: 1;
+  }
+}

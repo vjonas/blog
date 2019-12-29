@@ -63,3 +63,25 @@ body {
 .cdk-overlay-pane {
   max-width: 100% !important;
 }
+
+img {
+  background-color: transparent;
+  border-radius: var(--radius);
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 300ms ease-out opacity;
+  width: 100%;
+}
+
+.op-0 {
+  opacity: 0;
+}
+.op-1 {
+  opacity: 1;
+  z-index: 1;
+}

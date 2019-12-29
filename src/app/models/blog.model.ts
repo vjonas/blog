@@ -4,4 +4,5 @@ export interface Blog {
   title: string;
   body: string;
   votes: Record<string, any>;
+  srcs: string[];
 }

@@ -1,0 +1,124 @@
+// @import '../../../../../assets/src/css/core';
+
+:host {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+}
+
+.main-image {
+  grid-column: 1/6;
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  button {
+    all: unset;
+  }
+
+  .chevron-left,
+  .chevron-right {
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+}
+
+.thumbnail {
+  transition: all var(--animation-speed) var(--transition-bounce);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.is-main {
+  transform: scale(0.9);
+}
+
+.lightbox-backdrop {
+  background: black;
+  height: 100vh;
+  left: 0;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+}
+
+.lightbox {
+  background: white;
+  box-shadow: 0px 5px 24px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-rows: auto 5rem;
+  height: calc(70vw + 5rem);
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70vw;
+  z-index: 100;
+
+  @media screen and (min-width: 800px) {
+    height: calc(70vh + 5rem);
+    width: 70vh;
+
+    .footer {
+      grid-template-columns: repeat(3, auto);
+    }
+
+    .source {
+      display: block;
+    }
+  }
+
+  ::ngdeep img {
+    border-radius: 0;
+  }
+
+  .icon-button {
+    all: unset;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+
+    &.close {
+      right: 1rem;
+      top: 1rem;
+    }
+
+    &.launch {
+      left: 1rem;
+      top: 1rem;
+    }
+  }
+
+  .close-icon,
+  .launch-icon {
+    color: white;
+  }
+
+  .source {
+    align-self: center;
+    display: none;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .footer {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, auto);
+    height: 2rem;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+  }
+}

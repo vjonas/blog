@@ -1,0 +1,53 @@
+<div *ngIf="mainImage"
+     class="main-image">
+  <image [src]="mainImage.src"
+         [ratio]="ratio"
+         maxWidth="100%"
+         (click)="mainImageClick()"></image>
+  <button *ngIf="chevronFlag"
+          class="chevron-left">
+    <mat-icon>chevron_left</mat-icon>
+  </button>
+  <button *ngIf="chevronFlag"
+          class="chevron-right">
+    <mat-icon>chevron_right</mat-icon>
+  </button>
+</div>
+
+<image *ngFor="let image of internalSrcs; trackBy: trackBy"
+       class="thumbnail"
+       [ngClass]="{ 'is-main': image.isMain }"
+       (click)="thumbnailClick(image.id)"
+       [src]="image.src"
+       maxWidth="100%"
+       ratio="1:1"></image>
+
+<div *ngIf="showLightbox"
+     class="lightbox">
+  <image [src]="lightbox.src"
+         maxWidth="100%"></image>
+
+  <button class="icon-button close"
+          (click)="close()">
+    <mat-icon class="close-icon">close</mat-icon>
+  </button>
+
+  <button class="icon-button launch"
+          (click)="launch()">
+    <mat-icon class="launch-icon">launch</mat-icon>
+  </button>
+
+  <div class="footer">
+    <button mat-stroked-button
+            color="primary"
+            (click)="cyclePrevious()">previous</button>
+    <p class="source contrast-medium-high">{{ lightbox.name }}</p>
+    <button mat-stroked-button
+            color="primary"
+            (click)="cycleNext()">next</button>
+  </div>
+</div>
+
+<div *ngIf="showLightbox"
+     class="lightbox-backdrop"
+     (click)="close()"></div>

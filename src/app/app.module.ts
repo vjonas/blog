@@ -1,3 +1,5 @@
+import { ImageModule } from "./components/image/image.module";
+import { LightboxModule } from "./components/lightbox/lightbox.module";
 import { AuthInterceptor } from "./services/auth-interceptor";
 import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
@@ -31,7 +33,9 @@ import { MatDialogModule } from "@angular/material/dialog";
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSnackBarModule,
-    MatDialogModule
+    MatDialogModule,
+    LightboxModule,
+    ImageModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
