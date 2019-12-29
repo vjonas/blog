@@ -67,7 +67,7 @@ export class BlogsComponent {
       .open(AddBlogComponent, {
         autoFocus: true,
         height: "calc(100% - 1rem)",
-        width: "50%",
+        width: "100%",
         disableClose: true
       })
       .afterClosed()
