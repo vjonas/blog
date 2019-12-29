@@ -10,6 +10,11 @@ import { tap, catchError } from "rxjs/operators";
 import { MatSnackBar } from "@angular/material/snack-bar";
 import { MatDialog } from "@angular/material/dialog";
 
+const snackbarOptions = {
+  duration: 2000,
+  verticalPosition: "top"
+} as any;
+
 @Component({
   selector: "app-blogs",
   templateUrl: "./blogs.component.html",
@@ -39,7 +44,17 @@ export class BlogsComponent {
 
   public onSave(post: any) {
     console.log(post);
-    return this.http.post(`${environment.url}blogs`, post).subscribe();
+    return this.http
+      .post(`${environment.url}blogs`, post)
+      .pipe(
+        tap(e => this.snackbar.open("post saved", "dismiss", snackbarOptions)),
+        catchError(e =>
+          of(
+            this.snackbar.open("error saving post", "dismiss", snackbarOptions)
+          )
+        )
+      )
+      .subscribe();
   }
 
   public onSaveEmoji(emojiToAdd) {
@@ -51,10 +66,11 @@ export class BlogsComponent {
         tap(blogs => console.log("no error", (this.blogs$ = of(blogs)))),
         catchError(e => {
           console.log("http-err0r", e);
-          this.snackbar.open("Something went wrong", "dismiss", {
-            duration: 2000,
-            verticalPosition: "top"
-          });
+          this.snackbar.open(
+            "Something went wrong",
+            "dismiss",
+            snackbarOptions
+          );
           return of(e);
         })
       )
@@ -72,10 +88,23 @@ export class BlogsComponent {
       })
       .afterClosed()
       .subscribe((result: Observable<Blog[]>) =>
-        result.subscribe(blogs => {
-          console.log("new blogs", blogs);
-          this.blogs$ = of(blogs);
-        })
+        result
+          .pipe(
+            tap(blogs => {
+              this.snackbar.open("post added", "dismiss", snackbarOptions);
+              this.blogs$ = of(blogs);
+            }),
+            catchError(e =>
+              of(
+                this.snackbar.open(
+                  "Something went wrong",
+                  "dismiss",
+                  snackbarOptions
+                )
+              )
+            )
+          )
+          .subscribe()
       );
   }
 }
