@@ -101,7 +101,11 @@ app.post("/blogs/add", (req, res) => {
     return res.status(400).json("not found");
   }
   db.get("blogs")
-    .push({ ...post, id: postToFind.id + 1 })
+    .push({
+      ...post,
+      id: postToFind.id + 1,
+      votes: { "💙": [], "😆": [], "👍": [] }
+    })
     .write();
 
   return res.status(200).json(
