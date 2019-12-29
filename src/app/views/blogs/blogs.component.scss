@@ -43,20 +43,14 @@
     }
   }
 
+  .buttons {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    grid-gap: 0.5rem;
+    justify-self: left;
+  }
   button {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 0.3rem;
-    background-color: var(--acc2);
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-
-    &.login {
-      position: fixed;
-      top: 1rem;
-      left: 1rem;
-    }
     &.add-blog {
       justify-self: start;
     }

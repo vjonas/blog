@@ -1,3 +1,4 @@
+import { AddBlogComponent } from "./../../components/add-blog/add-blog.component";
 import { environment } from "./../../../environments/environment";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Component } from "@angular/core";
@@ -7,6 +8,7 @@ import { Observable, of } from "rxjs";
 import { ActivatedRoute } from "@angular/router";
 import { tap, catchError } from "rxjs/operators";
 import { MatSnackBar } from "@angular/material/snack-bar";
+import { MatDialog } from "@angular/material/dialog";
 
 @Component({
   selector: "app-blogs",
@@ -29,7 +31,8 @@ export class BlogsComponent {
   constructor(
     private aR: ActivatedRoute,
     private http: HttpClient,
-    private snackbar: MatSnackBar
+    private snackbar: MatSnackBar,
+    private dialog: MatDialog
   ) {
     this.aR.data.subscribe(({ admin }) => (this.admin = admin));
   }
@@ -60,5 +63,11 @@ export class BlogsComponent {
 
   public onShowAddBlog() {
     this.showAddBlog = !this.showAddBlog;
+    this.dialog.open(AddBlogComponent, {
+      autoFocus: true,
+      height: "calc(100% - 1rem)",
+      width: "50%",
+      disableClose: true
+    });
   }
 }

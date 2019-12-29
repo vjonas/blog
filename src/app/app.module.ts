@@ -12,6 +12,7 @@ import { AddBlogComponent } from "./components/add-blog/add-blog.component";
 import { EmojiPopupComponent } from "./components/emoji-popup/emoji-popup.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
+import { MatDialogModule } from "@angular/material/dialog";
 
 @NgModule({
   declarations: [
@@ -27,11 +28,13 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDialogModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
   ],
+  entryComponents: [AddBlogComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

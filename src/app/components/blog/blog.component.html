@@ -1,13 +1,19 @@
 <div class="body">
-  <button *ngIf="admin && !editing"
-          [class.save]="editing"
-          (click)="onEdit(body)"
-          type="button">edit</button>
+  <div class="actions">
+    <button *ngIf="admin && !editing"
+            [class.save]="editing"
+            (click)="onEdit(body)"
+            type="button">edit</button>
 
-  <button *ngIf="admin && editing"
-          [class.save]="editing"
-          (click)="onSave(body)"
-          type="button">save</button>
+    <button *ngIf="admin && editing"
+            [class.save]="editing"
+            (click)="onSave(body)"
+            type="button">save</button>
+
+    <button *ngIf="admin && editing"
+            (click)="onCancelEdit(body)"
+            type="button">cancel</button>
+  </div>
 
   <div class="title">
     <h1>{{ blog.title }}</h1>

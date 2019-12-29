@@ -1,10 +1,23 @@
-.background {
-  width: 25%;
-  top: 37.77777777%;
-  height: 25%;
-  background-color: white;
-  opacity: 1;
-  position: fixed;
-  z-index: 6;
-  left: 37.77777777%;
+:host {
+  display: grid;
+  height: 100%;
+  grid-auto-rows: min-content;
+
+  label {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  input {
+    padding: 0.5rem;
+  }
+  p {
+    background-color: white;
+    margin-top: 0;
+    padding: 2rem 2rem;
+    color: black;
+    overflow-y: scroll;
+  }
+
+  button {
+  }
 }

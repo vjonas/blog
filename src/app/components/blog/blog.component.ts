@@ -34,7 +34,13 @@ export class BlogComponent {
     body.focus();
   }
 
+  public onCancelEdit(body: HTMLParagraphElement) {
+    body.contentEditable = !JSON.parse(body.contentEditable) + "";
+    this.editing = !this.editing;
+  }
+
   public onSave(body: HTMLParagraphElement) {
+    body.contentEditable = !JSON.parse(body.contentEditable) + "";
     this.editing = !this.editing;
     this.updatePost.emit({
       ...this.blog,

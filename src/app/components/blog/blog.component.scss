@@ -39,10 +39,18 @@ h1 {
   color: var(--on-pri);
   position: relative;
   z-index: 2;
+
+  .actions {
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+  }
 }
 
 .save {
   background-color: lime;
+  color: midnightblue;
 }
 p {
   white-space: pre-line;
@@ -62,7 +70,7 @@ p {
   padding: 0.5rem;
   font-size: 1.5em;
   display: grid;
-  // grid-template-columns: 1fr 1fr;
+  color: var(--on-pri);
   align-items: center;
   justify-items: center;
   width: var(--size);

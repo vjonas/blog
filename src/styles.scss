@@ -23,14 +23,38 @@ body {
 }
 
 button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  background-color: var(--acc2);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  justify-self: left;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+
   transition: 200ms ease-out all;
+
   &:active {
     border: none;
   }
+
   &:focus {
     outline: none;
+    border: 2px dotted black;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

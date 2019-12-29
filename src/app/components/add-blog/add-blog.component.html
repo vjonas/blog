@@ -1,4 +1,17 @@
-<div class="background">
+<label>title</label>
+<input type="text"
+       name="title"
+       id="">
+
+<label for="date">date</label>
+<input type="date"
+       name="date"
+       id=""
+       [value]="today">
+
+<label for="body">body</label>
+<p [contentEditable]="true"
+   placeholder="enter body"></p>
 
 
-</div>
+<button matDialogClose> submit</button>
