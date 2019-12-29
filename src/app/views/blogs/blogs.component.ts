@@ -63,11 +63,19 @@ export class BlogsComponent {
 
   public onShowAddBlog() {
     this.showAddBlog = !this.showAddBlog;
-    this.dialog.open(AddBlogComponent, {
-      autoFocus: true,
-      height: "calc(100% - 1rem)",
-      width: "50%",
-      disableClose: true
-    });
+    this.dialog
+      .open(AddBlogComponent, {
+        autoFocus: true,
+        height: "calc(100% - 1rem)",
+        width: "50%",
+        disableClose: true
+      })
+      .afterClosed()
+      .subscribe((result: Observable<Blog[]>) =>
+        result.subscribe(blogs => {
+          console.log("new blogs", blogs);
+          this.blogs$ = of(blogs);
+        })
+      );
   }
 }

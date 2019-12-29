@@ -3,12 +3,17 @@
   height: 100%;
   grid-auto-rows: min-content;
 
+  * {
+    border-radius: var(--radius);
+  }
+
   label {
     margin-top: 2rem;
     margin-bottom: 0.5rem;
   }
   input {
     padding: 0.5rem;
+    border: none;
   }
   p {
     background-color: white;

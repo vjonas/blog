@@ -56,7 +56,7 @@ app.post("/hook", (req, res) => {
 
 app.get("/blogs", (req, res) => {
   console.log("GET /blogs");
-  const blogs = db.get("blogs");
+  const blogs = db.get("blogs").orderBy(["id"], ["desc"]);
 
   return res.json(blogs);
 });
@@ -78,7 +78,38 @@ app.post("/blogs", (req, res) => {
     .assign(post)
     .write();
 
-  return res.status(200).json(db.get("blogs").value());
+  return res.status(200).json(
+    db
+      .get("blogs")
+      .orderBy(["id"], ["desc"])
+      .value()
+  );
+});
+
+app.post("/blogs/add", (req, res) => {
+  console.log("POST /blogs/add:");
+  const post = req.body;
+
+  const postToFind = db
+    .get("blogs")
+    .maxBy(blog => blog.id)
+    .value();
+
+  console.log("max id", postToFind.id);
+
+  if (!postToFind) {
+    return res.status(400).json("not found");
+  }
+  db.get("blogs")
+    .push({ ...post, id: postToFind.id + 1 })
+    .write();
+
+  return res.status(200).json(
+    db
+      .get("blogs")
+      .orderBy(["id"], ["desc"])
+      .value()
+  );
 });
 
 app.post("/blogs/reaction", (req, res) => {
@@ -116,7 +147,12 @@ app.post("/blogs/reaction", (req, res) => {
     })
     .write();
 
-  return res.status(200).json(db.get("blogs").value());
+  return res.status(200).json(
+    db
+      .get("blogs")
+      .orderBy(["id"], ["desc"])
+      .value()
+  );
 });
 
 app.get("/hook", (req, res) => {
