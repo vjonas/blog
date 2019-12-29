@@ -20,8 +20,6 @@ export class AddBlogComponent implements OnInit {
   ngOnInit() {}
 
   public submit(body: HTMLParagraphElement) {
-    console.log("submit");
-    console.log(body.innerHTML);
     this.dialogRef.close(
       this.http.post(`${environment.url}blogs/add`, {
         title: this.title,

@@ -2,7 +2,7 @@
   display: grid;
   height: 100%;
   grid-auto-rows: min-content;
-
+  grid-template-rows: auto auto auto auto auto auto 1fr auto;
   * {
     border-radius: var(--radius);
   }
@@ -21,8 +21,5 @@
     padding: 2rem 2rem;
     color: black;
     overflow-y: scroll;
-  }
-
-  button {
   }
 }
