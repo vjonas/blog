@@ -67,7 +67,7 @@ export class ImageComponent implements OnChanges, AfterViewInit {
 
   private applyImageEvents(imageDownloader: any) {
     imageDownloader.onload = (event: any) => {
-      const loadedImage = event.path[0];
+      const loadedImage = event.path ? event.path[0] : event.srcElement;
 
       if (this.fadeImage) {
         loadedImage.classList.add("op-0");
