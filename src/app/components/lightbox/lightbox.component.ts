@@ -103,8 +103,9 @@ export class LightboxComponent implements OnChanges {
   }
 
   public mainImageClick(): void {
-    this.lightbox = this.getMainImage(this.internalSrcs);
-    this.showLightbox = true;
+    // do nothing
+    // this.lightbox = this.getMainImage(this.internalSrcs);
+    // this.showLightbox = true;
   }
 
   public cyclePrevious(): void {

@@ -7,6 +7,7 @@
     "start": "ng serve",
     "start:ui:server": "ng serve --prod --host 0.0.0.0 &",
     "start:api:local": "nodemon ./server/index.js",
+    "start:api:server": "NODE_ENV=production nohup nodemon ./server/index.js > foo.out 2> foo.err < /dev/null &",
     "build": "ng build",
     "build-prod": "ng build --prod",
     "test": "ng test",
