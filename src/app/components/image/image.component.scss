@@ -56,3 +56,11 @@
     opacity: 1;
   }
 }
+
+.delete-image {
+  position: absolute;
+  top: -19px;
+  right: -17px;
+  z-index: 2;
+  color: red;
+}

@@ -17,6 +17,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { MatDialogModule } from "@angular/material/dialog";
 
+import { DragDropModule } from "@angular/cdk/drag-drop";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +37,8 @@ import { MatDialogModule } from "@angular/material/dialog";
     MatSnackBarModule,
     MatDialogModule,
     LightboxModule,
-    ImageModule
+    ImageModule,
+    DragDropModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }

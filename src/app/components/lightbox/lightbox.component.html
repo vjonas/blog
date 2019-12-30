@@ -15,6 +15,7 @@
 </div>
 
 <image *ngFor="let image of internalSrcs; trackBy: trackBy"
+       [editing]="editing"
        class="thumbnail"
        [ngClass]="{ 'is-main': image.isMain }"
        (click)="thumbnailClick(image.id)"

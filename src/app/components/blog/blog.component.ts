@@ -1,5 +1,6 @@
 import { getSetGuid } from "./../../utils/guid";
 import { Blog } from "./../../models/blog.model";
+import { CdkDragDrop, moveItemInArray } from "@angular/cdk/drag-drop";
 import { Component, Input, Output, EventEmitter } from "@angular/core";
 
 enum ACTIONS {
@@ -34,7 +35,7 @@ export class BlogComponent {
     elements.map(this.toggleElements);
 
     this.editing = !this.editing;
-    elements[2].focus(); //focus on body
+    elements[2].focus(); // focus on body
   }
 
   public onCancelEdit(elements: HTMLElement[]) {
@@ -44,7 +45,6 @@ export class BlogComponent {
 
   public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
     elements.map(this.toggleElements);
-    // body.contentEditable = !JSON.parse(body.contentEditable) + "";
     this.editing = !this.editing;
     this.updatePost.emit({
       ...this.blog,
@@ -65,16 +65,10 @@ export class BlogComponent {
       emojiKey,
       guid: getSetGuid()
     } as any);
+  }
 
-    // this.addEmoji.emit({
-    //   ...this.blog,
-    //   votes: {
-    //     ...this.blog.votes,
-    //     [reactionKey]: Array.from(
-    //       new Set([...this.blog.votes[reactionKey], getSetGuid()])
-    //     )
-    //   },
-    // emoji: true
-    // } as any);
+  public drop(event) {
+    console.log("dropped", event);
+    moveItemInArray(this.blog.srcs, event.previousIndex, event.currentIndex);
   }
 }

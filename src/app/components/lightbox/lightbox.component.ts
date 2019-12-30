@@ -31,6 +31,7 @@ export class LightboxComponent implements OnChanges {
   @Input() public srcs: string[];
   @Input() public ratio = "1:1";
   @Input() public maxWidth = "100%";
+  @Input() editing = false;
 
   public showLightbox = false;
   public chevronFlag = false; // Hide the chevron behind a flag for now, needs to be revised

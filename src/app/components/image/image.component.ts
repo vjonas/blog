@@ -24,6 +24,7 @@ export class ImageComponent implements OnChanges, AfterViewInit {
   @Input() maxWidth = "200px";
   @Input() spinnerDiameter = 35;
   @Input() keyBinding: string;
+  @Input() editing = false;
 
   public paddingTop = `100%`;
   public onError = false;
