@@ -14,14 +14,34 @@
   </button>
 </div>
 
-<image *ngFor="let image of internalSrcs; trackBy: trackBy"
-       [editing]="editing"
-       class="thumbnail"
-       [ngClass]="{ 'is-main': image.isMain }"
-       (click)="thumbnailClick(image.id)"
-       [src]="image.src"
-       maxWidth="100%"
-       ratio="1:1"></image>
+<div cdkDropList
+     class="drop-list"
+     [cdkDropListDisabled]="!editing"
+     cdkDropListOrientation="horizontal"
+     (cdkDropListDropped)="drop($event)">
+  <ng-container *ngFor="let image of internalSrcs; trackBy: trackBy">
+    <image cdkDrag
+           [editing]="editing"
+           class="thumbnail"
+           [ngClass]="{ 'is-main': image.isMain }"
+           (click)="thumbnailClick(image.id)"
+           [src]="image.src"
+           maxWidth="100%"
+           ratio="1:1">
+      <div class="custom-placeholder"
+           *cdkDragPlaceholder></div>
+    </image>
+
+    <input type="text"
+           class="edit-src"
+           *ngIf="editing"
+           [value]="image.src" />
+  </ng-container>
+
+  <mat-icon *ngIf="editing"
+            class="add-image">add</mat-icon>
+</div>
+
 
 <div *ngIf="showLightbox"
      class="lightbox">

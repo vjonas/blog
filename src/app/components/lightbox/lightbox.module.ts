@@ -9,6 +9,7 @@ import {
   MatButtonModule
 } from "@angular/material";
 import { ImageModule } from "../image/image.module";
+import { DragDropModule } from "@angular/cdk/drag-drop";
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { ImageModule } from "../image/image.module";
     MatCommonModule,
     MatIconModule,
     MatButtonModule,
-    ImageModule
+    ImageModule,
+    DragDropModule
   ],
   exports: [LightboxComponent],
   declarations: [LightboxComponent]

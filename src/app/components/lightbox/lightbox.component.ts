@@ -6,8 +6,11 @@ import {
   SimpleChanges,
   OnChanges,
   Renderer2,
-  ElementRef
+  ElementRef,
+  EventEmitter,
+  Output
 } from "@angular/core";
+import { moveItemInArray } from "@angular/cdk/drag-drop";
 
 export enum KEY_CODE {
   RIGHT_ARROW = 39,
@@ -32,6 +35,8 @@ export class LightboxComponent implements OnChanges {
   @Input() public ratio = "1:1";
   @Input() public maxWidth = "100%";
   @Input() editing = false;
+
+  @Output() private changedImgArray = new EventEmitter();
 
   public showLightbox = false;
   public chevronFlag = false; // Hide the chevron behind a flag for now, needs to be revised
@@ -125,4 +130,9 @@ export class LightboxComponent implements OnChanges {
   public close = () => (this.showLightbox = false);
 
   public launch = () => window.open(this.lightbox.src, "_blank");
+
+  public drop(event) {
+    moveItemInArray(this.internalSrcs, event.previousIndex, event.currentIndex);
+    this.changedImgArray.emit(this.internalSrcs.map(src => src.src));
+  }
 }

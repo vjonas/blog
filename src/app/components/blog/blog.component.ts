@@ -43,17 +43,6 @@ export class BlogComponent {
     this.editing = !this.editing;
   }
 
-  public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
-    elements.map(this.toggleElements);
-    this.editing = !this.editing;
-    this.updatePost.emit({
-      ...this.blog,
-      body: body.innerHTML,
-      title: elements[0].innerHTML,
-      date: elements[1].innerHTML
-    });
-  }
-
   public addReaction(emojiKey: string, { target }: any) {
     target.classList.add("move");
     setTimeout(() => target.classList.remove("move"), 1000);
@@ -67,8 +56,14 @@ export class BlogComponent {
     } as any);
   }
 
-  public drop(event) {
-    console.log("dropped", event);
-    moveItemInArray(this.blog.srcs, event.previousIndex, event.currentIndex);
+  public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
+    elements.map(this.toggleElements);
+    this.editing = !this.editing;
+    this.updatePost.emit({
+      ...this.blog,
+      body: body.innerHTML,
+      title: elements[0].innerHTML,
+      date: elements[1].innerHTML
+    });
   }
 }

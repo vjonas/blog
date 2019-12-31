@@ -39,16 +39,10 @@
     </button>
   </div>
 
-  <lightbox [srcs]="blog.srcs"></lightbox>
+  <lightbox [editing]="editing"
+            (changedImgArray)="blog.srcs =$event"
+            [srcs]="blog.srcs"></lightbox>
 
-  <div cdkDropList
-       class="list"
-       (cdkDropListDropped)="drop($event)"
-       *ngIf="editing">
-    <div cdkDrag
-         class="src"
-         *ngFor="let src of blog.srcs"> {{ src }}</div>
-  </div>
 
 
 </div>

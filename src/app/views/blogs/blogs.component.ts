@@ -47,7 +47,10 @@ export class BlogsComponent {
     return this.http
       .post(`${environment.url}blogs`, post)
       .pipe(
-        tap(e => this.snackbar.open("post saved", "dismiss", snackbarOptions)),
+        tap((blogs: Blog[]) => {
+          this.snackbar.open("post saved", "dismiss", snackbarOptions);
+          this.blogs$ = of(blogs);
+        }),
         catchError(e =>
           of(
             this.snackbar.open("error saving post", "dismiss", snackbarOptions)
