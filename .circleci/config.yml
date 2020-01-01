@@ -30,7 +30,7 @@ jobs:
 
       # - run: sudo npm install -g @angular/cli@latest
 
-      - run: ng build --prod
+      - run: npm run build-prod
 
       - save_cache:
           paths:
