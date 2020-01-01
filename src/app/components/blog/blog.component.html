@@ -41,6 +41,9 @@
 
   <lightbox [editing]="editing"
             (changedImgArray)="blog.srcs =$event"
+            (changedImgSrc)="changedImgSrc($event)"
+            (addImageSrc)="addImageSrc($event)"
+            (removeImageSrc)="removeImageSrc($event)"
             [srcs]="blog.srcs"></lightbox>
 
 

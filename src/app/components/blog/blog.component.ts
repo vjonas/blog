@@ -56,9 +56,31 @@ export class BlogComponent {
     } as any);
   }
 
+  public changedImgSrc({
+    previousSrc,
+    currentSrc
+  }: {
+    previousSrc: string;
+    currentSrc: string;
+  }) {
+    this.blog = {
+      ...this.blog,
+      srcs: this.blog.srcs.map(src => (src === previousSrc ? currentSrc : src))
+    };
+  }
+
+  public addImageSrc(srcToAdd: string) {
+    this.blog.srcs = [...this.blog.srcs, srcToAdd];
+  }
+
+  public removeImageSrc(srcToRemove: string) {
+    this.blog.srcs = this.blog.srcs.filter(src => src !== srcToRemove);
+  }
+
   public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
     elements.map(this.toggleElements);
     this.editing = !this.editing;
+
     this.updatePost.emit({
       ...this.blog,
       body: body.innerHTML,

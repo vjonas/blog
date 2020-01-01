@@ -37,13 +37,19 @@ export class LightboxComponent implements OnChanges {
   @Input() editing = false;
 
   @Output() private changedImgArray = new EventEmitter();
+  @Output() private changedImgSrc = new EventEmitter<{
+    previousSrc: string;
+    currentSrc: string;
+  }>();
+  @Output() private addImageSrc = new EventEmitter<string>();
+  @Output() public removeImageSrc = new EventEmitter<string>();
 
   public showLightbox = false;
   public chevronFlag = false; // Hide the chevron behind a flag for now, needs to be revised
   public lightbox: LightboxImage;
   public mainImage: LightboxImage;
   public internalSrcs: LightboxImage[];
-  public trackBy = (index: number, image: LightboxImage) => image.id;
+  public addingImage = false;
 
   @HostListener("window:keyup", ["$event"])
   keyEvent(event: KeyboardEvent) {
@@ -74,6 +80,8 @@ export class LightboxComponent implements OnChanges {
       );
     }
   }
+
+  public trackBy = (index: number, image: LightboxImage) => image.id;
 
   private populateLightbox(): void {
     this.internalSrcs = this.mapInternalSrcs(this.srcs);
@@ -135,4 +143,21 @@ export class LightboxComponent implements OnChanges {
     moveItemInArray(this.internalSrcs, event.previousIndex, event.currentIndex);
     this.changedImgArray.emit(this.internalSrcs.map(src => src.src));
   }
+
+  public editSrc = (event: Event, previousSrc: string) => {
+    const target: HTMLInputElement = event.target as HTMLInputElement;
+    target.blur();
+    console.log("target value", target.value, "previous src", previousSrc);
+    this.changedImgSrc.emit({ previousSrc, currentSrc: target.value });
+  };
+
+  public addImage = (inputElement: HTMLInputElement) => {
+    this.addingImage = !this.addingImage;
+    inputElement.focus();
+  };
+
+  public addNewImageSrc = (src: string) => {
+    this.addingImage = !this.addingImage;
+    this.addImageSrc.emit(src);
+  };
 }

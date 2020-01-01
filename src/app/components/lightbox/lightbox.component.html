@@ -20,26 +20,52 @@
      cdkDropListOrientation="horizontal"
      (cdkDropListDropped)="drop($event)">
   <ng-container *ngFor="let image of internalSrcs; trackBy: trackBy">
-    <image cdkDrag
-           [editing]="editing"
-           class="thumbnail"
-           [ngClass]="{ 'is-main': image.isMain }"
-           (click)="thumbnailClick(image.id)"
-           [src]="image.src"
-           maxWidth="100%"
-           ratio="1:1">
-      <div class="custom-placeholder"
-           *cdkDragPlaceholder></div>
-    </image>
+    <div class="image-container"
+         style="">
+      <image cdkDrag
+             [editing]="editing"
+             class="thumbnail"
+             [ngClass]="{ 'is-main': image.isMain }"
+             (click)="thumbnailClick(image.id)"
+             [src]="image.src"
+             maxWidth="100%"
+             ratio="1:1">
+      </image>
 
-    <input type="text"
-           class="edit-src"
-           *ngIf="editing"
-           [value]="image.src" />
+      <div style="display:grid; grid-template-columns: 1fr auto; align-items: center;">
+        <input type="text"
+               class="edit-src"
+               *ngIf="editing"
+               [value]="image.src"
+               (change)="editSrc($event,image.src)" />
+
+        <a *ngIf="editing"
+           style="color:red;"
+           (click)="removeImageSrc.emit(image.src)">
+          <mat-icon>delete</mat-icon>
+        </a>
+      </div>
+    </div>
+
   </ng-container>
+  <!--
+  <div class="image-">
 
-  <mat-icon *ngIf="editing"
-            class="add-image">add</mat-icon>
+  </div> -->
+  <a [style.opacity]="!addingImage && editing? 1 : 0"
+     style="display: grid;"
+     (click)="addImage(addImageInput)">
+    <mat-icon class="add-image">add</mat-icon>
+  </a>
+
+
+
+  <input type="text"
+         #addImageInput
+         name="addImage"
+         (keydown.enter)="addNewImageSrc(addImageInput.value)"
+         [style.opacity]="addingImage ? 1 : 0">
+
 </div>
 
 
