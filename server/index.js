@@ -104,7 +104,8 @@ app.post("/blogs/add", (req, res) => {
     .push({
       ...post,
       id: postToFind.id + 1,
-      votes: { "💙": [], "😆": [], "👍": [] }
+      votes: { "💙": [], "😆": [], "👍": [] },
+      srcs: []
     })
     .write();
 

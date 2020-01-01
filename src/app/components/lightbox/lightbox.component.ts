@@ -63,13 +63,13 @@ export class LightboxComponent implements OnChanges {
   constructor(private renderer: Renderer2, private hostElement: ElementRef) {}
 
   ngOnInit(): void {
-    if (this.srcs) {
+    if (this.srcs && this.srcs.length) {
       this.populateLightbox();
     }
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if (changes.srcs && this.srcs) {
+    if (changes.srcs && this.srcs && this.srcs.length) {
       this.populateLightbox();
     }
     if (changes.maxWidth) {
