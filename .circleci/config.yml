@@ -39,8 +39,8 @@ jobs:
       enabled: true
     steps:
       - run: |
-      echo deploy command
-      ls -la
+        echo deploy command
+        ls -la
 
 
 workflows:
