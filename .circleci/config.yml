@@ -48,8 +48,8 @@ jobs:
       - image: circleci/node:10-browsers
     steps:
       - add_ssh_keys:
-        fingerprints:
-          - "ca:37:a7:11:5b:63:01:6c:da:5c:4a:d8:9e:02:96:d7"
+          fingerprints:
+            - "ca:37:a7:11:5b:63:01:6c:da:5c:4a:d8:9e:02:96:d7"
 
       - restore_cache:
           key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
