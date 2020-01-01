@@ -47,12 +47,12 @@ jobs:
     docker:
       - image: circleci/node:10-browsers
     steps:
+      - restore_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+
       - run:
           #     name: deploy angular build
           command: ls -la
-
-      - restore_cache:
-          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
 
 workflows:
   version: 2
