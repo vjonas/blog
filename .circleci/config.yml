@@ -52,7 +52,9 @@ jobs:
 
       - run:
           #     name: deploy angular build
-          command: ls -la
+          command: |
+            pwd
+            ls -la
 
 workflows:
   version: 2
