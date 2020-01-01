@@ -132,6 +132,16 @@
 }
 
 .add-image {
+  opacity: 0;
+  pointer-events: none;
+  display: grid;
+
+  &.active {
+    opacity: 1;
+    pointer-events: unset;
+  }
+}
+.add-image-icon {
   align-self: center;
   justify-self: center;
   border: solid 17px var(--pri);
@@ -151,13 +161,13 @@
   text-align: center;
 
   &:focus {
-    background-color: lime;
-    position: fixed;
-    z-index: 100000;
-    top: 50%;
-    left: 0;
-    padding: 1rem 2rem;
-    width: 100%;
+    // background-color: lime;
+    // position: fixed;
+    // z-index: 100000;
+    // top: 50%;
+    // left: 0;
+    // padding: 1rem 2rem;
+    // width: 100%;
   }
 }
 

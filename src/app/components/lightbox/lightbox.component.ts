@@ -70,6 +70,8 @@ export class LightboxComponent implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.srcs && this.srcs && this.srcs.length) {
+      console.log("changes", this.srcs);
+
       this.populateLightbox();
     }
     if (changes.maxWidth) {
@@ -81,7 +83,7 @@ export class LightboxComponent implements OnChanges {
     }
   }
 
-  public trackBy = (index: number, image: LightboxImage) => image.id;
+  public trackBy = (index: number, image: LightboxImage) => image.src;
 
   private populateLightbox(): void {
     this.internalSrcs = this.mapInternalSrcs(this.srcs);

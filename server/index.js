@@ -75,7 +75,13 @@ app.post("/blogs", (req, res) => {
   }
   db.get("blogs")
     .find({ id: post.id })
-    .assign(post)
+    .assign({
+      ...postToFind,
+      title: post.title,
+      date: post.date,
+      body: post.body,
+      srcs: post.srcs
+    })
     .write();
 
   return res.status(200).json(

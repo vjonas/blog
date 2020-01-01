@@ -74,7 +74,12 @@ export class BlogComponent {
   }
 
   public removeImageSrc(srcToRemove: string) {
-    this.blog.srcs = this.blog.srcs.filter(src => src !== srcToRemove);
+    console.log("remove", srcToRemove, "blogs:", this.blog.srcs);
+
+    this.blog = {
+      ...this.blog,
+      srcs: this.blog.srcs.filter(src => src !== srcToRemove)
+    };
   }
 
   public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
