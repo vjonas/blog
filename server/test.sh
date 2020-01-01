@@ -8,5 +8,4 @@ echo building angular
 ng build --prod
 echo build finished
 lsof -i tcp:3000 -t | xargs kill -9
-npm run start:api:server
 echo started node server
