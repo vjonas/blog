@@ -38,10 +38,9 @@ jobs:
     machine:
       enabled: true
     steps:
-      - run: |
-        echo deploy command
-        ls -la
-
+      - run:
+        name: deploy cmd
+        command: ls -la
 
 workflows:
   version: 2
