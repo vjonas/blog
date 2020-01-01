@@ -61,7 +61,7 @@ jobs:
             ls -la
       - run:
           name: deploy to digital ocean
-          command: scp -r ./dist jonas@157.245.243.71:/home/jonas/copy-test
+          command: scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -r ./dist jonas@157.245.243.71:/home/jonas/copy-test
 
 workflows:
   version: 2
