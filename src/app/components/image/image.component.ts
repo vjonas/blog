@@ -75,6 +75,7 @@ export class ImageComponent implements OnChanges, AfterViewInit {
       }
 
       this.addImageToDom(loadedImage);
+      this.isLoading = false;
 
       setTimeout(() => {
         loadedImage.classList.add("op-1");

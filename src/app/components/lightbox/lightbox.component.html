@@ -20,8 +20,7 @@
      cdkDropListOrientation="horizontal"
      (cdkDropListDropped)="drop($event)">
   <ng-container *ngFor="let image of internalSrcs; trackBy: trackBy">
-    <div class="image-container"
-         style="">
+    <div class="image-container">
       <image cdkDrag
              [editing]="editing"
              class="thumbnail"
@@ -48,10 +47,7 @@
     </div>
 
   </ng-container>
-  <!--
-  <div class="image-">
 
-  </div> -->
   <a [style.opacity]="!addingImage && editing? 1 : 0"
      style="display: grid;"
      (click)="addImage(addImageInput)">
