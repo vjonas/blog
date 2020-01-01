@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:11.4
+      - image: circleci/node:10-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -28,7 +28,7 @@ jobs:
 
       - run: npm install
 
-      - run: sudo npm install -g @angular/cli@latest
+      # - run: sudo npm install -g @angular/cli@latest
 
       - run: ng build --prod
 
