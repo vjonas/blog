@@ -28,14 +28,20 @@ jobs:
 
       - run: npm install
 
-      # - run: sudo npm install -g @angular/cli@latest
-
       - run: npm run build-prod
 
       - save_cache:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
+
+      - save_cache:
+          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
+          paths:
+            - dist
+
+      - run: ls -la
+
   deploy:
     machine:
       enabled: true
