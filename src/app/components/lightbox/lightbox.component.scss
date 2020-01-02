@@ -129,14 +129,17 @@
   grid-auto-flow: column;
   grid-column: span 5;
   grid-template-columns: repeat(5, 1fr);
+  overflow-x: scroll;
 }
 
 .add-image {
   opacity: 0;
   pointer-events: none;
-  display: grid;
+  display: none;
 
   &.active {
+    display: grid;
+    height: 100%;
     opacity: 1;
     pointer-events: unset;
   }

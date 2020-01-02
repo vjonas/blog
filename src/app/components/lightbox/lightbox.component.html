@@ -47,19 +47,19 @@
     </div>
 
   </ng-container>
-
-  <a class="add-image"
-     [class.active]="editing && !addingImage"
-     (click)="addImage(addImageInput)">
-    <mat-icon class="add-image-icon">add</mat-icon>
-  </a>
-
-  <input type="text"
-         #addImageInput
-         name="addImage"
-         (keydown.enter)="addNewImageSrc(addImageInput.value)"
-         [style.opacity]="addingImage ? 1 : 0">
 </div>
+
+<a class="add-image"
+   [class.active]="editing && !addingImage"
+   (click)="addImage(addImageInput)">
+  <mat-icon class="add-image-icon">add</mat-icon>
+</a>
+
+<input type="text"
+       #addImageInput
+       name="addImage"
+       (keydown.enter)="addNewImageSrc(addImageInput.value)"
+       [style.opacity]="addingImage ? 1 : 0">
 
 <div *ngIf="showLightbox"
      class="lightbox">

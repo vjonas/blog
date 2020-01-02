@@ -70,8 +70,6 @@ export class LightboxComponent implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes.srcs && this.srcs && this.srcs.length) {
-      console.log("changes", this.srcs);
-
       this.populateLightbox();
     }
     if (changes.maxWidth) {
@@ -149,7 +147,6 @@ export class LightboxComponent implements OnChanges {
   public editSrc = (event: Event, previousSrc: string) => {
     const target: HTMLInputElement = event.target as HTMLInputElement;
     target.blur();
-    console.log("target value", target.value, "previous src", previousSrc);
     this.changedImgSrc.emit({ previousSrc, currentSrc: target.value });
   };
 
