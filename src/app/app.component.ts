@@ -26,10 +26,7 @@ export class AppComponent {
 
   constructor(private router: Router, private http: HttpService) {
     this.router.events.subscribe(event => {
-      if (
-        event instanceof NavigationEnd
-        // && environment.production
-      ) {
+      if (event instanceof NavigationEnd && environment.production) {
         this.http.send(`routed: ${event.urlAfterRedirects}`);
       }
     });
