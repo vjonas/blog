@@ -11,7 +11,9 @@
           "05010157102010010171001200192024",
           "050133605115790394573151486041081237532",
           "0501336051151304151486041081237532",
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081015373679039459353736076036024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [
           "050133605115790394573151486041081237532",
@@ -22,12 +24,7 @@
           "0501336051151304151486041081237532"
         ]
       },
-      "emoji": true,
-      "srcs": [
-        "./assets/nyan.jpg",
-        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zZ3VpaW9mbmZ1N3BpZnBrczIwMTkxMjI5MjMyNjU2In0/1a78d6bc80d25ef1fa8a29ac069ea1e64c62f19359e4d5834a28c8a807247de0",
-        "http://r.ddmcdn.com/w_624/s_f/o_1/cx_0/cy_17/cw_624/ch_416/APL/uploads/2014/10/nyan-cat-01-625x450.jpg"
-      ]
+      "emoji": true
     },
     {
       "id": 8,
@@ -38,16 +35,17 @@
         "💙": [
           "none",
           "0501336051151304151486041081237532",
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081015373679039459353736076036024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [
           "05010157102010010171001200192024",
           "0501336051151304151486041081237532"
         ],
         "👍": [
-          "45010152537367903945885373631200192024",
-          "35010152605115130460511511200192024",
-          "0501336051151304151486041081237532"
+          "0501336051151304151486041081237532",
+          "35010143605115120360511511440256024"
         ]
       },
       "emoji": true
@@ -60,13 +58,15 @@
       "votes": {
         "💙": [
           "0501336051151304151486041081237532",
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [
           "0501336051151304151486041081237532"
         ],
         "👍": [
-          "0501336051151304151486041081237532"
+          "0501336051151304151486041081237532",
+          "050133605115790394573151486041081237532"
         ]
       }
     },
@@ -78,7 +78,8 @@
       "votes": {
         "💙": [
           "0501336051151304151486041081237532",
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [
           "0501336051151304151486041081237532"
@@ -86,7 +87,10 @@
         "👍": [
           "0501336051151304151486041081237532"
         ]
-      }
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zaWYzdG5oeDJobm10dGF4djIwMjAwMTAxMDgzNDM4In0/276f9b6b424521bc5c908eb0ad9da0931c1bb08e39c60dc9583dbc70de2b8d51"
+      ]
     },
     {
       "id": 5,
@@ -95,11 +99,13 @@
       "body": "De dag start weer met het verschonen van de verbanden. Dokters vertellen ons dat het er prima uitziet. Lynn mag nu 3 keer per dag het been laten hangen voor   15minuten. We beginnen aan een conversatie terwijl de verpleegster, alex, het been ondersteunt. Not a problem at all. De tijd vliegt voorbij en het kwartier zit er zo op. Lynn slaapt de voormiddag door, afgelopen nacht was een beetje onrustig. Jonas loopt naar het hostel, gaat wat 🎄 spullen halen,  douchen en inkopen doen in de Countdown. Tijdens een toiletbezoek hangt Jonas een extra slinger aan de muur. De kamer staat klaar voor kerstavond. We kijken een half geanimeerde kerstfilm en gaan slapen. Morgen cadeautejestijd! ",
       "votes": {
         "💙": [
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [],
         "👍": []
-      }
+      },
+      "srcs": []
     },
     {
       "id": 4,
@@ -108,7 +114,8 @@
       "body": "Het verband wordt er weer afgehaald en de klok slaagt 07:30u. De dokters komen dadelijk binnen om te evalueren. Straks zwiert het been voor vijf minuten naar beneden dankzij de zwaartekracht. We krijgen het nieuws te horen. Alles ziet er oke uit. Tegen het einde van de week kan Lynn beginnen stappen met een karretje of krukken. Vermoedelijk kunnen we het ✈️ terugnemen rond 10 januari. Goed nieuws, Het been hing zeker 5 min naar beneden met weinig pijn. Ook is de wonde aan de voet al aan het hechten en genezen! 🎉",
       "votes": {
         "💙": [
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [],
         "👍": []
@@ -121,7 +128,8 @@
       "body": "De ochtend startte om 07:00u. Het duurde twee uur en half om te verbanden te vervangen en de wonde te tonen aan de dokters. We kijken uit naar morgen, dan mag het been weer omlaag worden gebracht. 3 keer per dag voor maximum 5 minuten.",
       "votes": {
         "💙": [
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [],
         "👍": []
@@ -134,7 +142,8 @@
       "body": "De nacht was nog steeds rusteloos, maar beter dan de vorige! De verpleegsters controleerde om de twee uur, wat ons meer slaap bracht. Morgen vervangen ze de windels en versteviging rond het been in de kamer zelf. Dat doen ze vaak. Geruststellend zei de verpleegster Sara: We hebben hier veel ervaring mee, wees gerust.",
       "votes": {
         "💙": [
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024"
         ],
         "😆": [],
         "👍": []
@@ -147,131 +156,131 @@
       "body": "Lieve familie en vrienden, bedankt voor al jullie lieve en hartverwarmende berichtjes. Het geeft een heel fijn gevoel en helpt ons enorm! \n\n Graag willen we jullie allemaal op de hoogte houden van wat er gaande is. Het is onmogelijk om het persoonlijk te doen en daarom leek het ons handig een gezamenlijke whatsapp aan te maken om de updates te verspreiden. Zo blijft iedereen up to date 😄. \n\n Het lijkt ons een goed idee om niet in te reageren in de groep, zodat het een puur informatief kanaal blijft en handig terug te lezen. Alle belangrijke operaties zijn achter de rug. De focus ligt op herstellen en terug te vliegen naar België, zodat we elkaar weer kunnen ontmoeten en de fijne momenten van de reis te kunnen delen. \n\n Heel veel liefs, Jonas & Lynn 😘",
       "votes": {
         "💙": [
-          "4501006464537367903945885373631080192024"
+          "4501006464537367903945885373631080192024",
+          "05081053015373640790394593537362450019113064036024",
+          "35010143605115120360511511440256024"
         ],
         "😆": [],
         "👍": []
       }
     },
     {
-      "title": "",
-      "date": "2019-12-29",
-      "body": "",
-      "id": 10
+      "title": "Zonnig dagje 2.0",
+      "date": "29/12/2019",
+      "body": "De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje wandelen we langs de botanische tuinen achter het ziekenhuis. Niet te bespeuren.. We gaan een beetje terug voor een Magnum Almond ( Lynn's favoriete ).&nbsp;</div><div><br></div><div>Op het brugje over de rivier kijken we naar toeristen in een bootje, begeleid door een gondelier. Net Venetië&nbsp;😎.</div><div><br></div><div>De verpleegster Lera komt weer binnen in een gekke bui en vervangt de vuilnisbakken. We raken aan de praat over thee en wisselen theezakjes uit. Zij geven haar een pepermunt zakje en in ruil krijgen we een groene thee met gedroogde rijst uit Japan. ( zie foto ).&nbsp;</div>",
+      "id": 10,
+      "votes": {
+        "💙": [
+          "4501006464537367903945885373631080192024",
+          "05081015373679039459353736076036024",
+          "050133605115790394573151486041081237532",
+          "05081053015373640790394593537362450019113064036024"
+        ],
+        "😆": [],
+        "👍": [
+          "0501336051151304151486041081237532"
+        ]
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zZ3VpaW9mbmZ1N3BpZnBrczIwMTkxMjI5MjMyNjU2In0/1a78d6bc80d25ef1fa8a29ac069ea1e64c62f19359e4d5834a28c8a807247de0",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zYjJ6Nm5hbm93d3RhdmN5NDIwMjAwMTAxMDA0NTUzIn0/dfd1528fc74826735448a360cce50418378bc0e37e048f2a1e8385a4b31fb1f1"
+      ]
     },
     {
-      "title": "new 69",
-      "date": "ne😘😘😘😘😘w date",
-      "body": "De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><span>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;</span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><span>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;</span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><span>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;</span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><span>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;</span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;</div>",
+      "title": "Bijna oudjaar",
+      "date": "30/12/2019",
+      "body": "De dokters en mr. Davidson nemen een kijkje naar het been. Morgenvroeg, afhangend van het aantal patiënten behandeld kunnen worden vandaag en welke er nog binnenkomen, zou Lynn naar theatre gaan. Mogelijks wordt het kleine stukje onderaan vervangen met nieuwe huid. Davidson vertelde dat het misschien niet nuttig zal zijn. Nieuwe huid zal de genezing misschien niet versnellen. We zien wel morgen.&nbsp;<div><br></div><div>Het is wat frisser vandaag. Misschien kunnen we weer een stapje zetten buiten. We hebben het geheime ijsjes adres ontdekt via een andere verpleegster. Anders zoeken we het morgen met oudjaar wel op :)&nbsp;</div><div><br></div><div>5 x leg hanging van 30minuten is het doel vandaag. 4 keer zou ook volstaan :)</div><div><br></div><div>De fysiotherapeut wil graag proberen te stappen tot aan de deur. Het lukt zelfs tot een stukje op de gang! Verbazingwekkend. Lynn mag proberen al hinkend naar de wc te gaan.&nbsp;</div><div>Het middageten is 🍕 😋&nbsp;</div><div><br></div><div>15:30u tijd om het toilet te bezoeken en lynn hinkt 3/4 tot aan de wc. En ja ook 3/4 terug! 🎉💪</div><div><br></div><div>De kaartjes van oma Jeanne, Els &amp; Hubert en Mitch zijn aangekomen prachtig!</div><div><br></div><div>Lynn kan nu volledig zelfstandig hinken naar de wc en terug.</div><div>Jonas brengt Stijn ( Account manager Euricom ) telefonisch op de hoogte over de gebeurtenissen..</div><div>We kijken Little Mermaid (2018), bizarre film.&nbsp;</div>",
       "id": 11,
       "votes": {
         "💙": [
-          "050101560511513046051150119483432"
+          "050133605115790394573151486041081237532",
+          "0501336051151304151486041081237532",
+          "05081053015373640790394593537362450019113064036024"
         ],
-        "😆": [
-          "050101560511513046051150119483432"
-        ],
-        "👍": [
-          "050101560511513046051150119483432"
-        ]
-      }
+        "😆": [],
+        "👍": []
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zcDBham5kbnFpcDR4NWd2cjIwMTkxMjMwMDUyNjE4In0/fb1fb3152640d8dec8c3e2f454dc5ee8ca3dfea9c6634c541aac5bd757a17d00",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zemQyNmdzaDVwZG9tbTJuZTIwMTkxMjMwMDYyMzMzIn0/705f3d6ff920668bf05fe4ff45072ff11485d8a9ea2ab2546a44fb1b9e015220"
+      ]
     },
     {
-      "title": "Test7vlog",
-      "date": "2019-12-29",
-      "body": "Hey. Ik wil test schrijven.&nbsp;<div><br></div><div><br></div><div>Dankjewel</div><div><br></div><div><br></div><div>🙃🙃🙃😘🥰😂🙃🥰😂🙃</div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div><div><br></div>",
+      "title": "Oudjaar 🎊 ",
+      "date": "31/12/2019",
+      "body": "De dressing wordt weggenomen. Davidson neemt een kijkje naar de wonde. Dagelijks de wonde verschonen helpt fel bij de genezing en na de operatie zou de dressing er aan moeten blijven voor een paar dagen.&nbsp;<div>Hij beslist om geen operatie te houden vandaag, zo kan de wonde verder genezen. Mogelijks plannen ze een kleine huidtransplantatie volgende week. We vermoeden iets later thuis te komen dan 10januari.&nbsp;</div><div><br></div><div>Het is super druk op de intensive care afdeling. Haast alle kamers zijn volzet. We krijgen alletwee een middagmaal. Erna chillen we even in de lounge. Het is best mooi weer.&nbsp;</div><div><br></div><div>We gaan een paar uur zitten in de lounge. ook hier is het vrij druk. We geraken aan de praat met een iets oudere vrouw dat al wat heeft meegemaakt. Ze blijkt heel sportief te zijn geweest. Ook raadt ze aan een homeopathisch middel te nemen tegen kneuzingen, zodat de wonde beter zou genezen ( zie foto ). Als bijsluiter staat er dat het averechts kan werken in combinatie met bloedverdunners. Helaas krijgt Lynn&nbsp; een prikje in de buik om bloedklonters te voorkomen&nbsp;<span>elke avond om 22u. Vandaag was gelukkig wél de laatste&nbsp;</span>🎉.</div><div><br></div><div>We hangen de kaartjes op in de kamer, waar ze zichtbaarder thuishoren.&nbsp;</div><div><br></div><div>We kijken de film `Falling inn love` en toevallig speelt het zich af in nieuw-zeeland&nbsp;😆.</div><div>We blijven wakker tot middernacht. Het vuurwerk zou te zien zijn vanaf de andere kant van het gebouw. We konden het volgen via de luide knallen met af en toe ook lichtflitsen 🎆 &nbsp;</div><div><br></div><div>FIJNE JAARWISSELING iedereen!!!</div>",
       "id": 12,
       "votes": {
         "💙": [
-          "45010152537367903945885373631200192024"
+          "050133605115790394573151486041081237532",
+          "05081053015373640790394593537362450019113064036024"
         ],
-        "😆": [
-          "45010152537367903945885373631200192024"
-        ],
-        "👍": [
-          "45010152537367903945885373631200192024"
-        ]
-      }
+        "😆": [],
+        "👍": []
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zd2hramgwZWYzcXl2cXJiMjIwMTkxMjMxMDY1NDMxIn0/342a16d6e75ce13aec45143a1863cf483f16ee587a5422bf7e0b97745a225e7b",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zdnM3Z3o5bnZsbHNlZWVoczIwMjAwMTAxMDMzMjAyIn0/7aae8a1fb2a3e69d664fa11f77296fac5f27d86cc265fd39c32e9f89a4f5ae81"
+      ]
     },
     {
-      "title": "",
-      "date": "2019-12-29",
-      "body": "",
+      "title": "~~~ 🎊 Nieuwjaar 🎆 ~~~",
+      "date": "🍻🥂01/01/2020",
+      "body": "<div>De dag begint vroeg, zoals elke dag trouwens. Ze komen ons standaard wakker maken om 7u om het verband van m’n been te halen. Dit doen ze zodat de dokters gemakkelijk even kunnen kijken hoe het eruit ziet, zo word bepaald of er weer azijn op moet voor 20min. Op die manier wordt er een bacterie bespreid die op mijn “nieuw” stuk been zit. Dit doen ze elke sinds de grote operatie en dit werkt erg goed. Daarnaast hebben we vandaag de onderkant van mijn been ook goed kunnen zien en daar is het al super goed genezen en de rest volgt! :)&nbsp;</div><div><br></div><div>De lucht hier is lichtjes verontreinigd door de bosbranden in Australië. Het heeft een gek geurtje.&nbsp;</div><div><br></div><div>Ik mag nog eens douchen (dit was niet mogelijk wegens het speciale verband op mijn bovenbeen). Het was een heerlijke douche waarin ik eindelijk eens op een normale stoel mocht zitten en even alleen werd gelaten, waardoor ik me steeds onafhankelijker voel en ook ben, hééééééél fijn is dat!&nbsp;</div><div><br></div><div>Na de douche word m’n verband op m’n bovenbeen eraf gehaald en blijkt het al zo goed genezen dat er geen nieuw verband nodig is, enkel een speciale pleister op een klein gedeelte. Fijn dat het zo goed geneest!! J<span>onas gaat achter nieuwjaarsboodschappen.&nbsp;</span></div><div><span><br></span></div>We doen vandaag leghangings van alweer 40 minuten, dat begint stiekem al best lang te worden. (Elke dag 5min extra) Dit zou idealiter 5x op één dag moeten gebeuren, maar dat is echt te veel. Meestal komen we aan 3 of 4.&nbsp;<div><br></div><div>De rest van de dag chillen we een beetje op de kamer en doe ik een middagdutje van bijna 2u (het was een korte nacht en ik ben altijd moe na een douche). Ook kijken we twee afleveringen <span>van Samson en Gert, haha nostalgie!!!</span></div><div><a href=\"https://youtu.be/FYPyfSMXM7w\">https://youtu.be/FYPyfSMXM7w&nbsp;</a></div><div><a href=\"https://youtu.be/oBqaVJ3CKoM\">https://youtu.be/oBqaVJ3CKoM</a></div><div><br></div><div>Ik heb sinds een paar dagen weer het gevoel terug wanneer ik moet plassen, dus wat mij betreft mag de katether er morgen uit. De zusters willen graag wachten tot vrijdag, zodat er een blaasspecialist kan langskomen.&nbsp;</div>",
       "id": 13,
       "votes": {
         "💙": [
-          "45010152537367903945885373631200192024"
+          "05081053015373640790394593537362450019113064036024",
+          "050133605115790394573151486041081237532"
         ],
-        "😆": [
-          "45010152537367903945885373631200192024"
-        ],
+        "😆": [],
         "👍": [
           "45010152537367903945885373631200192024"
         ]
-      }
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zMHE4cm00NWJwMWdvOWlqeTIwMjAwMTAxMDcyNzU3In0/df03a0f130ba9a5ae922bcc781939c02fba1808d09abbcb502900e66db762b7e"
+      ]
     },
     {
-      "title": "",
-      "date": "2019-12-29",
-      "body": "",
+      "title": "Stadsbezoek",
+      "date": "02/01/2020",
+      "body": "De ochtend start weer met het verversen van de verbanden. We wachten op de dokters. Btw Mr. Davidson kwam na de shift op 31/12/2019 nog snel fijne oudjaar wensen.&nbsp;<div><br></div><div>Gisteren namen ze de verbanden weg aan donor zijde. Het ziet er heel goed uit. Drie keer per dag smeren we er een voedend zalfje aan.&nbsp;</div><div><br></div><div>De horizon heeft nog steeds last van de bosbranden in Australië. We gaan toch proberen te wandelen vandaag. Gisteren was het veel te heet ( 28 graden ).&nbsp;</div><div><br></div><div>De👨‍⚕️besloten niet langs te komen en lieten een berichtje na. Ze willen doorgaan met de dressings en soakings en komen morgen piepen om te bepalen of er nog een operatie moet plaatsvinden.</div><div><br></div><div>Aan de donorzijde haalt de nurse veel velletjes weg en smeert er een beter zalfje aan met collageen. Dat helpt sneller bij het herstellen van de 'schaafwonde'.</div><div><br></div><div>We trekken de stad in en scoren een ijsje bij ben &amp; jerry’s.&nbsp;</div><div>Even powernappen en gele curry bestellen. Heerlijk.&nbsp;</div><div>Jonas gaat naar het hostel proberen douchen. Dat lukt! Bij het terug binnenkomen ( na 20u ) is het verplicht je bezoek aan te geven aan security aan de inkom. Gelukkig mocht hij weer binnen. &nbsp;</div><div><br></div><div>Om 04u komt jess vertellen dat Lynn NIL by mouth is. Dat wil zeggen dat ze niets meer mag drinken en eten vanaf 06uur. Het is mogelijk dat ze naar de operatie gaat morgenvroeg.&nbsp;</div>",
       "id": 14,
       "votes": {
         "💙": [
-          "45010152537367903945885373631200192024"
+          "05099655373610271035789953736084641224",
+          "05081053015373640790394593537362450019113064036024",
+          "050133605115790394573151486041081237532"
         ],
-        "😆": [
-          "45010152537367903945885373631200192024"
-        ],
+        "😆": [],
         "👍": [
-          "45010152537367903945885373631200192024"
+          "05010157102010010171001200192024"
         ]
-      }
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zNzloN2RkZmc5emRkMWp5bjIwMjAwMTAyMDI0NzI1In0/17b1660d1d2fd10a5821762dfe3c94f1d05b7b13f7a037314fde1b65a9aad162",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zamtqZ3ppZDNzMXRoYjl6dzIwMjAwMTAyMDI0NzI1In0/1d972577e3a250c97008aefaab94c2b7e82d065a925931fecb92d710974e5623",
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/sru64bxcgrrtdm5bv20200102083703",
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/sen07wdnc6g3y6mgd20200102083703",
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/sj7kl9uf33jbmitar20200102185933"
+      ]
     },
     {
-      "title": "",
-      "date": "2019-12-29",
+      "title": "Nieuws?",
+      "date": "03/01/2020",
       "body": "",
       "id": 15,
       "votes": {
         "💙": [],
         "😆": [],
-        "👍": [
-          "45010152537367903945885373631200192024"
-        ]
-      },
-      "srcs": [
-        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zZ3VpaW9mbmZ1N3BpZnBrczIwMTkxMjI5MjMyNjU2In0/1a78d6bc80d25ef1fa8a29ac069ea1e64c62f19359e4d5834a28c8a807247de0",
-        "test",
-        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zYjJ6Nm5hbm93d3RhdmN5NDIwMjAwMTAxMDA0NTUzIn0/dfd1528fc74826735448a360cce50418378bc0e37e048f2a1e8385a4b31fb1f1"
-      ]
-    },
-    {
-      "title": "testpgotos",
-      "date": "2020-01-01",
-      "body": "",
-      "id": 16,
-      "votes": {
-        "💙": [],
-        "😆": [],
         "👍": []
       },
       "srcs": [
-        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zemQyNmdzaDVwZG9tbTJuZTIwMTkxMjMwMDYyMzMzIn0/705f3d6ff920668bf05fe4ff45072ff11485d8a9ea2ab2546a44fb1b9e015220"
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/sdwi6dpoqy7y8i5rl20200102193115",
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/su3vy1ohytqqvta8l20200102193115",
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/s2ibb7cwccsl3g21y20200102201732"
       ]
-    },
-    {
-      "title": "test",
-      "date": "2020-01-01",
-      "body": "testDe dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;<span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.</span></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje. ik snap&nbsp;<span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.</span></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;<span>De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.</span></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje.&nbsp;De dokters komen langs en alles ziet er weer goed uit. Ze nemen het stukje (dood) vel weg aan de voet. Zo kan de verpleegster beginnen aan het inpakken van het onderbeen.<div><br></div><div>Lynn rust verder uit tot de middag. Het was een vermoeiende nacht met weinig slaap.&nbsp;</div><div><br></div><div>Na het middageten maken we ons klaar voor een wandeling in het zonnetje. Zoekend naar een lekker ijsje. beetje.</div>",
-      "id": 17,
-      "votes": {
-        "💙": [
-          "45010152537367903945885373631200192024"
-        ],
-        "😆": [],
-        "👍": []
-      },
-      "srcs": []
     }
   ]
 }

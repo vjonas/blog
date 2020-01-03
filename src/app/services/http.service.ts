@@ -11,9 +11,13 @@ export class HttpService {
     return this.http.get(fileName);
   }
 
-  public login() {}
-
-  // public isAuthenticated = ()=>{
-  // return this.http.post()
-  // }
+  public send(msg: string = "default msg") {
+    (<any>window).ga(
+      "send",
+      "event",
+      "appcomponent-category",
+      "onderwerp,click",
+      msg
+    );
+  }
 }

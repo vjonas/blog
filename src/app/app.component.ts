@@ -1,4 +1,7 @@
+import { HttpService } from "./services/http.service";
 import { Component, HostListener } from "@angular/core";
+import { Router, NavigationEnd } from "@angular/router";
+import { environment } from "src/environments/environment";
 
 @Component({
   selector: "app-root",
@@ -21,5 +24,14 @@ export class AppComponent {
     );
   };
 
-  constructor() {}
+  constructor(private router: Router, private http: HttpService) {
+    this.router.events.subscribe(event => {
+      if (
+        event instanceof NavigationEnd
+        // && environment.production
+      ) {
+        this.http.send(`routed: ${event.urlAfterRedirects}`);
+      }
+    });
+  }
 }

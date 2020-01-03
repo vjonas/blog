@@ -2,32 +2,39 @@
   <div class="actions">
     <button *ngIf="admin && !editing"
             [class.save]="editing"
-            (click)="onEdit([title,date,body])"
+            (click)="onEdit()"
             type="button">edit</button>
 
     <button *ngIf="admin && editing"
             [class.save]="editing"
-            (click)="onSave(body,[title,date,body])"
+            (click)="onSave(textareaBody,[title,date])"
             type="button">save</button>
 
     <button *ngIf="admin && editing"
-            (click)="onCancelEdit([title,date,body])"
+            (click)="onCancelEdit()"
             type="button">cancel</button>
   </div>
 
   <div class="title">
     <h1 #title
-        contenteditable="false">{{ blog.title }}</h1>
+        [contentEditable]="contentEditable">{{ blog.title }}</h1>
 
     <span #date
-          contenteditable="false"
+          [contentEditable]="contentEditable"
           class="date">{{ blog.date }}</span>
   </div>
 
   <p #body
+     *ngIf="!editing"
      contenteditable="false"
      [innerHTML]="blog.body"></p>
 
+
+  <textarea #textareaBody
+            [class.editing]="editing"
+            [disabled]="!editing"
+            [value]="blog.body"
+            [contentEditable]="contentEditable"> </textarea>
 
   <div class="reaction-wrapper">
     <button class="reaction"

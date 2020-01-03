@@ -1,7 +1,13 @@
 import { getSetGuid } from "./../../utils/guid";
 import { Blog } from "./../../models/blog.model";
-import { CdkDragDrop, moveItemInArray } from "@angular/cdk/drag-drop";
-import { Component, Input, Output, EventEmitter } from "@angular/core";
+import {
+  Component,
+  Input,
+  Output,
+  EventEmitter,
+  ViewChild,
+  ElementRef
+} from "@angular/core";
 
 enum ACTIONS {
   "EDIT",
@@ -20,26 +26,27 @@ export class BlogComponent {
   @Output() updatePost = new EventEmitter<Blog>();
   @Output() addEmoji = new EventEmitter<any>();
 
+  @ViewChild("textareaBody", { static: false }) public textArea: ElementRef<
+    HTMLTextAreaElement
+  >;
+
   public actions = ACTIONS;
   public editing = false;
   public clickedEmoji = "";
+  public contentEditable = "false";
 
   public trackByFn = (index, item) => {
     return item.key;
   };
 
-  private toggleElements = (e: HTMLElement) =>
-    (e.contentEditable = !JSON.parse(e.contentEditable) + "");
-
-  public onEdit(elements: HTMLElement[]) {
-    elements.map(this.toggleElements);
-
+  public onEdit() {
+    this.contentEditable = !JSON.parse(this.contentEditable) + "";
     this.editing = !this.editing;
-    elements[2].focus(); // focus on body
+    setTimeout(() => this.textArea.nativeElement.focus()); // focus on textArea
   }
 
-  public onCancelEdit(elements: HTMLElement[]) {
-    elements.map(this.toggleElements);
+  public onCancelEdit() {
+    this.contentEditable = !JSON.parse(this.contentEditable) + "";
     this.editing = !this.editing;
   }
 
@@ -74,21 +81,19 @@ export class BlogComponent {
   }
 
   public removeImageSrc(srcToRemove: string) {
-    console.log("remove", srcToRemove, "blogs:", this.blog.srcs);
-
     this.blog = {
       ...this.blog,
       srcs: this.blog.srcs.filter(src => src !== srcToRemove)
     };
   }
 
-  public onSave(body: HTMLParagraphElement, elements: HTMLElement[]) {
-    elements.map(this.toggleElements);
+  public onSave(body: HTMLTextAreaElement, elements: HTMLElement[]) {
+    this.contentEditable = !JSON.parse(this.contentEditable) + "";
     this.editing = !this.editing;
 
     this.updatePost.emit({
       ...this.blog,
-      body: body.innerHTML,
+      body: body.value,
       title: elements[0].innerHTML,
       date: elements[1].innerHTML
     });
