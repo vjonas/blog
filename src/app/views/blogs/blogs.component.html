@@ -9,8 +9,8 @@
 <app-login (password)="showLogin=!showLogin"
            [class.visible]="showLogin"></app-login>
 
-<div *ngIf="loading"
-     class="loading">
+<!-- *ngIf="loading" -->
+<div class="loading">
 </div>
 
 <app-blog *ngFor="let blog of blogs; trackBy:trackByFn"

@@ -59,15 +59,17 @@
 }
 
 .loading {
+  --width: 40px;
   animation: draaien 1000ms 0s infinite linear forwards;
   border-radius: 50%;
   border: 7px solid black;
   border-top-color: var(--pri);
-  height: 40px;
-  left: 50%;
+  height: var(--width);
+  left: calc(50% - ((var(--width) + 18px) / 2));
+
   position: absolute;
   top: 50%;
-  width: 40px;
+  width: var(--width);
   z-index: 10;
 }
 @keyframes draaien {
