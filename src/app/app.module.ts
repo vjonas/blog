@@ -18,6 +18,27 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 import { MatDialogModule } from "@angular/material/dialog";
 
 import { DragDropModule } from "@angular/cdk/drag-drop";
+import {
+  NgcCookieConsentModule,
+  NgcCookieConsentConfig
+} from "ngx-cookieconsent";
+
+const cookieConsent: NgcCookieConsentConfig = {
+  cookie: {
+    // domain: "blog.jonasvercammen.dev"
+    domain: "localhost" // or 'your.domain.com' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
+  },
+  palette: {
+    popup: {
+      background: "#000"
+    },
+    button: {
+      background: "#f1d600"
+    }
+  },
+  theme: "edgeless",
+  type: "opt-out"
+};
 
 @NgModule({
   declarations: [
@@ -29,6 +50,7 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
     EmojiPopupComponent
   ],
   imports: [
+    NgcCookieConsentModule.forRoot(cookieConsent),
     FormsModule,
     BrowserModule,
     HttpClientModule,
