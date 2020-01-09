@@ -9,7 +9,11 @@
 <app-login (password)="showLogin=!showLogin"
            [class.visible]="showLogin"></app-login>
 
-<app-blog *ngFor="let blog of blogs$ | async; trackBy:trackByFn"
+<div *ngIf="loading"
+     class="loading">
+</div>
+
+<app-blog *ngFor="let blog of blogs; trackBy:trackByFn"
           (updatePost)="onSave($event)"
           (addEmoji)="onSaveEmoji($event)"
           [blog]="blog"

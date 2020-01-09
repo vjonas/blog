@@ -25,6 +25,9 @@ export class BlogsComponent {
     `${environment.url}blogs`
   );
 
+  public blogs: Blog[] = [];
+  public loading = true;
+
   public showLogin = false;
   public showAddBlog = false;
   public admin = false;
@@ -40,6 +43,10 @@ export class BlogsComponent {
     private dialog: MatDialog
   ) {
     this.aR.data.subscribe(({ admin }) => (this.admin = admin));
+    this.blogs$.subscribe(blogs => {
+      this.loading = false;
+      this.blogs = blogs;
+    });
   }
 
   public onSave(post: any) {
