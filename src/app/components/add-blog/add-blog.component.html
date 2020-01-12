@@ -1,19 +1,22 @@
 <button matDialogClose>X</button>
+
 <label for="title">title</label>
+
 <input type="text"
        name="title"
        [(ngModel)]="title">
 
 <label for="datum">date</label>
+
 <input type="date"
        name="datum"
        [(ngModel)]="date">
 
 <label>body</label>
-<p #body
-   [contentEditable]="true"
-   placeholder="enter body"></p>
 
+<textarea #body
+          [contentEditable]="true"
+          placeholder="enter body"></textarea>
 
 <button (click)="submit(body)"
-        matDialogClose> submit</button>
+        matDialogClose>submit</button>
