@@ -56,7 +56,7 @@ export class BlogsComponent {
       .pipe(
         tap((blogs: Blog[]) => {
           this.snackbar.open("post saved", "dismiss", snackbarOptions);
-          this.blogs$ = of(blogs);
+          this.blogs = blogs;
         }),
         catchError(e =>
           of(
@@ -73,7 +73,7 @@ export class BlogsComponent {
         headers: new HttpHeaders({ emoji: "true" })
       })
       .pipe(
-        tap(blogs => console.log("no error", (this.blogs$ = of(blogs)))),
+        tap(blogs => console.log("no error", (this.blogs = blogs))),
         catchError(e => {
           console.log("http-err0r", e);
           this.snackbar.open(
@@ -102,7 +102,7 @@ export class BlogsComponent {
           .pipe(
             tap(blogs => {
               this.snackbar.open("post added", "dismiss", snackbarOptions);
-              this.blogs$ = of(blogs);
+              this.blogs = blogs;
             }),
             catchError(e =>
               of(

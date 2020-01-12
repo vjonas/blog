@@ -269,12 +269,14 @@
     {
       "title": "Nieuws?",
       "date": "03/01/2020",
-      "body": "",
+      "body": "test",
       "id": 15,
       "votes": {
         "💙": [],
         "😆": [],
-        "👍": []
+        "👍": [
+          "45010152537367903945885373631200192024"
+        ]
       },
       "srcs": [
         "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/sdwi6dpoqy7y8i5rl20200102193115",
