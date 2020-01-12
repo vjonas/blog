@@ -13,7 +13,9 @@
           "0501336051151304151486041081237532",
           "4501006464537367903945885373631080192024",
           "05081015373679039459353736076036024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [
           "050133605115790394573151486041081237532",
@@ -21,7 +23,10 @@
         ],
         "👍": [
           "050133605115790394573151486041081237532",
-          "0501336051151304151486041081237532"
+          "0501336051151304151486041081237532",
+          "0508003305373610271035789953736064036024",
+          "050709305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
         ]
       },
       "emoji": true
@@ -37,14 +42,20 @@
           "0501336051151304151486041081237532",
           "4501006464537367903945885373631080192024",
           "05081015373679039459353736076036024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050709305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [
           "05010157102010010171001200192024",
           "0501336051151304151486041081237532"
         ],
         "👍": [
-          "0501336051151304151486041081237532"
+          "0501336051151304151486041081237532",
+          "35010143605115120360511511440256024",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
         ]
       },
       "emoji": true
@@ -58,14 +69,18 @@
         "💙": [
           "0501336051151304151486041081237532",
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [
           "0501336051151304151486041081237532"
         ],
         "👍": [
           "0501336051151304151486041081237532",
-          "050133605115790394573151486041081237532"
+          "050133605115790394573151486041081237532",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
         ]
       }
     },
@@ -78,13 +93,17 @@
         "💙": [
           "0501336051151304151486041081237532",
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [
           "0501336051151304151486041081237532"
         ],
         "👍": [
-          "0501336051151304151486041081237532"
+          "0501336051151304151486041081237532",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
         ]
       },
       "srcs": [
@@ -99,14 +118,17 @@
       "votes": {
         "💙": [
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
       },
-      "srcs": [
-        ""
-      ]
+      "srcs": []
     },
     {
       "id": 4,
@@ -116,10 +138,15 @@
       "votes": {
         "💙": [
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
       }
     },
     {
@@ -130,10 +157,14 @@
       "votes": {
         "💙": [
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
       }
     },
     {
@@ -144,10 +175,15 @@
       "votes": {
         "💙": [
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
       }
     },
     {
@@ -158,10 +194,19 @@
       "votes": {
         "💙": [
           "4501006464537367903945885373631080192024",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "35010143605115120360511511440256024",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "0501336051151304151486041089641432",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489313325066737532"
+        ]
       }
     },
     {
@@ -174,11 +219,16 @@
           "4501006464537367903945885373631080192024",
           "05081015373679039459353736076036024",
           "050133605115790394573151486041081237532",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050709305373610271035789953736064036024",
+          "050133605115151489113325066737532"
         ],
         "😆": [],
         "👍": [
-          "0501336051151304151486041081237532"
+          "0501336051151304151486041081237532",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
         ]
       },
       "srcs": [
@@ -195,10 +245,17 @@
         "💙": [
           "050133605115790394573151486041081237532",
           "0501336051151304151486041081237532",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050709305373610271035789953736064036024",
+          "050133605115151489113325066737532",
+          "4501006464537367903945885373631080192024"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
       },
       "srcs": [
         "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zcDBham5kbnFpcDR4NWd2cjIwMTkxMjMwMDUyNjE4In0/fb1fb3152640d8dec8c3e2f454dc5ee8ca3dfea9c6634c541aac5bd757a17d00",
@@ -213,10 +270,16 @@
       "votes": {
         "💙": [
           "050133605115790394573151486041081237532",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532",
+          "4501006464537367903945885373631080192024"
         ],
         "😆": [],
-        "👍": []
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
       },
       "srcs": [
         "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zd2hramgwZWYzcXl2cXJiMjIwMTkxMjMxMDY1NDMxIn0/342a16d6e75ce13aec45143a1863cf483f16ee587a5422bf7e0b97745a225e7b",
@@ -230,11 +293,18 @@
       "id": 13,
       "votes": {
         "💙": [
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050133605115790394573151486041081237532",
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532",
+          "4501006464537367903945885373631080192024"
         ],
         "😆": [],
         "👍": [
-          "45010152537367903945885373631200192024"
+          "45010152537367903945885373631200192024",
+          "0501336051151304151486041081237532",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
         ]
       },
       "srcs": [
@@ -242,14 +312,287 @@
       ]
     },
     {
-      "title": "Bijna inpakken?",
+      "title": "Stadsbezoek",
       "date": "02/01/2020",
-      "body": "De ochtend start weer met het verversen van de verbanden. We wachten op de dokters. Btw Mr. Davidson kwam na de shift op 31/12 nog snel fijne oudjaar wensen.&nbsp;<div><br></div><div>Gisteren namen ze de verbanden weg aan donor zijde. Het ziet er heel goed uit. Drie keer per dag smeren we er een voedend zalfje aan.&nbsp;</div><div><br></div><div>De horizon heeft nog steeds last van de bosbranden in Australië. We gaan toch proberen te wandelen vandaag. Gisteren was het veel te heet ( 28 graden ).&nbsp;</div><div><br></div><div>De👨‍⚕️besloten niet langs te komen en lieten een berichtje na. Ze willen doorgaan met de dressings en soakings en komen morgen piepen om te bepalen of er nog een operatie moet plaatsvinden.</div><div><br></div><div>Aan de donorzijde haalt de nurse veel velletjes weg en smeert er een beter zalfje aan met collageen. Dat helpt sneller bij het herstellen van de 'schaafwonde'.</div>",
+      "body": "De ochtend start weer met het verversen van de verbanden. We wachten op de dokters. Btw Mr. Davidson kwam na de shift op 31/12/2019 nog snel fijne oudjaar wensen.&nbsp;<div><br></div><div>Gisteren namen ze de verbanden weg aan donor zijde. Het ziet er heel goed uit. Drie keer per dag smeren we er een voedend zalfje aan.&nbsp;</div><div><br></div><div>De horizon heeft nog steeds last van de bosbranden in Australië. We gaan toch proberen te wandelen vandaag. Gisteren was het veel te heet ( 28 graden ).&nbsp;</div><div><br></div><div>De👨‍⚕️besloten niet langs te komen en lieten een berichtje na. Ze willen doorgaan met de dressings en soakings en komen morgen piepen om te bepalen of er nog een operatie moet plaatsvinden.</div><div><br></div><div>Aan de donorzijde haalt de nurse veel velletjes weg en smeert er een beter zalfje aan met collageen. Dat helpt sneller bij het herstellen van de 'schaafwonde'.</div><div><br></div><div>We trekken de stad in en scoren een ijsje bij ben &amp; jerry’s.&nbsp;</div><div>Even powernappen en gele curry bestellen. Heerlijk.&nbsp;</div><div>Jonas gaat naar het hostel proberen douchen. Dat lukt! Bij het terug binnenkomen ( na 20u ) is het verplicht je bezoek aan te geven aan security aan de inkom. Gelukkig mocht hij weer binnen. &nbsp;</div><div><br></div><div>Om 04u komt jess vertellen dat Lynn NIL by mouth is. Dat wil zeggen dat ze niets meer mag drinken en eten vanaf 06uur. Het is mogelijk dat ze naar de operatie gaat morgenvroeg.&nbsp;</div>",
       "id": 14,
       "votes": {
         "💙": [
           "05099655373610271035789953736084641224",
-          "05081053015373640790394593537362450019113064036024"
+          "05081053015373640790394593537362450019113064036024",
+          "050133605115790394573151486041081237532",
+          "050810530530325373610271035789953736064036024",
+          "4501006464537367903945885373631080192024"
+        ],
+        "😆": [],
+        "👍": [
+          "05010157102010010171001200192024",
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zNzloN2RkZmc5emRkMWp5bjIwMjAwMTAyMDI0NzI1In0/17b1660d1d2fd10a5821762dfe3c94f1d05b7b13f7a037314fde1b65a9aad162",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zamtqZ3ppZDNzMXRoYjl6dzIwMjAwMTAyMDI0NzI1In0/1d972577e3a250c97008aefaab94c2b7e82d065a925931fecb92d710974e5623",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zcnU2NGJ4Y2dycnRkbTVidjIwMjAwMTAyMDgzNzAzIn0/373c837b62fe1c9b44b67048659ae7b8ad2a86eefc30b9675f5833feb24b49ea",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zZW4wN3dkbmM2ZzN5Nm1nZDIwMjAwMTAyMDgzNzAzIn0/d2e9af7898bdb16815413b45ad043a1097a31432b0ff3a7bbcc997d3a3cb085a",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zajdrbDl1ZjMzamJtaXRhcjIwMjAwMTAyMTg1OTMzIn0/d03062ee3278008fbeda49ccdf84fc4fa90c321d1f67ea8712bab2d4dba7d463"
+      ]
+    },
+    {
+      "title": "Nieuws?",
+      "date": "03/01/2020",
+      "body": "08u: We wachten op de dokters om te kijken of er een operatie doorgaat. Er vond wat miscommunicatie plaats. Er stond geen operatie gepland deze week. Als er nog een zal plaatsvinden is het volgende week. &nbsp;&nbsp;<div><div><br></div><div>08:30u: Davidson neemt een kijkje en &nbsp;laat het nog rusten. Goed blijven eten en oefenen met de krukken is de boodschap. We hoopten op ander nieuws. Geduld hebben wordt op de proef gesteld.&nbsp;</div></div><div>Sara geeft het een intense schoonmaakbeurt. Eerst Dode huid verwijderen met een pincet en een klein wasje met een speciale 🧽. Vervolgens smeert ze een speciale zalf op de stukken waar mogelijks nieuwe huid moet komen ( idealiter geneest de huid op zichzelf ). Als laatste dompelt het been zich in azijnwindels en rust het onder zachte windels weer in de splint.&nbsp;</div><div><br></div><div>Het verloopt stilaan in goede richting met ups en downs.&nbsp;</div><div><br></div><div>Lekker opfrissen tegen 10u.&nbsp;</div><div><br></div><div>Jonas gaat douchen en andere kleding halen in het hostel.&nbsp;</div><div>We bestellen een gigantische 🍕.&nbsp;</div><div>Lynn probeert een stukje te stappen met krukken en dat verloopt super vlot. Beter dan de eerste keer. Ze mag zelfstandig naar de wc hoppen met het rekje en door de gang hinken met de krukken met jonas erbij.&nbsp;</div>",
+      "id": 15,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024",
+          "050133605115790394573151486041081237532",
+          "050133605115151489113325066737532"
+        ],
+        "😆": [
+          "05010015373679039459353736085641224"
+        ],
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zZHdpNmRwb3F5N3k4aTVybDIwMjAwMTAyMTkzMTE1In0/81b92b4c4ab7eb61dfd4fac2ad5bcd1cca8a4ff36de7c2841a9f6d624b86bc23",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zdTN2eTFvaHl0cXF2dGE4bDIwMjAwMTAyMTkzMTE1In0/af5f2cfd5e8485b014526f368c830d1dca3c5651fc8c735c674d89780ed1196c",
+        "https://api.wetransfermobile.com/v1/previews/sjfot0bbypzhv68w520191229232656/s2ibb7cwccsl3g21y20200102201732",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zN2FybXBvNzV4ejh2MWdmdDIwMjAwMTAzMDczMDQ4In0/0a58def07bfcdd2741a14109a0ec99856ffb51d585c6862b022188676277decd",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zZjR3N3UzZDlpMzdubmUzZTIwMjAwMTAzMDczMDQ4In0/c8a3e9fd153a525bed18c8b969a5345f274c201a9655665d225e05da05526701",
+        "https://vrl-eu-cdn.wetransfer.net/ivise/eyJwaXBlbGluZSI6W1sic3JnYiIse31dLFsiYXV0b19vcmllbnQiLHt9XSxbImdlb20iLHsiZ2VvbWV0cnlfc3RyaW5nIjoiMjA0OHgyMDQ4In1dLFsiZm9yY2VfanBnX291dCIseyJxdWFsaXR5Ijo4NX1dLFsic2hhcnBlbiIseyJyYWRpdXMiOjAuNzUsInNpZ21hIjowLjV9XV0sInNyY191cmwiOiJzMzovL3dldHJhbnNmZXItZXUtcHJvZC1zcGFjZXNoaXAvc2pmb3QwYmJ5cHpodjY4dzUyMDE5MTIyOTIzMjY1Ni9zdWdidzI5MWFyYTNzcGY5NjIwMjAwMTAzMDczMDQ4In0/f7763b05e2d36f1df3985d264324e02aa727d80a2f48ee9554274ac9ea4e6ce6"
+      ]
+    },
+    {
+      "title": "Oefenen bij goed nieuws",
+      "date": "04/01/2020",
+      "body": "06u: stiekem zenuwachtig wakker worden. Tijd voor de verlossing van De Katheter. Het laat even op zich wachten, normaal gezien verlaat ie stipt het lichaam. Hij had moeite met afscheid nemen &nbsp;Tegen 06:45u is het zover.&nbsp;<div>Een kwartiertje later neemt Lynn de proef op de som. Zou het zelfstandig lukken? Binnen no time hinkt ze de kamer weer binnen en na een scan van de blaas is het zeker. Volledig leeg! 🎉</div><div>Nieuw-zee het land met de beste blaasspieren trainingen 💪🏼.</div><div><br></div><div>Dokters komen langs. Het is afwachten hoe de wondes gaan genezen. Over het weekend is het status quo. Maandag gaan ze beslissen of er nog een operatie zal plaatsvinden. Ze houden graag alle opties open.&nbsp;</div><div><br></div><div>Opgeklaarde hemel. Het eerste Australisch rookgordijn is gepasseerd. Hopelijk krijgen ze de bosbranden snel onder controle en staat de wind minder richting Nieuw-zeeland. 🤞Veel moed aan de (vrijwillige) brandweerlui in Australië.&nbsp;</div>\n\nLekker wassen in de grote douche met voldoende ademruimte. Tijd voor crackers en een dutje.\n\n17:15u er is een patiënt toegekomen dat nood heeft aan een eenpersoonskamer. Het zat er ooit aan te komen en Lynn is de sterkste momenteel van alle bezette kamers. We gaan naar kamernummer 8 bij twee oudere dames. Dit betekent minder luxe voor ons. Jonas zal vanaf nu moeten slapen in het hostel. \nWél mag hij iets vroeger en later aanwezig zijn dan de bezoekersuren.  \nHet is een drukke periode in Christchurch, de hostel zijn volboekt. Eens proberen bij Airbnb. \n\nJonas slaapt vannacht in de lounge van ward20. Morgen zou het mogelijk moeten zijn een hostel te boeken voor de komende nachten. ",
+      "id": 16,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489113325066737532"
+        ],
+        "😆": [],
+        "👍": [
+          "050709305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024",
+          "0508003305373610271035789953736064036024",
+          "05010015373679039459353736085641224"
+        ]
+      },
+      "srcs": [
+        "https://lh3.googleusercontent.com/BZ0kch7aoTF7OIPM_PrGhBrLNzZzotWPWVZBCAtvYGVfW_UGpeeOxZrPJLAIUvUWL2xTZuiV4JQrx_DtSEFdXn57ohZNbfbgvKwLtHjPw8bGkxFov9JT0lDSiBPyMojZ4DYuMIZNpS9mKGBt3gjHK7ArA813h-k1ckZsbhFW38FTSyfhv0xo8-6839vHdepjTMnJm2HuO4VXUGlfBQFulYZCEM5BdplV9xQgsKCn4g6gI6JTKYIlAEhgvVHJd7hDqu-3QlIitAwFVg83GLe-EkDe2cmebli7WTR7e7cMX0Hp2eRpz8mzVfRvZ4t6YpUzxRkkcOIySCxFvEjp-n1xx7SWepAL1Uydy8otYQFKF_rDFNeAOVbKISJCqQ56XuRICCZNnuFNIcN1ANB4LbFhtXFw2nUuWaj02C7pcujhCTK_dbD1OtqPj4AKkORwoVrvMza6Z6z6Bo3gQFHcgprNSw6fDLrEbMKItRmq6NIMENZZq00T-y8qE1EW8Jr2gsL79TmWD0uuGs7wsKHNZJoYOmyMmEkoAk3-DfsTxxeSaSR2o_07Yv9cnpavVTCtmlmlYpk3TG_S5bQr33wEmAov_3RHEqwnIptDjzhfESB7hSHDlo7JOwHXnnNyVRXqv5g5LeakYzQ-V004MtE6eswliDENFJMTCe-V5H9A4Hfg4o1-Q5_a-czFcgurOynh120JicOJwk1aEqgmiW5XF9btLFshvcPtW43M7GrX4am6kZWF76oE=w1125-h846-no",
+        "https://lh3.googleusercontent.com/B6sHJ_U-DLzUFNhbwGWI1-g6V95I-a9V29OisOFzG8gjjPXaXVYkJ3et-InjtqLoG2a1uQVzxCU3QBwOpO2J3sumpiH7JgKRFJjYXhWFDa7mXqMl1xcmugbEAdysx5VyeGgzYnpFPZYkLlPicMnkoR9Jbf9b2Tu3lUDWM0oivBzQFpzo8h_Q63ISfsOQG5yVz3Lp9WP7GWNe1gt7dQDnQOKXvqLe63ADPw_EynbdY-Akb1uDAcX-f7ATY5lLanjvTmhjT1xiSoWTCq2VwCRuzvx36KCfJCeB2kKpa_lvMawbDetsfov9SRYKspms6f6SYmDdllk0uio2wJor5h1Od8TU0zaT2GN63_Jt9_jkZBJ8s9kR4TWz_OZpyZBdFzvi8PNs6V5EiRse9P5HnGHrgGwL_v1UOVfzdcD8LCr3V9beZ98scS_hwnUBKZv5sYbsT8TXrgud9R6xCH6C59ki7wgN5eEa7HO-sda14Dlz56UatMjhRrXgsmNqUUYe_nnHql7cWZXbcJiBf_kfMAb3Z0f50bHshCQXKL4f80Aic9_6TB17XWHaRQoLUjXgs1ZVLwT8kOeNMbYkAGd59OtA6jf_JBrD4fbdWkOx3hkWZZtPmwns1atAbw9TJnQREm9Qi1dWCUE7HCErJHIsLlq1zUe0rJ9Lhoo1VXSex80gQKSa7aqi3hxLJ24=w1125-h846-no"
+      ]
+    },
+    {
+      "title": "Eilandjes",
+      "date": "05/01/2020",
+      "body": "06u ‘s morgens, tijd om op te staan uit de lounge. De verpleging gebruikt de ruimte als kennisoverdracht tijdens een shift wissel en meetings. Jonas kruipt in de stoel naast Lynn.&nbsp;<div><br></div><div>De dokters komen langs. De wonde droogt weer een stuk verder uit vertelde ze. Dat is goed nieuws!</div><div>Er vormen kleine eilandjes van genezen huid. De meest gunstige uitkomst is dat deze verder met elkaar verbinden zodat er geen extra huidtransplantatie hoeft plaats te vinden. Davidson zal hier over beslissen morgen.&nbsp;</div><div>Indien hij het nodig vindt te opereren, volgt er weer 5 dagen platte rust vertelde de dokter daarnet.&nbsp;</div><div><br></div><div>Voorlopig verder rusten en wachten in de gemeenschappelijke kamer vandaag. &nbsp;</div>\n\nHostel geboekt voor 4 nachten. Leonore ligt in het ziekenhuis met een breuk aan de linkerarm. Super vriendelijke dame. Ze ontvangt bezoek van Ian en Stephanie. Stephanie werkte in de thuisverzorging. Ze komen hoe het gaat met haar. Na wat geklets zijn ze zo vriendelijk om een appartement aan te bieden ter overnachting, gratis. Ongelofelijk. 40min busrit. Graag zou Jonas zo dicht mogelijk bij het ziekenhuis overnachten..\nWe wachten het nieuws van morgen af.  ",
+      "id": 17,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024",
+          "05010015373679039459353736085641224",
+          "050133605115151489113325066737532"
+        ],
+        "😆": [],
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024"
+        ]
+      },
+      "srcs": []
+    },
+    {
+      "title": "Moonboot",
+      "date": "06/01/2020",
+      "body": "Tegen 07:00u komt de kamer tot leven. De verpleging stormt binnen gelijk met het ontbijt. De dokters vertellen dat de onderkant al super goed geneest. De bovenkant heeft nog wat tijd nodig. Gelukkig geen operatie vandaag.<div>Als de verzekering business class voorziet, kunnen we deze week terug vliegen zegt Andrew. Anders ten vroegste volgende week.&nbsp;</div><div>Goed nieuws dus.</div><div>Vandaag krijgt Lynn een moonboot en mag ze proberen te steunen op de linkerbeen.&nbsp;</div>",
+      "id": 18,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024"
+        ],
+        "😆": [],
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "050810530530325373610271035789953736064036024",
+          "050953011806100115373640790394593537362450019113074036024",
+          "05010015373679039459353736085641224",
+          "45010136537367903945885373631440256024",
+          "05094055373610271035789953736078036024",
+          "0509501011807160015373640790394593537362450019113082341224",
+          "0501326051151303151486041066737532",
+          "0501336051151304151486041081237532"
+        ]
+      },
+      "srcs": []
+    },
+    {
+      "title": "",
+      "date": "Deel1 06/01/2020",
+      "body": "De dokter komen kijken. Het geneest steeds beter. Een halfuurtje later kijkt ook Andrew en er hoeft geen operatie plaats te vinden vandaag. &nbsp;",
+      "id": 19,
+      "votes": {
+        "💙": [],
+        "😆": [],
+        "👍": [
+          "05010015373679039459353736085641224"
+        ]
+      },
+      "srcs": []
+    },
+    {
+      "title": "",
+      "date": "06/01/2020",
+      "body": "Goed nieuws van de dokters. Het geneest steeds sneller. Andrew bevestigt dat er geen operatie nodig is. Dag tot dag kijken ze het na.&nbsp;<div><br></div><div>Ze bestellen een moonboot zodat Lynn kan beginnen steunen op het linkerbeen.&nbsp;</div>\n\nJonas gaan winkelen bij de Countdown. Lynn heeft zin in zoute snacks. \nWe zetten een stapje in de wereld met een geüpgraded 🦽. Toevallig parkeren we bij de shuttle busstop van het ziekenhuis. We ontmoeten Frank, de chauffeur, die ons morgen een ritje aanbiedt in de stad. Zo kunnen we Christchurch toch nog ontdekken?\n\nHet kaartje van tante Ankie is aangekomen!!\n\nWe bestellen gele curry 😋 \nJonas gaat slapen tegen 19u, afgelopen drie nachten waren heel kort. ",
+      "id": 20,
+      "votes": {
+        "💙": [],
+        "😆": [],
+        "👍": [
+          "0508003305373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://lh3.googleusercontent.com/0QArQe6TUvpsbiEpOX8FW20Q-gbGs_HD01RtUu7X7eXeamVlafo0iGEsHPxrpOZ45224cGVJlRjw3j9deiwg_-DrJ4X81CaFSibP-xKSP1sl09PotwM6EqwR-Gfv78MN5CTbGIrrHeNRlJJ4kpb4yG1PS7acqsZrPN0OC9gaQX5yyGIMKupO2CoKAqbOjeSi7f1dpspOaIY-8do19rMXLIrf32YZGgExPF4gAUNnYyi0QWZj0CjSqn0u2_MAFi4Plsfd7WhqliULtFbWAq22RbpyKK82PKrjq-FSkJB01JSyC-QOn3ebE1htRZR5di75IWg89-ReFzNTHcKBD3DNjDzT6U_PIjew0eSGBLAjjPZF4T_7ST8MG8XhKEDB6az0YV_P0bpS4lpMbfIgMwaAnWpWrjafRv7wANLjm-lp9c0Z5rzquIZsCIm0L810ZfTeGhKgiWL5EsqVPG5RBh7OAK_97pgABxjcB3FZlsKUlKjzxraiRvODo6QQ2LcX4NbrUig6uYnjwwnt2MQz5OvhT_qcIPXv6EuZXuHiv_CgoLOAr_l7cHEMmsvbnzUA2dU01gsskth8iIZmPxxtxaYr07Y8zHT4whmqM23fIHO2VmeGLFUADT_ROLmw6qv2A9xwa6OPxXxWGrUY6t1J43k9gxNIXzUBTf_puu3Rm2UeRTO0ntyuofg3ZHngceYDoZtTB1KfZDaRgNVp-ZHbCJ3F-LigAjiKnyiwmaZxuoNXo05yo9a4=w1764-h1324-no",
+        "https://lh3.googleusercontent.com/GZrgZVgrSAfqVjQr4pdyb1NL7qptHBg1UeKJ2w4GpsnswZxt92dTIat_HKEwy1yKMeWiBcHhxbAtfTPvWiAdaM2J_4hJkBWu-QHHzDcQlSGE99xV_DdAIxhLc5omLT4vTf2ZpYXSCBlYHLacKK5awpoWvxw6WRes9h5NYpCa97tQncyz_1yNngLveHnmUGBE1pjTt6QaE6LlgLkDzEElodBAP9G1tNaVWzK_tpCioTxqlzIPTTnmbm-Ir_k1M84glcMTSTUBYNH6R3dtjcqX6GPmDhH8zhDkI7K_qdybnbwkXKuRtG52JfBGGLFl9fFf6ehuvEgP91TchVY_U3YfnDskEZevU--BkrXDEhyjxuBpqFeGsVPO_rbj-1a46HJ3XfZKn06euNFiwTGBRoMF1yPUaxowPWJoGd6KPeJHa5eh0z0DOEsZNzqsEUHNyc2oCo5BwQSgVTi-df0HggSc3mMIOUj90PKrPbC9LTTBJyYUhsfhv0K7eIV17AGHtLUPBjSxJU6fNbGglHyo3l2RKwbLJmYg4uynonacGqiaG0EwEyEJq3mJXZMk1SZTi2dz1rOmg12AW7Prl1AEfLCHYztF8d6p1u-EMVVnbX75q5IURFBra9ib-TrtVwtubQzGQmAyMRy5taLRgx2Nkubo-E-nd1Zr6Y8ROkUH4CORQOo5gFS0Lj9OdCAWZ9FFvnPDv4Sb4W1eJ2m0gXNN_2Pj8QP3E5wc93eUTJ_dvh_iBJIJCl2H=w1726-h2300-no",
+        "https://lh3.googleusercontent.com/zoGagG-SMALTylUQaNfRuRg9BFCD87SYmQMAj895jcADpXp-_M9YX9j6W5-WPQGOgH4hfNzFuLAa6uW9yFSupSpocbrz_D182GrSl0i4_5WL67_RQf7EPXqvZB_5cSeFxwFJNvhvDsogDIhQBVF_Tui2b7wD4_6Iz3vMN97usp4hk438g1krhwhoyG5uJtE9dqCg4Zb7PuGVM9oasGa-V7mWlQs-EbJY5jjmjkF3D_yZEZmcabbWEj-lwH9HQ1vHng6-AOceKKTzxWi_fZgpL7gupZP5TFOpTqpsfI5aVhAh3ZDUPe0KxigXBDcEqcC345kwS_wY2heWPVYK4Skkj_CYURiW9ygzBm4TZcyQFWBYFsdJSQeCpUPF-Nrz-VbMzpRMQY4H5BdOcGedUYgQ0vFCKxBY5yT4imu9SoOSHkX7aLlnU2KtLpSjlg2Tmh47v8VLprLws_yzsuPXTVytJFVSbOyTbFrY7ZC31afeXVf_2wiNDKV0K_OKnO5KQq-eNtaeWK1999bC4UgBveWXVriQ_SODBRwiih5_pgl9UWnPS_OHoxDvc7_LgwH1ENo2xm28rJvtvld-VZTPidus7OBEnRLTp-d9gXg3YhppqloynZBSkdUdnAtjHMzNLeSAhkcWW1ocEdR17cSwmDWk4HvyxxvMq58QJQcRr40ElPTbx8pabihQ-tcItUmyNAo5WJ8wdqqopNk-YDlXokAXuyRkcH5-vb1gIo3FknOxw9cI7Ls=w960-h1281-no",
+        "https://lh3.googleusercontent.com/t3LXP-fD6bQoYVlOGPSLk1KTysYCnR8tEaLyWqpoNQaFz5_z5G38bpZ8HAsyCO-XaJeXYqqVRAjqOt0eReqaHyU4DTVzsW-JHOVLBspLIBEHP-lmYNOhH5FOlguZeQ1Vjf1Q9NF1niOdBjiDExiEaNk8BQIERbQiui27dq337RIUAPKpF-aBfbi7Qz4nHbQcuuZNauma5b23MSqpHv12FLa4DPByJ2G-M0ST1QYcVqdvHXpkQWjnazk_PvRRqcNEtFh8-oyjyNIKuU48oji0oaRE_1kiHv9F9LaVYNFM-3_hLAmvWOYCtuslMZUT5d2md3V3zvEdS0MpYWEqsYggGz9esf3_3cOz8iNxXlGGKGKG_QLu-mfYdgAlWRTtvDIfKmohNyTrWqhXdyaiJfYUQ-uBujRkhl3ocOIRbnJ3rJTUz77UC0twYkKEC42HFdLI7jL0ROhquTCzDp8juoEoEVKAwpwcQI1P85hwUkaf-X0KZNnPyGoixtBPCkFOUnMWj73iU80c1pU-JvsmnowVJ9nvYzA-nbdFBjBKQQNDYlKXLo6Jd_V5zARAV4uWkYqdI4fnoVvM-cGQ8ubPMYPuSAooBS4wO_DGJZ91pz21TBN5wvyTK1DoOuEXhT7Yh8M-YmuY4e_H9acyBc2hQ7lsg9FlpJNLHK78dPszqoMBx6v2lN2ic8hkTHJPAzVVCaLjqXi_FABreugeoEjnzhZykYj-Xe5Y2z2KVOBXQZTYn3Vd3uM=w960-h720-no",
+        "https://lh3.googleusercontent.com/bV5-s0XBoE7tzqKdlKzR4RuDwhG0bqpZddr8PniDIoAomMnd3a1pIyUVQSSgzwyIxHaOZ1RCIvz8wjuktJasiNUrElPt3Jm_wzbeR-s_eTnI1dyBlOPHjHN190oWYTXkAGT2zTV5NvOPZ33IHC0lycvPr0T2vFtPDUJ7RxDe3hJLZo5tZqC_Ho7sM8VpM0uVwcg9XSqDDlVK_0OHlfCxafLfARB-MEsmeR7thAqxkZWH9VsK1eWnYqDId_AIUKb1Ll5T-rEmMJfVr3woQpnB6FxCkDjTRq6eQkbyCn6fO9FjzuZDoQ-oKiBywXttEuxZBHJmz4ybwDp4bzIY0T5gz_yWT38derpAn2GReMMBzmGBGQ7d8chcoGb-9jPGrqyENc2o42M9A_KLaFEfHR7esQaMMN44ffnVYQYPuzVySfI5mcnlMsrdeNL8EIDY8Syni7Bfl2GpYPphCfdCp-EARkXkSrGJgN8V9l1s3bbKJyvqABRBEZti-5gZKKhdqWmutU-FKqwcjueoL8nOTchJ1wXzs4s5BTPi6pn2giKkDAbMJaIwIhVO-pbnH5cMlyEQNqRVhoO2wU1WVsyBks0XwoiZCxH-EHWlUiWB1aqlFwyjP0D8bZBmCV6Idu6tF5SQTt51bQkRPK6964R5hKLNq2_a0YEJy1xf2JAd86Qjy0RBw3v_ZShGmM6cNbhX8lyYrb8R_4L2qi2ZD5OXVuM4Rmr2Ykt-xWznd50hS738ILZFa9r8=w1764-h1324-no"
+      ]
+    },
+    {
+      "title": "Moonboot en vlucht ",
+      "date": "07/01/2020",
+      "body": "We krijgen te horen dat Lynn waarschijnlijk vrijdag het ziekenhuis mag verlaten 🎉 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉&nbsp;🎉 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉&nbsp;🎉 🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉<div>Aidan neemt verder contact op met de verzekering om een aanbeveling en minimum vereisten te delen. Business class en een extra persoon is een must!&nbsp;</div><div><br></div><div>De moonboot arriveert en het been wordt klaargemaakt om te vertoeven in het botje.&nbsp;</div>\nDe eerste wandeling met de 🥾 verloopt een beetje moeizaam en met krukken. Gelukkig gaat de tweede poging bijna vanzelf, omdat Lynn dit keer een frame/looprekje gebruikt. De roltechniek in combinatie met kniebuigingen helpt een pak bij het stappen. \n\nKaartje van familie Leenmans is toegekomen! \nOok nog een extra cadeautje 👀 \n\nRond 16u gaan we naar buiten en proberen Frank de shuttlebus chauffeur te ontmoeten. Zijn shift is reeds afgelopen. Hij rijdt pas weer op vrijdagochtend. \nNo worries. \nWe stappen verder ( met de rolstoel ) richting het ijsjeskraam. Succesvol deze keer! Njammie. \n\nWe bestellen iets te laat het lekkere pizza met chicken nuggets. Mm. ",
+      "id": 21,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024",
+          "050133605115151489313325066737532",
+          "45010136537367903945885373631440256024",
+          "0501336051151304151486041081237532",
+          "0501336051151304151486041089641432",
+          "050133605115151489113325066737532"
+        ],
+        "😆": [
+          "0508003305373610271035789953736064036024"
+        ],
+        "👍": [
+          "050953011806100115373640790394593537362450019113074036024",
+          "050810530530325373610271035789953736064036024",
+          "0508003305373610271035789953736064036024",
+          "05094055373610271035789953736078036024",
+          "050709305373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://lh3.googleusercontent.com/saq7Y4gukPlQ9JJSx6ochMazHyqxIiZeNJE624L96Vxm0VkgKO01CSxmw3AoaZOkPCVSqN6YgW0M4uvUKKLHrrhyId6sTyOuyG21ifndcd-PcIhV1IRrEJ8GDJMsZhXrWauhVWBAmQfofv_8E8NfWa2yuS8bhk8qwD0ItBLW5J-p1ElaGNKEv6VpCs55lvESdU67-kMbYSOgCPPpfpKhm4unyB_oAEoi_D07u-eLdvvmAiMBMAPaN15Xt-06U-xBluWvwWQZmpPD0pIC_txRHbNY7EuJ3xXwmwHSzGjKDUarbUbsY5LGOhQFnYH3cbg-zVdWehe7We-9LnhDILOpOgbxTnMfL0zqd_qonNkfxn2Sxr92-Mc5S4FtC8vJU_BGGO8vmtSYJCR_mG85SopwBtKAwjT-OOV1_d3Eg_Pu91QvfzcQO732aSC8Nc_ELgQHBDr2NCkXbX8bKkmH3tO8IZcELa0xWjWGNUVQpqUO1YwXFUmpXOnie65KML182GHb24NZOQzfXsLukjDwRvOT-7YnOo7R5Z0pzQBfHqvuHh8O1vKN4pnjr4We71UdMMHeM3tCGM4vFZGl-GR98KCZCSFmW5_iuhqx7JuccXoO7VLv0Sx32mWst0IIHlfLUrsW5i_J7pTCmDLwXkXvTVIS_LDpUxIQvwsbyQzfVSIOZrbqP4deZv149pMgYcjEcSWsXb5Izi-XvxCXdFMCXaElXrwOPQZPt3OpBB7C1eIWKxOgfns=w960-h720-no",
+        "https://lh3.googleusercontent.com/atNxAkB89gYEGWzuzI2EFch3m_38Rc7FXzIaWxLiMZWAojZku51xDNoRcPhfk8boiUSeMGZeFk0BcUe4yYC8iIt8Y2Hc-1nLh7H-yiYxb7jyPhfuOlkcs4-cFQ1xEoeErdJq80Q3lvceeqD8vVhA1Q0Am4toD3CzBVJVLSw09L7u6HHqaTpN5sgLvUASYwyVCstIVKUNHLl7pWouNiFrxq1rtZT20J_ozgNDbgw794BcZEJkokQnfC0IQtEfp5trPct7Iey88is5SRS3fSIpfmq0RU0_ZaPoZmEMdF-M72X3DfIjjwO_OyCYtsPdvSolZl_t-G5B09_u4KYYLU5FFrelEM2oat8zwFtkiykgKrlEBcUU2fc1xla-Nv3ukUsWPcV5eTebklxRfNjh2DtHaMOMLHAIM3VG49gILKKv5K-bWKB1eSPBN-YeOwkSWZz7LNBTkykl0MoBy5RKfvfPToj1-ZZK2EB_Zb7gcDz5B25Ppl-HFhJ9vE-heGBGwAXY6vLnMtv6CXBUgii1kwuKLQ8EgzhfNbUjf2v2Z0mFO8sAtWlvl9o-atmuVtr95reHTpDK6g19PjV5nUVCQFXkhoq0ML6joNSNKxiad9QcWoNCAV_JCK-EGdRuFA9XI_i9usLDsgIliX-TQ2XOcOSs57tExqIMyZofXga_AV-qCjVnCdP5d7woi5AxmB56HRy206vWqgTjTosYqH8a_s11cK_7koVc2vuqVA9A93oi5kg02JM=w960-h1281-no",
+        "https://lh3.googleusercontent.com/SEREXvkhyAXScaUmwBbqxTYn7HJ_Gfeac_fq4qxAMrSxqAWjxGqTfAMXMD-fMxuyAYiveSRGhXQrfFtPkD-Y5Uj5VP0G-9ikMAGSb-E_80jjUb03gDiZM3EdyCDq0pCPhGWB0ljfIqgaY5uhQ1yaM-K3FUN4007NoYxW95zIfHJXyV7kmWhuPPefDA80f3H89Znf9EQ2t63Lj9tthqe0r24PcutpqYRtSlxgTzv-AaZ1SzGdcpESNxNHDWyqD1lYM2savCBtaDgX0ayjrHgvvEyCZG8ncdyxnHk7MLj4Of5VgujtmKh-uXUTgQkzaN6dmj_rk8RhhycQXR2zMzAnRF-rLW7SDmClJrqZpWOr7YrSQpyEupaeVldG4uOtFpg7HI2wFXUtQAIhircdufLpet8WXseo9rByUl4H5plIMiK_nHVBWCBoXF4O_MONEfHTwTgFzyFKGNjoF3IkJWpX05k73Wf_BVQ9ifUNJEUBnNxzU170Qtpaa7bSbk6q30EVu6EPj4O2ZW2rqWu-GlbDTSDYRMBFlkEooZ9Tb37dhRuMLfOMaIfyJ6nHoPg_ukOvvJZDLrfEUj6kL-8YFNmDbSZK9Tjf1Jb26smFWtzFz5HRO8n9BHn3nUXzlq89WheAg4Z1EYu5XQMFmM87Z8W4V2GYODdy0OnFkTFOMIPsjbdyoLsOyv7WQMQYB9LsW-XvAUIne0MBIhzvrsPqUluhRLlqbjjRZR5w3kBui5V2hCjy5aA=w960-h723-no",
+        "https://lh3.googleusercontent.com/3gXprICSdUpkc07YXLWYYMIlRVIzNReNT-K61ajDO5Ykp7gdVumIaoiy-jwHqLZ6mgHMhoMyzVlXKRZkZlqcVvFGKMti1D4wokd9jjp4HC5EyRVsMZfUN9BAyMBsTanHm6Sueyqnc0RhktYJTxBMXS-ZwKYWdXkL8b5BORV2cmPiOYIQ46mv5KA8FH33iNUraKq297xRsS04Dj60unF6BEcajbPhetJn0A8rnnGc5x3kyIA117apv_vOgRWLCefVTORg5QBB0wR12zSQYlJ1LRmHulp0N7HYjgXs1vlo9Vk0PZ646cisKiujQhH7neCxNTcb7aaElIsb26TmV8Qfhk2yPnuo8QKDscGQLDI7lgamS2Qa1q_4Oc6TEAkkeljflKNE7mTFA5VN5OafxztQ0Idx-oVcwLRpvXRRUlhpnwLQfc-e7h5C9IeS0LoRgqbCTZvJRyBfSZYk2CixpzpZVa8MOS7AYYd4cPDaw3udiZBWqw-7sU49u3dyzx1t-b5j6yjMW_rEW2-SNxzdm4rROGbSbuK7-XqMgkgVcSVtzX4v1mtXHhMf6OljzFwXPtj0zX9uHYQ-4sJWomtHWyuV1v-1mRizcqgtxKrdiIEm9AWu5KrB5-W_aMxOkj0IqL4XWUlFxUmqPUEAn3e1swipPa9xpdMSNocSfB7CEt3NuxHLE46twObck8kHkTiQ63Z4Ifs24r2yo7QEd6gO-L35Rz-D1i65ttv29rD5czkeIOmGam8=w960-h723-no",
+        "https://lh3.googleusercontent.com/OuiFQYsLBYdSTsWTGMYH8cdgzyBdjwwyvDULR6a74V3gEmleb5rW7PI2Rv_-YWdlhBangGI0bNgl7d_is_ypWKY64R13uS1-fkvphOg5uu5J6eqLxWzrq_uQsX9kygOEncPkiNSjC9sKr3hb6JbrwUEraBMuElSI5SfTG09wFSeojiqUt8_gWMaWGwfMNjy64mE_p52gD9Z_fbL7uE_AERxd2TLd3R5lj72euYPEcJFKx4EiPjMQKvRLVjh5xF4T1XCY7HQmd1vTpWdxy7gsWULaSiGet2ViGfo5spva0mGqQx-ANX1LNK0J-MKxZRiZpt3eASvfPVTijv28voAv7oYUoQa8VUNUqBVfAliIYXR3urnlRFEztKhOcId00wFr1lbcpio3WLXQ_FTwn_3-zkEg32s5WFsq61IQiEi_vGcnJGvpdr8UmEs_gHRug5btDr-SwIXGdSmh2yUe4j3-4JSx6LP79pbUTa557gSBjxeB0Azc2Tav8rOBA1YezxV7nKRZ2On8klvnB1ov1Kf-LqPWTbTIOIfjtio6757T7t3Tlyl6cwSXnks11rPMb-U-xjmiJsiqFPxY498_jtOwwrlYczYU4QDmyTF49PJ5hOp52sCFlLVQ7sJzRpyMwsl0bygxVhiARZ2Y4czLVYjB7xKnCh8TySm1m2vYZmyAwbahx-AEWytnXOQ=w1125-h1500-no"
+      ]
+    },
+    {
+      "title": "Wachten op een vlucht",
+      "date": "08/01/2020",
+      "body": "07:50u: Het is wachten op groen licht van de verzekering. Geven ze toestemming op businessclass, dan kunnen uit bed springen en vertrekken vertelt de cutie 👩‍⚕️ De moonboot heeft het zweet na het dragen van een langere periode. Dat is geen probleem. Ook hoeft deze niet aan te blijven in bed.\n\nAidan verteld ons dat er verzekering akkoord gaat met twee business class zitplaatsen! 🎊 \nAls Davidson toestemming geeft, kunnen we vertrekken!\nMogelijks vliegen we vrijdagmiddag naar Brussel of Amsterdam. \n\nWat een verbeteringen bij het stappen met de moonboot.   \n\nWe maken een wandeling naar de winkelstraat en nemen een kijkje bij de h&m. Vervolgens verwennen we de buikjes met een lekkere 🍔 bij Burger Fuel. We voelen ons weer meer mens ipv ziekenhuispatiëntje  \n\nLynn is vanaf nu weer bereikbaar op haar eigen nieuwe telefoon. Waarschijnlijk duurt het een tijdje voor je reactie krijgt, aangezien veel energie gaat naar herstellen en leren lopen. ",
+      "id": 22,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024",
+          "050953011806100115373640790394593537362450019113074036024",
+          "0501336051151304151486041089641432",
+          "05091315373640790394593537362450019113072036024"
+        ],
+        "😆": [],
+        "👍": [
+          "0508003305373610271035789953736064036024",
+          "05094055373610271035789953736078036024",
+          "050810530530325373610271035789953736064036024",
+          "050953011806100115373640790394593537362450019113074036024",
+          "05081015373679039459353736076036024",
+          "0501336051151304151486041081237532",
+          "050709305373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://lh3.googleusercontent.com/GjN2M9LqDtiiUbIt3EgRpKbY6ujwVS2zw3aOnpeWwooea2PYOSp85ztouKrJTpgPFk2JFZB4rlcoAqfnpA86Sz0inwSWHv900H6xG0-r9DgHOiCyKzrBEunbNq9im8llBfHWx1JA7-um3BlEvB1pSOrym7uxPa7h2A8bhj9QvhI66tpHzqc1u1tsRNtZo-ElwRP-0BXF_6t2z0EddUvDoMgAIZzS0nRcxk-UgKM-DeXMZRcKPgsfjllhsSmbyEHQYKJaVudCoJGZax3eB2JbYDdhh4EH2Tv48RP-fgJl6xHpJI-8VT3xUxK4DIViE28N5w2Je8DJXn2YPF0XpDtKQpo79HryS-ZUYMYjyBCXFCjsoXu73y1QadUmwJOZu2OVwVXjPz5ZtbtMsYdlz8_P1d79dZ4Ac_0cCaJbKVRDrlewXR-L0AyPC5xlnwJ5JZMVDMY7egtOxniAvPeS2XvSGzWY6UInutKQI1CNi3La-q3wsmgTYfcI6a05KXCZQ6fIAuGSPXt9laNH4zWf1uYY7WVCioCLshb2otgkSLmYt1QTHYbX5vePUs_9Jtc6wDIC0jTO_DOJ5l7YOSkowiUarqCjjWwfXdBMLWOcfk42EeG04tvxkfC8QE81ZO0yGEkYca4MBtbsxszGoTW-jFTAOC-pyb_eyXjX_JqPPkrSYWeokEypL1pgvPKUdzPaKlZwTSYvo_igPsFij8RCWanTx2re6j7Y2z4b0t3CeiQN1CklLwa0=w1125-h1500-no"
+      ]
+    },
+    {
+      "title": "",
+      "date": "09/01/2020",
+      "body": "Het been krijgt het eerste 2020 badje. We wachten op de dokters voor meer info. \n\nKleine setback. Volgens de dokters klinkt het terugvliegen op een weekdag gunstiger om hulpverlening te krijgen. Ook hebben de dokters (Darren) en Aidan nog tijd nodig een meer uitgebreide planning op te stellen.  We zullen eerder maandag of dinsdag toekomen. We wachten verder op het advies van Aidan. \n\nOnze buurvrouw, Lenore, ontvangt goed nieuws. Ze mag naar een nieuwer en gespecialiseerder ziekenhuis. We wensen elkaar het beste en graag zou ze een berichtje willen ontvangen als we in België zijn aangekomen. \n\nAndrew komt persoonlijk langs in fancy kledij en vraagt hoe het gaat. We stellen een paar vragen. Hij vertelt ons dat het moeilijk is contact op te nemen met de verzekering door het tijdsverschil. Ook gelooft hij dat we eerder dinsdag of woensdag zullen terugvliegen. \nEerst willen ze een checkup doen in het UZA en ongeveer twee dressings. Erna mag het thuis gebeuren. 6 tot 8 weken na de operatie mag Lynn proberen steunen en stappen zonder moonboot. \n\nJonas gaat wasjes draaien in het hostel en fixt een spinnertje op de blog. Lynn rust verder en we maken ons klaar voor een uitje in de botanische tuinen. \n\nEr komen een aantal dames bij op de kamer. Rond de middag werd de kamer volledig ontruimd. Elke patiënt verliet de kamer buiten wij 😅. De vrouw naast ons heeft samen met haar man op huwelijksreis een soortgelijk ongeval gehad. Morgen hervatten we het gesprek. ",
+      "id": 23,
+      "votes": {
+        "💙": [
+          "0501336051151304151486041089641432",
+          "050810530530325373610271035789953736064036024",
+          "0508003305373610271035789953736064036024",
+          "05091315373640790394593537362450019113072036024",
+          "4501006464537367903945885373631080192024"
+        ],
+        "😆": [
+          "0508003305373610271035789953736064036024"
+        ],
+        "👍": [
+          "05094055373610271035789953736078036024",
+          "4501006464537367903945885373631152204824",
+          "050810530530325373610271035789953736064036024",
+          "0508003305373610271035789953736064036024",
+          "0501336051151304151486041081237532",
+          "0501336051151304151486041089641432",
+          "050709305373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://lh3.googleusercontent.com/NSk2mAgnWZVRYOt6ngBgYQ5aGVIEnKSqmmtXY5jCj3FCXAiTgV6za-r1SBplJHhzg6Z-RqtO4FYTgNusQCuxSYft0dweEnRX0iPF-lkixgO2GnhYGMjINWmySPgHoc-iCVYTDaO1NzwVsJRIvhfGm-qAQfJMmt1LCwgQp1j6Sz91gr2cwwx8oJKHI3b4qRME9fgvraTD5TkJ9qiOTk_fDQCjlJx5cP-wr4utcjD-ENtu8O1PWw4aPL6t1QfhTyaEyUqL9QeSdLVOJt1TV_yoP1V9QKEVeYJRa2Rn13md--2gQWzNeNBoaKW3THpWmL8egkDFanIorXgxhx_jmqkfiEdpp1CnUkGqnNgtGQHqM86lw9WJmpKlJheKoX_n4DGEIarq6HJUZhwKo9JBkuur210ul5UPjDohLdJQ4wHgGMOD31wNcDALrUQH6vEZnOPDnUc9FymfARNZi2cQN9kCVKFVijQNzAYMhq0KueDv1R0e_CmkauRUVWEDDadPrtOdOICRtNZQgtZ1YwWFWtb97EnakHuSClD0yJeV0IeH3VecIMioXDySOTg5aURsa-IFHbnGCgjiTd6TO-PIcV97y6jUqlVFYM6A8w8nf7SkFOYsAmOqh9nrLMzZVvLFDiHbSBDm7H8g6UiIIbshwF6Cbn1fjzxI9fH4svvdC8fT5t0Mn2COB3OciHZ9EL2cm2rFC1igDMvgw4q4T-kYw71A57a-r_axOKXDd3bd-06McO2tISbv=w1125-h1500-no",
+        "https://lh3.googleusercontent.com/ooh7GkRY-h_-PP4AScCb9pOCAJ_u3JXDzeYv2G61OxnscEwaxa1H0mFEpEJ13pOl8H2VYNFGwvlnw_F2l96raLfdeyU2_pIlWVolJAQh9-oToLsDSOv8MqIauC4SE5tuMXAu8eEClCIhRy3j5LZ4zkQiOGbwYVWnjzjeHnVYoZFfkWQJdBP9dou7ETpfBMPPK5WLcHYGbtaHKAGdhOfplKQJ636y8mxKCyh0p8EBngZYTaL3g8gRqDWuXO8TVq9Jq80VKYSRuwapMKyreGgq8FIA4UX-1lLQp6A_k4HVL1U0KhAX5jSJd4lyygb4wjIuCElS3xcINx3dFymmNP_82dpS1RXIjxt22qWlTLLN4XhgJhqs8CkMIq6c5Vr0DLAQ0aRSk_Vyg-4VfKRzVp4I3gFv38v66-bA42VNRU-INPBViucO5_dGp8jZ9RddaV0jfF7o0rxm3WLLMyDiWPJ71fGtA6HzbpnVyxBwFBc8W87DEh64Ao0pbVcWQATClDhcZ-lhqo_T_AU37lLRyhrkQ6RxwSzIWtpe2LiiWtTFJwhdaadMhzOkfQgNxDsM1HrpKZJYMlcISseO0a0UMeKAok-iqldK7IgnFnrAWCMaqnYV-zb_QMDewSUmJQ5Sl51IOhileHmf-Gaydzkgay9K-t3-X7BVRK1XHhNUWtoGAii5PAvtDk7QO3GyN15jXXLi2k9emJt0Yc6ieW-ty_m4W3_oZJd07dIMPyW0C_fn9bp-g8TC=w1125-h846-no",
+        "https://lh3.googleusercontent.com/CqY23k1syTpnAHzSu28aNHEzxsslpjgtFrZtzxFG1EychYv39yOuZ1CwqEV24NSORUiKCrdx7r7bLys3_hJ7VbwTzX-MvYYyN2Ow_1emzm36TEhiFvBocbepo63da4PN5Qmimdl-Zo9xzhSVbWj5I4n1ln5h5bDUN957ujKLVlcMxiJnHMOnQFl8ATA5JNFvISKwI4zQqTiNeo1pDm8V7UACS7-yvaKXuuGa1FjLl4x-fq7fN7Bx91TebTm7jGKhrvw56A7ngpKQw2qekoWKQiOkkYuCEU9Ikgh0UtTbx4xXSJnkQxBfUTUwNbd1WCJwOVgtk3vx3Mr76tjhi5AO_GjRAOsI4EZcdm9TgLHWX5YsRchCbYBP4DKzeKyQq22qP7X5ClD-yAAkkujWI3J2OY78Y3CVu5kivdJz8t_FOws44AuGlPIhyd4V3aBq6s9BX7X40KwbrFyTvN_727TUGFA-_KbYVA-lfTB0HCMVVvteSlM1_ZE4zklUOXDZHF5TkGBqq8Wcl8n2RmhGpxYhTYm3U6oh-so_qEyytNx56JkEGshQvZz8-5GO-69RQaTRhz6XP8nJM0tH9T4Q9pm60a6ADafhmvHHCnQHMzehAFf_xfL9P5UQvaPzKFdT4nUterUScQZRIuiCpADpujIL9dNM6SRyCH4ZDmlEYj4NpejDC0mpl2jPYDRQ721Ht9reWOU9MiFLagM7mta3Ho3xeQbXVj6xT0On9DHB8c7CaovvuOgu=w1125-h1500-no"
+      ]
+    },
+    {
+      "title": "Nieuw patiëntje",
+      "date": "10/01/2020",
+      "body": "8u Mijn dressing wordt er voor de verandering niet afgehaald voordat de dokters komen, vreemd. Wanneer de dokters komen, vertellen ze dat het vooral afwachten is tot Davidson contact heeft gehad met het belgisch team dat mijn wondes verder gaat opvolgen. Het is belangrijk dat dit allemaal goed geregeld is voordat we huiswaarts keren. Wegens de verschillende tijdzones, verloopt dit moeizaam. De dokters kijken m’n rug na, hier heb ik al een tweetal dagen wat pijn. Er is gelukkig geen infectie, maar er zit wat vocht, het is vergelijkbaar met een blaar niets om ons zorgen over te maken. \n\n11u Mijn nieuwe dressing wordt uitgesteld tot na de lunch en ik heb mijn eerste zelfstandige douche zonder hulp! Wat is het fijn om lekker onafhankelijk te zijn!\nJonas doet terwijl een dutje, hij heeft last van z’n keel en hoofdpijn. Ook na de lunch ligt hij verschillende uurtjes in mijn bed. Een beetje grappig om met mijn ziekenhuiskleren op de stoel naast een nieuwe patiëntje te zitten wachten tot hij wakker wordt, haha. \n\nWanneer de nieuwe dressing wordt aangebracht, wast de nurse eerst m’n been en vervolgens haalt ze er met een pincet heel veel dode huid af, er gaat ongelofelijk veel af, wauw. Dit is belangrijk zo vermijden we dat er mogelijk een infectie zou ontstaan en kunnen de eilandjes zich nog beter uitbereiden. Het is ongelofelijk om te zien hoe veel littekenweefsel er al ontstaan is!!! Het geneest zo goed en snel, écht fascinerend!\n\n19u We kijken nog wat en bestellen eten via uber curry en noedels, jammie! Het ziekenhuiseten is echt te vaak hetzelfde als je er zolang bent. Vandaag zijn we er exact 5 weken, morgen beginnen we aan de 6e week. Het wordt stiekem best lang.",
+      "id": 24,
+      "votes": {
+        "💙": [
+          "050810530530325373610271035789953736064036024",
+          "4501006464537367903945885373631152204824"
+        ],
+        "😆": [
+          "0501336051151304151486041081237532",
+          "0508003305373610271035789953736064036024"
+        ],
+        "👍": [
+          "0501336051151401264615148605115081237532",
+          "0501336051151304151486041081237532",
+          "050810530530325373610271035789953736064036024",
+          "05094055373610271035789953736078036024",
+          "0508003305373610271035789953736064036024"
+        ]
+      },
+      "srcs": [
+        "https://lh3.googleusercontent.com/DaZqqEM2qlzRfCDD8HOR2b2vePhzdpplO_3FeIWFjqAGGY4cfAWvzHHiddPNC3n3pSDuyO06sViGLzqkG4n8SJhKA48I_poz-D1iQofayHFvY2w82NZiWAVyTfjJakHyMlREon0LICuhMCRVLFDgOtiH_Mv2T-3eBv92JuH1PAgwj-ivnQ691dknaCF7MfML7UEuaHnecvhmIUsw7bvvs93vQoAVCROuWS1Hkg3L4APxpRoqG00-QXwqQNzXf6-DNQb_w7rLEy6BMCkSR0ELRE4OvcvH2VDUspDKNo17fyG42VrRC-LiJXPKOsMuF_UF1OOpZfU3hoCJYPBGVlRkG1nLuj4ge38wo3Dtf2BSE30AIU_Zpo6hUm4arHoy0RyWhKqK1UF6X_aJKLpiR1r_P-hDA_OpG2VQ2-NhUiWklBvSnaonQ0xXQoaj7wpw6uJsE4sVaJ3oUFp5hox4ayeSEeq_8HxQQsPwBUS6-k8y_ZzehdUY4UrsM5wV86aUu8DYoFE_rOl1hKUsHA8xTIbIc1UA5V5zVP_S3O_tKSJQ_MyplLsBYfKJlWr8YZdMG2a83191Wvyn5hSpdyn-1-Y2yhDjsB_OpH7tnTTKj32HS7DK--85G-P27drPjfoAQ3_4PaIWdbL_CImcf9ED2iabg0nq9NZIWr7vQalDVzYesEINYdVO8HB-c3ICtRK0aiePZsijzXl38L3-khix0DXJsMetCPm7wLdIq3ASKKNnPVUmEoLJ=w1764-h1324-no"
+      ]
+    },
+    {
+      "title": "Douchen zonder dressing",
+      "date": "11/01/2020",
+      "body": "8u De dokters komen weer langs zoals gewoonlijk. Het is nogsteeds wachten op de communicatie. Lynn vraagt na of ze het een goed idee vinden om te douchen zonder dressing of zak over het been. Ook vraagt ze na of het niet gevaarlijk is als er zeep of shampoo op m’n wonde komt. Ze bevestigen dat dit geen probleem is en dat het juist goed zal zijn. \n\n9u De nurse, Penny, behandelt de dressings vandaag. Ze haalt de dressing er bijna volledig af in bed. Lynn hopt met m’n looprekje naar de douche. Vervolgens mag ze voorzichtig wat water over het onderbeen sproeien en haalt Penny de dressing eraf. Daarna maakt ze de wonde schoon met een speciaal sponsje. Ze laat Lynn alleen verder douchen. Het is een heel vreemd maar fijn gevoel om eindelijk het onderbeen te douchen na 5 weken. \n\nNa de douche probeert Penny er weer zoveel mogelijk dode huid af te halen van het  onderbeen, net zoals gisteren. Dit gaat ontzettend goed doordat de huid nu een beetje wak is van het water in de douche. Ze haalt super veel huid weg en Lynn maakt er snel een foto van. Gisteren heeft ze ook een foto gemaakt voor Penny begon aan het weghalen van de dode huid. Het is ongelofelijk om te zien hoe de eilandjes zich goed aan het vormen zijn, wauw! Het geneest zo goed! \n\nTijdens de dressing vertelt Penny me dat het ook goed is mentaal om te douchen met m’n been. Daar heeft ze gelijk in. Het is raar om te zeggen, maar Lynn beschouwt het  been nu meer als een eigen been en dat zal door dagelijks te douchen steeds versterken. \nDoordat het been al meer dan een maand ingepakt is en het er een stuk anders uitziet dan voordien, leek het minder een deel van het lichaam. Het voelt aan als iets vreemds en niet eigens. Ermee douchen en aanraken zorgt ervoor dat dit gevoel wegebt en ruimte geeft voor acceptatie. \n\nJonas probeert in het hostel nog wat bij te slapen van de ruwe nacht wegens een snurkende kerel en luide gsm in de kamer. Vanavond heeft hij eindelijk een kamer voor zich alleen, gelukkig! Hij was vandaag al een beetje beter en hopelijk door de medicijnen die hij vandaag heeft gekocht is het morgen nog een stukje beter. We trekken er in de middag even op uit en kijken naar een cricket wedstrijd. Daarna bestellen we een soepje met veel groenten en rijst met curry en kijken een filmpje 🍿 . ",
+      "id": 25,
+      "votes": {
+        "💙": [
+          "0501336051151304151486041056832032"
         ],
         "😆": [],
         "👍": []
