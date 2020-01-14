@@ -1,4 +1,4 @@
-// @import '../../../../../assets/src/css/core';
+@import "../../../../../assets/src/css/core";
 
 :host {
   display: grid;
@@ -126,7 +126,6 @@
 
 .drop-list {
   display: grid;
-  grid-auto-flow: column;
   grid-column: span 5;
   grid-template-columns: repeat(5, 1fr);
   overflow-x: scroll;
