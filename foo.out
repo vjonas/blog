@@ -1,0 +1,1415 @@
+PROCESS.ENV: production
+server started on port : 3000
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '632',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '83',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 28 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '83',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 28 
+ true
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '83',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 1 
+ true
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '97',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; FIG-LX1 Build/HUAWEIFIG-L31; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/246.0.0.9.353;]',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05091315373640790394593537362450019113072036024',
+  'x-requested-with': 'com.facebook.orca',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'nl-NL,nl;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-NL;q=0.6,en;q=0.5,de-DE;q=0.4,de;q=0.3,en-US;q=0.2'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '885',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '1688',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2492',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '5789',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 27 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2725',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 25 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '3863',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 24 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2441',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 22 
+
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '3296',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '4099',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '107',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SM-A530F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/246.0.0.9.353;]',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050953011806100115373640790394593537362450019113074036024',
+  'x-requested-with': 'com.facebook.orca',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '95',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J530F/J530FXXU3BRJ2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050810530530325373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '95',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J530F/J530FXXU3BRJ2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050810530530325373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '88',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '45010136537367903945885373631440256024',
+  dnt: '1',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'none',
+  'accept-language': 'nl-nl',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '84',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 28 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '4501006464537367903945885373631152204824',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl,en-US;q=0.9,en;q=0.8,fr;q=0.7'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J330F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0508003305373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J330F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0508003305373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 29 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J330F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0508003305373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 29 
+ true
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '6494',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '7119',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 29 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '54',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs/add:
+max id 29
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '112',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 30 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '297',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 30 
+
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '107',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SM-A530F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/246.0.0.9.353;]',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050953011806100115373640790394593537362450019113074036024',
+  'x-requested-with': 'com.facebook.orca',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 30 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '88',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A405FN) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05094055373610271035789953736078036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 30 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '531',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 30 
+
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 30 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '87',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; SM-J510FN) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0506015105373679039459353736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl;q=0.9'
+} event undefined
+POST /blog/reaction: 30 
+ true
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J330F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0508003305373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 30 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J330F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0508003305373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 30 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-J330F) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '0508003305373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 30 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '1528',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 30 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2274',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041081237532',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 30 
+
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '88',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A405FN) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05094055373610271035789953736078036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 30 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '95',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J530F/J530FXXU3BRJ2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050810530530325373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 30 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '95',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J530F/J530FXXU3BRJ2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050810530530325373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 30 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '95',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J530F/J530FXXU3BRJ2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050810530530325373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 30 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '95',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; SAMSUNG SM-J530F/J530FXXU3BRJ2) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050810530530325373610271035789953736064036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 30 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '3290',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 30 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2647',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs/add:
+max id 30
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2705',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 31 
+
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'e61d0dd2837f20a76932179a43cf9d24eb56df59',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'false',
+  'content-length': '2709',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '050101560511513046051150119483432',
+  connection: 'keep-alive'
+} event undefined
+POST /blogs: 31 
+
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '85',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; DUB-LX1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05081015373679039459353736076036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '89',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; A0001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050601000153736790394511653736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'
+} event undefined
+POST /blog/reaction: 31 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '89',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; A0001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050601000153736790394511653736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'
+} event undefined
+POST /blog/reaction: 31 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '89',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 6.0.1; A0001) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050601000153736790394511653736064036024',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '107',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SM-A530F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/79.0.3945.116 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/247.0.0.10.117;]',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '050953011806100115373640790394593537362450019113074036024',
+  'x-requested-with': 'com.facebook.orca',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate',
+  'accept-language': 'nl-NL,nl;q=0.9,en-US;q=0.8,en;q=0.7'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'none',
+  'accept-language': 'nl-be',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '84',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501326051151303151486041066737532',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '90',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '4501006464537367903945885373631152204824',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl,en-US;q=0.9,en;q=0.8,fr;q=0.7'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'none',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate, br',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '84',
+  'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Mobile/15E148 Safari/604.1',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '0501336051151304151486041089641432',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  accept: 'application/json, text/plain, */*',
+  auth: 'none',
+  'accept-language': 'nl-be',
+  'accept-encoding': 'br, gzip, deflate',
+  'content-type': 'application/json',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'content-length': '85',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15',
+  referer: 'https://blog.jonasvercammen.dev/',
+  guid: '55010136605115130360511521440256024',
+  connection: 'keep-alive'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '88',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A405FN) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05094055373610271035789953736078036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 31 
+ true
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '88',
+  origin: 'https://blog.jonasvercammen.dev',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 9; SAMSUNG SM-A405FN) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/10.2 Chrome/71.0.3578.99 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05094055373610271035789953736078036024',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'nl-BE,nl-NL;q=0.9,nl;q=0.8,en-US;q=0.7,en;q=0.6'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+GET /blogs
+auth middleware on post calls
+header {
+  host: 'blog.jonasvercammen.dev:3000',
+  connection: 'keep-alive',
+  'content-length': '85',
+  emoji: 'true',
+  'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.116 Mobile Safari/537.36',
+  auth: 'none',
+  'content-type': 'application/json',
+  accept: 'application/json, text/plain, */*',
+  guid: '05099735373678039049653736086941224',
+  'save-data': 'on',
+  origin: 'https://blog.jonasvercammen.dev',
+  'sec-fetch-site': 'same-site',
+  'sec-fetch-mode': 'cors',
+  referer: 'https://blog.jonasvercammen.dev/',
+  'accept-encoding': 'gzip, deflate, br',
+  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8'
+} event undefined
+POST /blog/reaction: 31 
+ true
+GET /blogs
+GET /blogs
