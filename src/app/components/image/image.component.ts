@@ -7,21 +7,21 @@ import {
   ViewChild,
   AfterViewInit,
   Renderer2,
-  ElementRef
-} from "@angular/core";
+  ElementRef,
+} from '@angular/core';
 
 const ANIMATION_DELAY_MS = 300;
 @Component({
-  selector: "image",
-  templateUrl: "image.component.html",
-  styleUrls: ["image.component.scss"]
+  selector: 'app-image',
+  templateUrl: 'image.component.html',
+  styleUrls: ['image.component.scss'],
 })
 export class ImageComponent implements OnChanges, AfterViewInit {
-  @Input() src: string;
-  @Input() title = "image-title";
+  @Input('src') src: string;
+  @Input() title = 'image-title';
   @Input() fadeImage = true;
-  @Input() ratio = "1:1";
-  @Input() maxWidth = "200px";
+  @Input() ratio = '1:1';
+  @Input() maxWidth = '200px';
   @Input() spinnerDiameter = 35;
   @Input() keyBinding: string;
   @Input() editing = false;
@@ -32,19 +32,17 @@ export class ImageComponent implements OnChanges, AfterViewInit {
 
   private imageDownloader: any = new Image();
 
-  @Output() error = new EventEmitter<Event>();
+  @Output() onerror = new EventEmitter<Event>();
   @Output() loaded = new EventEmitter<Event>();
   @Output() keyPressed = new EventEmitter<KeyboardEvent>();
 
-  @ViewChild("imageWrapper", { static: true }) public imageWrapper: ElementRef<
-    HTMLDivElement
-  >;
+  @ViewChild('imageWrapper', { static: true }) public imageWrapper: ElementRef<HTMLDivElement>;
 
   constructor(private renderer: Renderer2) {
     this.loaded.subscribe(() => {
       this.onError = false;
     });
-    this.error.subscribe(() => {
+    this.onerror.subscribe(() => {
       this.isLoading = false;
       this.onError = true;
     });
@@ -56,7 +54,7 @@ export class ImageComponent implements OnChanges, AfterViewInit {
 
   ngOnChanges(changes: any) {
     if (changes.ratio) {
-      const [left, right] = this.ratio.split(":");
+      const [left, right] = this.ratio.split(':');
       this.paddingTop = `${(+right / +left) * 100}%`;
     }
 
@@ -71,21 +69,20 @@ export class ImageComponent implements OnChanges, AfterViewInit {
       const loadedImage = event.path ? event.path[0] : event.srcElement;
 
       if (this.fadeImage) {
-        loadedImage.classList.add("op-0");
+        loadedImage.classList.add('op-0');
       }
 
       this.addImageToDom(loadedImage);
       this.isLoading = false;
 
       setTimeout(() => {
-        loadedImage.classList.add("op-1");
+        loadedImage.classList.add('op-1');
       }, ANIMATION_DELAY_MS);
 
       this.loaded.emit(event);
     };
 
-    imageDownloader.onerror = (errorEvent: Event) =>
-      this.error.emit(errorEvent);
+    imageDownloader.onerror = (errorEvent: Event) => this.onerror.emit(errorEvent);
   }
 
   private loadImage(src: string) {
@@ -99,11 +96,11 @@ export class ImageComponent implements OnChanges, AfterViewInit {
   }
 
   private removeOldImgElements() {
-    if (this.imageWrapper.nativeElement.querySelector("img")) {
+    if (this.imageWrapper.nativeElement.querySelector('img')) {
       this.imageWrapper.nativeElement
-        .querySelectorAll("img")
+        .querySelectorAll('img')
         .forEach(imgElement =>
-          this.renderer.removeChild(this.imageWrapper.nativeElement, imgElement)
+          this.renderer.removeChild(this.imageWrapper.nativeElement, imgElement),
         );
     }
   }

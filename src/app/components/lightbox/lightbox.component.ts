@@ -8,14 +8,14 @@ import {
   Renderer2,
   ElementRef,
   EventEmitter,
-  Output
-} from "@angular/core";
-import { moveItemInArray } from "@angular/cdk/drag-drop";
+  Output,
+} from '@angular/core';
+import { moveItemInArray } from '@angular/cdk/drag-drop';
 
 export enum KEY_CODE {
   RIGHT_ARROW = 39,
   LEFT_ARROW = 37,
-  ESCAPE = 27
+  ESCAPE = 27,
 }
 
 export interface LightboxImage {
@@ -26,14 +26,14 @@ export interface LightboxImage {
 }
 
 @Component({
-  selector: "lightbox",
-  templateUrl: "./lightbox.component.html",
-  styleUrls: ["./lightbox.component.scss"]
+  selector: 'app-lightbox',
+  templateUrl: './lightbox.component.html',
+  styleUrls: ['./lightbox.component.scss'],
 })
 export class LightboxComponent implements OnChanges {
   @Input() public srcs: string[];
-  @Input() public ratio = "1:1";
-  @Input() public maxWidth = "100%";
+  @Input() public ratio = '1:1';
+  @Input() public maxWidth = '100%';
   @Input() editing = false;
 
   @Output() private changedImgArray = new EventEmitter();
@@ -51,7 +51,7 @@ export class LightboxComponent implements OnChanges {
   public internalSrcs: LightboxImage[];
   public addingImage = false;
 
-  @HostListener("window:keyup", ["$event"])
+  @HostListener('window:keyup', ['$event'])
   keyEvent(event: KeyboardEvent) {
     if (this.showLightbox) {
       event.keyCode === KEY_CODE.LEFT_ARROW && this.cyclePrevious();
@@ -73,11 +73,7 @@ export class LightboxComponent implements OnChanges {
       this.populateLightbox();
     }
     if (changes.maxWidth) {
-      this.renderer.setStyle(
-        this.hostElement.nativeElement,
-        "max-width",
-        this.maxWidth
-      );
+      this.renderer.setStyle(this.hostElement.nativeElement, 'max-width', this.maxWidth);
     }
   }
 
@@ -89,10 +85,9 @@ export class LightboxComponent implements OnChanges {
     this.mainImage = this.getMainImage(this.internalSrcs);
   }
 
-  private getMainImage = (arr: any[]): LightboxImage =>
-    arr.find(img => img.isMain);
+  private getMainImage = (arr: any[]): LightboxImage => arr.find(img => img.isMain);
 
-  private getNameFromSrc = (src: string): string => src.split("/").pop();
+  private getNameFromSrc = (src: string): string => src.split('/').pop();
 
   private mapInternalSrcs(srcs: string[]): LightboxImage[] {
     if (!srcs) {
@@ -103,12 +98,11 @@ export class LightboxComponent implements OnChanges {
       src,
       id,
       name: this.getNameFromSrc(src),
-      isMain: false
+      isMain: false,
     }));
   }
 
-  private getImageById = (arr: any[], id: number): LightboxImage =>
-    arr.find(src => src.id === id);
+  private getImageById = (arr: any[], id: number): LightboxImage => arr.find(src => src.id === id);
 
   public thumbnailClick(id: number): void {
     this.internalSrcs.forEach(src => (src.isMain = false));
@@ -129,15 +123,13 @@ export class LightboxComponent implements OnChanges {
 
   public cycleNext(): void {
     const id =
-      this.lightbox.id + 1 >= this.srcs.length
-        ? this.srcs.length - 1
-        : this.lightbox.id + 1;
+      this.lightbox.id + 1 >= this.srcs.length ? this.srcs.length - 1 : this.lightbox.id + 1;
     this.lightbox = this.getImageById(this.internalSrcs, id);
   }
 
   public close = () => (this.showLightbox = false);
 
-  public launch = () => window.open(this.lightbox.src, "_blank");
+  public launch = () => window.open(this.lightbox.src, '_blank');
 
   public drop(event) {
     moveItemInArray(this.internalSrcs, event.previousIndex, event.currentIndex);

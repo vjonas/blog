@@ -46,11 +46,11 @@
     </button>
   </div>
 
-  <lightbox [editing]="editing"
-            (changedImgArray)="blog.srcs =$event"
-            (changedImgSrc)="changedImgSrc($event)"
-            (addImageSrc)="addImageSrc($event)"
-            (removeImageSrc)="removeImageSrc($event)"
-            [srcs]="blog.srcs"></lightbox>
+  <app-lightbox [editing]="editing"
+                (changedImgArray)="blog.srcs =$event"
+                (changedImgSrc)="changedImgSrc($event)"
+                (addImageSrc)="addImageSrc($event)"
+                (removeImageSrc)="removeImageSrc($event)"
+                [srcs]="blog.srcs"></app-lightbox>
 
 </div>

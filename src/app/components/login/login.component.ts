@@ -1,10 +1,10 @@
-import { Component, Output, EventEmitter } from "@angular/core";
+import { Component, Output, EventEmitter } from '@angular/core';
 
-import { sha1 } from "object-hash";
+import { sha1 } from 'object-hash';
 @Component({
-  selector: "app-login",
-  templateUrl: "./login.component.html",
-  styleUrls: ["./login.component.scss"]
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent {
   @Output() password = new EventEmitter();
@@ -12,7 +12,7 @@ export class LoginComponent {
   public emit(event, value) {
     event.preventDefault();
 
-    localStorage.setItem("auth", sha1(value));
+    localStorage.setItem('auth', sha1(value));
     this.password.emit();
   }
 }

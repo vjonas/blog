@@ -1,9 +1,9 @@
 <div *ngIf="mainImage"
      class="main-image">
-  <image [src]="mainImage.src"
-         [ratio]="ratio"
-         maxWidth="100%"
-         (click)="mainImageClick()"></image>
+  <app-image [src]="mainImage.src"
+             [ratio]="ratio"
+             maxWidth="100%"
+             (click)="mainImageClick()"></app-image>
   <button *ngIf="chevronFlag"
           class="chevron-left">
     <mat-icon>chevron_left</mat-icon>
@@ -21,15 +21,15 @@
      (cdkDropListDropped)="drop($event)">
   <ng-container *ngFor="let image of internalSrcs; trackBy: trackBy">
     <div class="image-container">
-      <image cdkDrag
-             [editing]="editing"
-             class="thumbnail"
-             [ngClass]="{ 'is-main': image.isMain }"
-             (click)="thumbnailClick(image.id)"
-             [src]="image.src"
-             maxWidth="100%"
-             ratio="1:1">
-      </image>
+      <app-image cdkDrag
+                 [editing]="editing"
+                 class="thumbnail"
+                 [ngClass]="{ 'is-main': image.isMain }"
+                 (click)="thumbnailClick(image.id)"
+                 [src]="image.src"
+                 maxWidth="100%"
+                 ratio="1:1">
+      </app-image>
 
       <div style="display:grid; grid-template-columns: 1fr auto; align-items: center;">
         <input type="text"
@@ -63,8 +63,8 @@
 
 <div *ngIf="showLightbox"
      class="lightbox">
-  <image [src]="lightbox.src"
-         maxWidth="100%"></image>
+  <app-image [src]="lightbox.src"
+             maxWidth="100%"></app-image>
 
   <button class="icon-button close"
           (click)="close()">
