@@ -14,7 +14,7 @@ import {
 })
 export class EmojiPopupComponent implements OnChanges {
   @Input() emoji: string;
-  @ViewChild("emojiEl", { static: false }) emojiEl: ElementRef;
+  @ViewChild("emojiEl") emojiEl: ElementRef;
 
   ngOnChanges(changes) {
     if (changes.emoji && this.emojiEl) {

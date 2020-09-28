@@ -26,7 +26,7 @@ export class BlogComponent {
   @Output() updatePost = new EventEmitter<Blog>();
   @Output() addEmoji = new EventEmitter<any>();
 
-  @ViewChild("textareaBody", { static: false }) public textArea: ElementRef<
+  @ViewChild("textareaBody") public textArea: ElementRef<
     HTMLTextAreaElement
   >;
 
