@@ -4,7 +4,7 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
-    "public": "public",
+    "public": "dist/blog",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -23,6 +23,9 @@
     },
     "ui": {
       "enabled": true
+    },
+    "database": {
+      "port": 9000
     }
   }
 }

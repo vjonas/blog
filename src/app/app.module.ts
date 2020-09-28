@@ -19,6 +19,17 @@ import { MatDialogModule } from "@angular/material/dialog";
 
 import { DragDropModule } from "@angular/cdk/drag-drop";
 
+//firebase
+import { AngularFireModule } from "@angular/fire";
+import { AngularFirestoreModule, SETTINGS } from "@angular/fire/firestore";
+import { AngularFireAuthModule } from "@angular/fire/auth";
+import {
+  AngularFireFunctionsModule,
+  ORIGIN,
+  REGION,
+} from "@angular/fire/functions";
+import { environment } from "src/environments/environment";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +37,12 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
     BlogComponent,
     LoginComponent,
     AddBlogComponent,
-    EmojiPopupComponent
+    EmojiPopupComponent,
+    // firebase
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
+    AngularFireAuthModule,
+    AngularFireFunctionsModule,
   ],
   imports: [
     FormsModule,
@@ -38,12 +54,12 @@ import { DragDropModule } from "@angular/cdk/drag-drop";
     MatDialogModule,
     LightboxModule,
     ImageModule,
-    DragDropModule
+    DragDropModule,
   ],
   providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
   ],
   entryComponents: [AddBlogComponent],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule {}

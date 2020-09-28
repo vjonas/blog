@@ -1,0 +1,7 @@
+17:15:03.275 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+17:15:03.524 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+17:15:54.793 [Thread-1] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+17:15:54.805 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.Terminator$Terminator - 1 actors left to terminate: portfolio-2ca77
+17:15:54.813 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for portfolio-2ca77
+17:15:54.814 [NamespaceSystem-akka.actor.default-dispatcher-5] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for portfolio-2ca77
+17:15:54.819 [Thread-1] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
