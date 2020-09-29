@@ -24,7 +24,7 @@ const snackbarOptions = {
 export class BlogsComponent {
   // public blogs$: Observable<Blog[]> = this.http.get<Blog[]>(`${environment.url}blogs`);
   public blogs$: Observable<Blog[]> = this.afs
-    .collection<Blog>('blogs', ref => ref.orderBy('id', 'asc'))
+    .collection<Blog>('blogs', ref => ref.orderBy('id', 'desc'))
     .valueChanges();
 
   public blogs: Blog[] = [];
