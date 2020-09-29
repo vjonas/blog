@@ -9,6 +9,7 @@ import { ActivatedRoute } from '@angular/router';
 import { tap, catchError } from 'rxjs/operators';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatDialog } from '@angular/material/dialog';
+import { AngularFirestore } from '@angular/fire/firestore';
 
 const snackbarOptions = {
   duration: 2000,
@@ -21,7 +22,10 @@ const snackbarOptions = {
   styleUrls: ['./blogs.component.scss'],
 })
 export class BlogsComponent {
-  public blogs$: Observable<Blog[]> = this.http.get<Blog[]>(`${environment.url}blogs`);
+  // public blogs$: Observable<Blog[]> = this.http.get<Blog[]>(`${environment.url}blogs`);
+  public blogs$: Observable<Blog[]> = this.afs
+    .collection<Blog>('blogs', ref => ref.orderBy('id', 'asc'))
+    .valueChanges();
 
   public blogs: Blog[] = [];
   public loading = true;
@@ -39,6 +43,7 @@ export class BlogsComponent {
     private http: HttpClient,
     private snackbar: MatSnackBar,
     private dialog: MatDialog,
+    private afs: AngularFirestore,
   ) {
     this.aR.data.subscribe(({ admin }) => (this.admin = admin));
     this.blogs$.subscribe(blogs => {
