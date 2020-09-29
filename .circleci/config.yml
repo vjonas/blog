@@ -1,76 +1,28 @@
-# Javascript Node CircleCI 2.0 configuration file
-#
-# Check https://circleci.com/docs/2.0/language-javascript/ for more details
-#
+# CircleCI Firebase Deployment Config
 version: 2
 jobs:
   build:
     docker:
-      # specify the version you desire here
-      - image: circleci/node:10-browsers
-
-      # Specify service dependencies here if necessary
-      # CircleCI maintains a library of pre-built images
-      # documented at https://circleci.com/docs/2.0/circleci-images/
-      # - image: circleci/mongo:3.4.4
-
-    working_directory: ~/blog
-
+      - image: circleci/node:10
+    working_directory: ~/blog-site
     steps:
       - checkout
-
-      # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-            # fallback to using the latest cache if no exact match is found
-            - v1-dependencies-
-
-      - run: npm install
-
-      - run: npm run build-prod
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-
-      - save_cache:
-          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
-          paths:
-            - dist
-
-      - run: ls -la
-
-  deploy:
-    working_directory: ~/blog
-    docker:
-      - image: circleci/node:10-browsers
-    steps:
-      - add_ssh_keys:
-          fingerprints:
-            - "ca:37:a7:11:5b:63:01:6c:da:5c:4a:d8:9e:02:96:d7"
-
-      - restore_cache:
-          key: v1-dist-{{ .Environment.CIRCLE_BRANCH }}-{{ .Environment.CIRCLE_SHA1 }}
-
+            # Find a cache corresponding to this specific package-lock.json
+            - v1-npm-deps-{{ checksum "package-lock.json" }}
+            # Fallback cache to be used
+            - v1-npm-deps-
       - run:
-          #     name: deploy angular build
-          command: |
-            pwd
-            ls -la
+          name: Install Dependencies
+          command: npm install
+      - save_cache:
+          key: v1-npm-deps-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
       - run:
-          name: deploy to digital ocean
-          command: scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -r ./dist/blog jonas@157.245.243.71:/home/jonas/blog-dist
-
-workflows:
-  version: 2
-  build-and-deploy:
-    jobs:
-      - build
-      - deploy:
-          requires:
-            - build
-          filters:
-            branches:
-              only: master
+          name: build and deploy
+          command: npm run deploy
+      - run:
+          name: Firebase Deploy
+          command: ./node_modules/.bin/firebase deploy --token "$FIREBASE_TOKEN"
