@@ -23,6 +23,10 @@ import { tap, catchError } from 'rxjs/operators';
   `,
   styles: [
     `
+      :host {
+        align-self: center;
+        justify-self: center;
+      }
       .login img {
         width: 1.25em;
         padding-right: 0.5rem;
