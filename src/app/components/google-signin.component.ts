@@ -32,6 +32,12 @@ import { tap, catchError } from 'rxjs/operators';
         padding-left: 0.5rem;
         padding-right: 1rem;
         background: white;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        justify-items: center;
+        align-items: center;
+        grid-gap: 1rem;
       }
 
       .logout img {
@@ -39,6 +45,11 @@ import { tap, catchError } from 'rxjs/operators';
         height: 100%;
         width: 1.75rem;
         border-radius: 0.25rem;
+        position: unset;
+        background-color: unset;
+        object-fit: unset;
+        padding: 0;
+        height: unset;
       }
     `,
   ],
